@@ -1,6 +1,6 @@
 {
-  "last_node_id": 146,
-  "last_link_id": 160,
+  "last_node_id": 179,
+  "last_link_id": 193,
   "nodes": [
     {
       "id": 14,
@@ -44,8 +44,8 @@
         "1": 100
       },
       "flags": {},
-      "order": 105,
-      "mode": 0,
+      "order": 123,
+      "mode": 2,
       "inputs": [
         {
           "name": "list",
@@ -98,7 +98,7 @@
         "1": 280
       },
       "flags": {},
-      "order": 96,
+      "order": 109,
       "mode": 2,
       "inputs": [
         {
@@ -137,7 +137,7 @@
         "1": 100
       },
       "flags": {},
-      "order": 108,
+      "order": 128,
       "mode": 2,
       "inputs": [
         {
@@ -191,7 +191,7 @@
         "1": 280
       },
       "flags": {},
-      "order": 104,
+      "order": 120,
       "mode": 2,
       "inputs": [
         {
@@ -235,7 +235,7 @@
         "1": 440
       },
       "flags": {},
-      "order": 111,
+      "order": 133,
       "mode": 2,
       "inputs": [
         {
@@ -295,7 +295,7 @@
         "1": 510
       },
       "flags": {},
-      "order": 106,
+      "order": 124,
       "mode": 2,
       "inputs": [
         {
@@ -339,7 +339,7 @@
         "1": 270
       },
       "flags": {},
-      "order": 86,
+      "order": 94,
       "mode": 2,
       "inputs": [
         {
@@ -378,7 +378,7 @@
         "1": 90
       },
       "flags": {},
-      "order": 74,
+      "order": 77,
       "mode": 2,
       "inputs": [
         {
@@ -430,7 +430,7 @@
         "1": 90
       },
       "flags": {},
-      "order": 75,
+      "order": 78,
       "mode": 2,
       "inputs": [
         {
@@ -588,42 +588,6 @@
       ]
     },
     {
-      "id": 20,
-      "type": "ShowText",
-      "pos": [
-        86.21936665785879,
-        2374.3074356497978
-      ],
-      "size": {
-        "0": 400,
-        "1": 530
-      },
-      "flags": {},
-      "order": 114,
-      "mode": 2,
-      "inputs": [
-        {
-          "name": "text",
-          "type": "*",
-          "link": 24
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING_OUT",
-          "type": "STRING",
-          "links": null,
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "ShowText"
-      },
-      "widgets_values": [
-        "### Fire Bunny-Kin\n\n**Ecology:**\nThe fire bunny-kin make their homes in expansive forests with a temperate climate. These forests are often vibrant and lush, filled with towering trees, colorful flora, and diverse wildlife. The fire bunny-kin have developed an intricate society within the heart of these rich woodlands, and they've adapted to live in harmony with the surrounding nature.\n\n**Dietary Habits and Role in the Food Chain:**\nThe fire bunny-kin are omnivorous, enjoying a diet that includes the abundant fruits, nuts, and vegetation of the forest, as well as the occasional small game and fish. They occupy a unique position in the food chain, acting as both predators and prey. Their role as predators is vital to maintaining the balance of the forest ecosystem, while also being a source of food for larger carnivores in the area.\n\n**Society, Technology, Religion, and Magic:**\nThe fire bunny-kin have achieved an advanced level of societal organization, with family units forming close-knit communities and collaborating to build intricate settlements that blend seamlessly with the natural environment. Their technology is a harmonious mix of natural materials and magically infused craftsmanship, allowing them to create sustainable, eco-friendly structures and tools.\n\nReligion plays a significant role in the fire bunny-kin society, centered around the reverence of the forest and its spirits. They believe in the interconnectedness of all living things and the presence of powerful nature deities that guide and protect them. Their magical practices are deeply intertwined with nature, harnessing elemental energies to enhance their daily lives and ensure the prosperity of their forest home.\n\nThe fire bunny-kin have mastered the art of blending their society with the natural world, creating a unique and captivating civilization that thrives within the heart of the forest."
-      ]
-    },
-    {
       "id": 4,
       "type": "FuncListToStr",
       "pos": [
@@ -635,7 +599,7 @@
         "1": 270
       },
       "flags": {},
-      "order": 85,
+      "order": 93,
       "mode": 2,
       "inputs": [
         {
@@ -674,7 +638,7 @@
         "1": 280
       },
       "flags": {},
-      "order": 95,
+      "order": 108,
       "mode": 2,
       "inputs": [
         {
@@ -711,7 +675,7 @@
         "1": 510
       },
       "flags": {},
-      "order": 64,
+      "order": 67,
       "mode": 2,
       "inputs": [
         {
@@ -753,8 +717,8 @@
         "1": 450
       },
       "flags": {},
-      "order": 100,
-      "mode": 0,
+      "order": 116,
+      "mode": 2,
       "inputs": [
         {
           "name": "text",
@@ -792,8 +756,8 @@
         26
       ],
       "flags": {},
-      "order": 56,
-      "mode": 0,
+      "order": 59,
+      "mode": 2,
       "inputs": [
         {
           "name": "",
@@ -830,7 +794,7 @@
       },
       "flags": {},
       "order": 3,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "STRING",
@@ -862,7 +826,7 @@
       },
       "flags": {},
       "order": 4,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "STRING",
@@ -893,8 +857,8 @@
         26
       ],
       "flags": {},
-      "order": 57,
-      "mode": 0,
+      "order": 60,
+      "mode": 2,
       "inputs": [
         {
           "name": "",
@@ -929,8 +893,8 @@
         26
       ],
       "flags": {},
-      "order": 81,
-      "mode": 0,
+      "order": 89,
+      "mode": 2,
       "inputs": [
         {
           "name": "",
@@ -966,8 +930,8 @@
         26
       ],
       "flags": {},
-      "order": 51,
-      "mode": 0,
+      "order": 54,
+      "mode": 2,
       "inputs": [
         {
           "name": "",
@@ -1003,8 +967,8 @@
         26
       ],
       "flags": {},
-      "order": 52,
-      "mode": 0,
+      "order": 55,
+      "mode": 2,
       "inputs": [
         {
           "name": "",
@@ -1040,8 +1004,8 @@
         26
       ],
       "flags": {},
-      "order": 53,
-      "mode": 0,
+      "order": 56,
+      "mode": 2,
       "inputs": [
         {
           "name": "",
@@ -1076,7 +1040,7 @@
       },
       "flags": {},
       "order": 5,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "STRING",
@@ -1107,8 +1071,8 @@
         26
       ],
       "flags": {},
-      "order": 55,
-      "mode": 0,
+      "order": 58,
+      "mode": 2,
       "inputs": [
         {
           "name": "",
@@ -1142,8 +1106,8 @@
         26
       ],
       "flags": {},
-      "order": 54,
-      "mode": 0,
+      "order": 57,
+      "mode": 2,
       "inputs": [
         {
           "name": "",
@@ -1178,7 +1142,7 @@
       },
       "flags": {},
       "order": 6,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "STRING",
@@ -1209,8 +1173,8 @@
         "1": 100
       },
       "flags": {},
-      "order": 80,
-      "mode": 0,
+      "order": 88,
+      "mode": 2,
       "inputs": [
         {
           "name": "text_1",
@@ -1272,7 +1236,7 @@
       },
       "flags": {},
       "order": 7,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "STRING",
@@ -1304,7 +1268,7 @@
       },
       "flags": {},
       "order": 8,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "STRING",
@@ -1335,8 +1299,8 @@
         "1": 100
       },
       "flags": {},
-      "order": 91,
-      "mode": 0,
+      "order": 104,
+      "mode": 2,
       "inputs": [
         {
           "name": "text_1",
@@ -1405,8 +1369,8 @@
         "1": 310
       },
       "flags": {},
-      "order": 101,
-      "mode": 0,
+      "order": 117,
+      "mode": 2,
       "inputs": [
         {
           "name": "text",
@@ -1442,7 +1406,7 @@
       },
       "flags": {},
       "order": 9,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "STRING",
@@ -1473,8 +1437,8 @@
         "1": 310
       },
       "flags": {},
-      "order": 90,
-      "mode": 0,
+      "order": 103,
+      "mode": 2,
       "inputs": [
         {
           "name": "text",
@@ -1510,7 +1474,7 @@
       },
       "flags": {},
       "order": 10,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "STRING",
@@ -1541,8 +1505,8 @@
         26
       ],
       "flags": {},
-      "order": 59,
-      "mode": 0,
+      "order": 62,
+      "mode": 2,
       "inputs": [
         {
           "name": "",
@@ -1576,8 +1540,8 @@
         26
       ],
       "flags": {},
-      "order": 58,
-      "mode": 0,
+      "order": 61,
+      "mode": 2,
       "inputs": [
         {
           "name": "",
@@ -1611,8 +1575,8 @@
         26
       ],
       "flags": {},
-      "order": 60,
-      "mode": 0,
+      "order": 63,
+      "mode": 2,
       "inputs": [
         {
           "name": "",
@@ -1646,8 +1610,8 @@
         "1": 100
       },
       "flags": {},
-      "order": 82,
-      "mode": 0,
+      "order": 90,
+      "mode": 2,
       "inputs": [
         {
           "name": "text_1",
@@ -1708,8 +1672,8 @@
         "1": 310
       },
       "flags": {},
-      "order": 92,
-      "mode": 0,
+      "order": 105,
+      "mode": 2,
       "inputs": [
         {
           "name": "text",
@@ -1744,8 +1708,8 @@
         "1": 440
       },
       "flags": {},
-      "order": 110,
-      "mode": 0,
+      "order": 132,
+      "mode": 2,
       "inputs": [
         {
           "name": "history",
@@ -1816,7 +1780,7 @@
       },
       "flags": {},
       "order": 11,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "STRING",
@@ -1848,7 +1812,7 @@
       },
       "flags": {},
       "order": 12,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "STRING",
@@ -1879,8 +1843,8 @@
         "1": 440
       },
       "flags": {},
-      "order": 116,
-      "mode": 0,
+      "order": 142,
+      "mode": 2,
       "inputs": [
         {
           "name": "history",
@@ -1948,7 +1912,7 @@
       },
       "flags": {},
       "order": 13,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "STRING",
@@ -1979,8 +1943,8 @@
         26
       ],
       "flags": {},
-      "order": 61,
-      "mode": 0,
+      "order": 64,
+      "mode": 2,
       "inputs": [
         {
           "name": "",
@@ -2014,8 +1978,8 @@
         "1": 100
       },
       "flags": {},
-      "order": 83,
-      "mode": 0,
+      "order": 91,
+      "mode": 2,
       "inputs": [
         {
           "name": "text_1",
@@ -2076,8 +2040,8 @@
         "1": 440
       },
       "flags": {},
-      "order": 113,
-      "mode": 0,
+      "order": 137,
+      "mode": 2,
       "inputs": [
         {
           "name": "history",
@@ -2147,8 +2111,8 @@
         "1": 500
       },
       "flags": {},
-      "order": 109,
-      "mode": 0,
+      "order": 131,
+      "mode": 2,
       "inputs": [
         {
           "name": "text",
@@ -2186,8 +2150,8 @@
         "1": 500
       },
       "flags": {},
-      "order": 112,
-      "mode": 0,
+      "order": 136,
+      "mode": 2,
       "inputs": [
         {
           "name": "text",
@@ -2225,8 +2189,8 @@
         "1": 500
       },
       "flags": {},
-      "order": 115,
-      "mode": 0,
+      "order": 141,
+      "mode": 2,
       "inputs": [
         {
           "name": "text",
@@ -2264,8 +2228,8 @@
         "1": 500
       },
       "flags": {},
-      "order": 117,
-      "mode": 0,
+      "order": 145,
+      "mode": 2,
       "inputs": [
         {
           "name": "text",
@@ -2303,8 +2267,8 @@
         "1": 100
       },
       "flags": {},
-      "order": 118,
-      "mode": 0,
+      "order": 148,
+      "mode": 2,
       "inputs": [
         {
           "name": "text_1",
@@ -2372,8 +2336,8 @@
         "1": 500
       },
       "flags": {},
-      "order": 119,
-      "mode": 0,
+      "order": 151,
+      "mode": 2,
       "inputs": [
         {
           "name": "text",
@@ -2444,8 +2408,8 @@
         "1": 110
       },
       "flags": {},
-      "order": 120,
-      "mode": 0,
+      "order": 153,
+      "mode": 2,
       "inputs": [
         {
           "name": "text_1",
@@ -2498,7 +2462,7 @@
       },
       "flags": {},
       "order": 15,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "STRING",
@@ -2530,7 +2494,7 @@
       },
       "flags": {},
       "order": 16,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "STRING",
@@ -2561,8 +2525,8 @@
         26
       ],
       "flags": {},
-      "order": 63,
-      "mode": 0,
+      "order": 66,
+      "mode": 2,
       "inputs": [
         {
           "name": "",
@@ -2596,8 +2560,8 @@
         26
       ],
       "flags": {},
-      "order": 62,
-      "mode": 0,
+      "order": 65,
+      "mode": 2,
       "inputs": [
         {
           "name": "",
@@ -2632,7 +2596,7 @@
       },
       "flags": {},
       "order": 17,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "STRING",
@@ -2663,8 +2627,8 @@
         "1": 310
       },
       "flags": {},
-      "order": 93,
-      "mode": 0,
+      "order": 106,
+      "mode": 2,
       "inputs": [
         {
           "name": "text",
@@ -2743,8 +2707,8 @@
         "1": 100
       },
       "flags": {},
-      "order": 124,
-      "mode": 0,
+      "order": 157,
+      "mode": 2,
       "inputs": [
         {
           "name": "list",
@@ -2797,8 +2761,8 @@
         "1": 440
       },
       "flags": {},
-      "order": 125,
-      "mode": 0,
+      "order": 158,
+      "mode": 2,
       "inputs": [
         {
           "name": "history",
@@ -2860,8 +2824,8 @@
         "1": 500
       },
       "flags": {},
-      "order": 126,
-      "mode": 0,
+      "order": 159,
+      "mode": 2,
       "inputs": [
         {
           "name": "text",
@@ -2900,7 +2864,7 @@
       },
       "flags": {},
       "order": 19,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "STRING",
@@ -2931,8 +2895,8 @@
         26
       ],
       "flags": {},
-      "order": 72,
-      "mode": 0,
+      "order": 75,
+      "mode": 2,
       "inputs": [
         {
           "name": "",
@@ -2966,8 +2930,8 @@
         26
       ],
       "flags": {},
-      "order": 65,
-      "mode": 0,
+      "order": 68,
+      "mode": 2,
       "inputs": [
         {
           "name": "",
@@ -3001,8 +2965,8 @@
         26
       ],
       "flags": {},
-      "order": 79,
-      "mode": 0,
+      "order": 82,
+      "mode": 2,
       "inputs": [
         {
           "name": "",
@@ -3036,8 +3000,8 @@
         26
       ],
       "flags": {},
-      "order": 84,
-      "mode": 0,
+      "order": 92,
+      "mode": 2,
       "inputs": [
         {
           "name": "",
@@ -3071,8 +3035,8 @@
         "1": 100
       },
       "flags": {},
-      "order": 94,
-      "mode": 0,
+      "order": 107,
+      "mode": 2,
       "inputs": [
         {
           "name": "text_1",
@@ -3141,8 +3105,8 @@
         "1": 450
       },
       "flags": {},
-      "order": 102,
-      "mode": 0,
+      "order": 118,
+      "mode": 2,
       "inputs": [
         {
           "name": "text",
@@ -3180,8 +3144,8 @@
         26
       ],
       "flags": {},
-      "order": 73,
-      "mode": 0,
+      "order": 76,
+      "mode": 2,
       "inputs": [
         {
           "name": "",
@@ -3215,8 +3179,8 @@
         "1": 440
       },
       "flags": {},
-      "order": 127,
-      "mode": 0,
+      "order": 160,
+      "mode": 2,
       "inputs": [
         {
           "name": "history",
@@ -3287,7 +3251,7 @@
       },
       "flags": {},
       "order": 20,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "STRING",
@@ -3319,7 +3283,7 @@
       },
       "flags": {},
       "order": 21,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "STRING",
@@ -3350,8 +3314,8 @@
         26
       ],
       "flags": {},
-      "order": 66,
-      "mode": 0,
+      "order": 69,
+      "mode": 2,
       "inputs": [
         {
           "name": "",
@@ -3385,8 +3349,8 @@
         26
       ],
       "flags": {},
-      "order": 67,
-      "mode": 0,
+      "order": 70,
+      "mode": 2,
       "inputs": [
         {
           "name": "",
@@ -3420,8 +3384,8 @@
         26
       ],
       "flags": {},
-      "order": 76,
-      "mode": 0,
+      "order": 79,
+      "mode": 2,
       "inputs": [
         {
           "name": "",
@@ -3455,8 +3419,8 @@
         "1": 100
       },
       "flags": {},
-      "order": 87,
-      "mode": 0,
+      "order": 95,
+      "mode": 2,
       "inputs": [
         {
           "name": "text_1",
@@ -3517,8 +3481,8 @@
         "1": 500
       },
       "flags": {},
-      "order": 128,
-      "mode": 0,
+      "order": 161,
+      "mode": 2,
       "inputs": [
         {
           "name": "text",
@@ -3556,8 +3520,8 @@
         "1": 310
       },
       "flags": {},
-      "order": 97,
-      "mode": 0,
+      "order": 110,
+      "mode": 2,
       "inputs": [
         {
           "name": "text",
@@ -3592,8 +3556,8 @@
         "1": 310
       },
       "flags": {},
-      "order": 103,
-      "mode": 0,
+      "order": 119,
+      "mode": 2,
       "inputs": [
         {
           "name": "text",
@@ -3628,8 +3592,8 @@
         "1": 440
       },
       "flags": {},
-      "order": 129,
-      "mode": 0,
+      "order": 162,
+      "mode": 2,
       "inputs": [
         {
           "name": "history",
@@ -3700,7 +3664,7 @@
       },
       "flags": {},
       "order": 22,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "STRING",
@@ -3732,7 +3696,7 @@
       },
       "flags": {},
       "order": 23,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "STRING",
@@ -3763,8 +3727,8 @@
         26
       ],
       "flags": {},
-      "order": 68,
-      "mode": 0,
+      "order": 71,
+      "mode": 2,
       "inputs": [
         {
           "name": "",
@@ -3798,8 +3762,8 @@
         26
       ],
       "flags": {},
-      "order": 69,
-      "mode": 0,
+      "order": 72,
+      "mode": 2,
       "inputs": [
         {
           "name": "",
@@ -3833,8 +3797,8 @@
         26
       ],
       "flags": {},
-      "order": 77,
-      "mode": 0,
+      "order": 80,
+      "mode": 2,
       "inputs": [
         {
           "name": "",
@@ -3868,8 +3832,8 @@
         "1": 100
       },
       "flags": {},
-      "order": 88,
-      "mode": 0,
+      "order": 96,
+      "mode": 2,
       "inputs": [
         {
           "name": "text_1",
@@ -3930,8 +3894,8 @@
         "1": 500
       },
       "flags": {},
-      "order": 130,
-      "mode": 0,
+      "order": 163,
+      "mode": 2,
       "inputs": [
         {
           "name": "text",
@@ -3969,8 +3933,8 @@
         "1": 310
       },
       "flags": {},
-      "order": 98,
-      "mode": 0,
+      "order": 111,
+      "mode": 2,
       "inputs": [
         {
           "name": "text",
@@ -4005,8 +3969,8 @@
         "1": 440
       },
       "flags": {},
-      "order": 131,
-      "mode": 0,
+      "order": 164,
+      "mode": 2,
       "inputs": [
         {
           "name": "history",
@@ -4074,7 +4038,7 @@
       },
       "flags": {},
       "order": 24,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "STRING",
@@ -4106,7 +4070,7 @@
       },
       "flags": {},
       "order": 25,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "STRING",
@@ -4137,8 +4101,8 @@
         26
       ],
       "flags": {},
-      "order": 70,
-      "mode": 0,
+      "order": 73,
+      "mode": 2,
       "inputs": [
         {
           "name": "",
@@ -4172,8 +4136,8 @@
         26
       ],
       "flags": {},
-      "order": 71,
-      "mode": 0,
+      "order": 74,
+      "mode": 2,
       "inputs": [
         {
           "name": "",
@@ -4207,8 +4171,8 @@
         26
       ],
       "flags": {},
-      "order": 78,
-      "mode": 0,
+      "order": 81,
+      "mode": 2,
       "inputs": [
         {
           "name": "",
@@ -4242,8 +4206,8 @@
         "1": 100
       },
       "flags": {},
-      "order": 89,
-      "mode": 0,
+      "order": 97,
+      "mode": 2,
       "inputs": [
         {
           "name": "text_1",
@@ -4304,8 +4268,8 @@
         "1": 500
       },
       "flags": {},
-      "order": 132,
-      "mode": 0,
+      "order": 165,
+      "mode": 2,
       "inputs": [
         {
           "name": "text",
@@ -4343,8 +4307,8 @@
         "1": 310
       },
       "flags": {},
-      "order": 99,
-      "mode": 0,
+      "order": 112,
+      "mode": 2,
       "inputs": [
         {
           "name": "text",
@@ -4379,8 +4343,8 @@
         "1": 100
       },
       "flags": {},
-      "order": 133,
-      "mode": 0,
+      "order": 166,
+      "mode": 2,
       "inputs": [
         {
           "name": "text_1",
@@ -4448,8 +4412,8 @@
         "1": 110
       },
       "flags": {},
-      "order": 135,
-      "mode": 0,
+      "order": 168,
+      "mode": 2,
       "inputs": [
         {
           "name": "text_1",
@@ -4502,7 +4466,7 @@
       },
       "flags": {},
       "order": 26,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "STRING",
@@ -4532,7 +4496,7 @@
       },
       "flags": {},
       "order": 27,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "STRING",
@@ -4564,7 +4528,7 @@
       },
       "flags": {},
       "order": 28,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "STRING",
@@ -4629,7 +4593,7 @@
       },
       "flags": {},
       "order": 30,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "STRING",
@@ -4661,7 +4625,7 @@
       },
       "flags": {},
       "order": 31,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "STRING",
@@ -4693,7 +4657,7 @@
       },
       "flags": {},
       "order": 32,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "STRING",
@@ -4725,7 +4689,7 @@
       },
       "flags": {},
       "order": 33,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "STRING",
@@ -4755,7 +4719,7 @@
       },
       "flags": {},
       "order": 34,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "STRING",
@@ -4784,8 +4748,8 @@
         "1": 440
       },
       "flags": {},
-      "order": 121,
-      "mode": 0,
+      "order": 154,
+      "mode": 2,
       "inputs": [
         {
           "name": "history",
@@ -4856,8 +4820,8 @@
         26
       ],
       "flags": {},
-      "order": 123,
-      "mode": 0,
+      "order": 156,
+      "mode": 2,
       "inputs": [
         {
           "name": "",
@@ -4893,7 +4857,7 @@
       },
       "flags": {},
       "order": 35,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "STRING",
@@ -4924,8 +4888,8 @@
         "1": 500
       },
       "flags": {},
-      "order": 134,
-      "mode": 0,
+      "order": 167,
+      "mode": 2,
       "inputs": [
         {
           "name": "text",
@@ -4963,8 +4927,8 @@
         "1": 440
       },
       "flags": {},
-      "order": 136,
-      "mode": 0,
+      "order": 169,
+      "mode": 2,
       "inputs": [
         {
           "name": "history",
@@ -5033,7 +4997,7 @@
       },
       "flags": {},
       "order": 36,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "STRING",
@@ -5065,7 +5029,7 @@
       },
       "flags": {},
       "order": 37,
-      "mode": 0,
+      "mode": 2,
       "inputs": [
         {
           "name": "list",
@@ -5132,8 +5096,8 @@
         "1": 500
       },
       "flags": {},
-      "order": 122,
-      "mode": 0,
+      "order": 155,
+      "mode": 2,
       "inputs": [
         {
           "name": "text",
@@ -5170,7 +5134,7 @@
       },
       "flags": {},
       "order": 38,
-      "mode": 0,
+      "mode": 2,
       "inputs": [
         {
           "name": "list",
@@ -5237,8 +5201,8 @@
         "1": 440
       },
       "flags": {},
-      "order": 107,
-      "mode": 0,
+      "order": 127,
+      "mode": 2,
       "inputs": [
         {
           "name": "history",
@@ -5301,7 +5265,7 @@
       },
       "flags": {},
       "order": 39,
-      "mode": 0,
+      "mode": 2,
       "inputs": [
         {
           "name": "list",
@@ -5369,7 +5333,7 @@
       },
       "flags": {},
       "order": 40,
-      "mode": 0,
+      "mode": 2,
       "inputs": [
         {
           "name": "list",
@@ -5437,7 +5401,7 @@
       },
       "flags": {},
       "order": 41,
-      "mode": 0,
+      "mode": 2,
       "inputs": [
         {
           "name": "list",
@@ -5505,7 +5469,7 @@
       },
       "flags": {},
       "order": 42,
-      "mode": 0,
+      "mode": 2,
       "inputs": [
         {
           "name": "list",
@@ -5573,7 +5537,7 @@
       },
       "flags": {},
       "order": 43,
-      "mode": 0,
+      "mode": 2,
       "inputs": [
         {
           "name": "list",
@@ -5641,7 +5605,7 @@
       },
       "flags": {},
       "order": 44,
-      "mode": 0,
+      "mode": 2,
       "inputs": [
         {
           "name": "list",
@@ -5709,7 +5673,7 @@
       },
       "flags": {},
       "order": 45,
-      "mode": 0,
+      "mode": 2,
       "inputs": [
         {
           "name": "list",
@@ -5777,7 +5741,7 @@
       },
       "flags": {},
       "order": 46,
-      "mode": 0,
+      "mode": 2,
       "inputs": [
         {
           "name": "list",
@@ -5844,8 +5808,8 @@
         "1": 500
       },
       "flags": {},
-      "order": 137,
-      "mode": 0,
+      "order": 170,
+      "mode": 2,
       "inputs": [
         {
           "name": "text",
@@ -5882,7 +5846,7 @@
       },
       "flags": {},
       "order": 47,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "IMAGE",
@@ -5918,7 +5882,7 @@
       },
       "flags": {},
       "order": 48,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "IMAGE",
@@ -5954,7 +5918,7 @@
       },
       "flags": {},
       "order": 49,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "IMAGE",
@@ -5990,7 +5954,7 @@
       },
       "flags": {},
       "order": 50,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "IMAGE",
@@ -6011,6 +5975,1680 @@
       "widgets_values": [
         "pasted/image (27).png",
         "image"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "ShowText",
+      "pos": [
+        86.21936665785879,
+        2374.3074356497978
+      ],
+      "size": {
+        "0": 400,
+        "1": 530
+      },
+      "flags": {},
+      "order": 138,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "link": 24
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText"
+      },
+      "widgets_values": [
+        "### Fire Bunny-Kin\n\n**Ecology:**\nThe fire bunny-kin make their homes in expansive forests with a temperate climate. These forests are often vibrant and lush, filled with towering trees, colorful flora, and diverse wildlife. The fire bunny-kin have developed an intricate society within the heart of these rich woodlands, and they've adapted to live in harmony with the surrounding nature.\n\n**Dietary Habits and Role in the Food Chain:**\nThe fire bunny-kin are omnivorous, enjoying a diet that includes the abundant fruits, nuts, and vegetation of the forest, as well as the occasional small game and fish. They occupy a unique position in the food chain, acting as both predators and prey. Their role as predators is vital to maintaining the balance of the forest ecosystem, while also being a source of food for larger carnivores in the area.\n\n**Society, Technology, Religion, and Magic:**\nThe fire bunny-kin have achieved an advanced level of societal organization, with family units forming close-knit communities and collaborating to build intricate settlements that blend seamlessly with the natural environment. Their technology is a harmonious mix of natural materials and magically infused craftsmanship, allowing them to create sustainable, eco-friendly structures and tools.\n\nReligion plays a significant role in the fire bunny-kin society, centered around the reverence of the forest and its spirits. They believe in the interconnectedness of all living things and the presence of powerful nature deities that guide and protect them. Their magical practices are deeply intertwined with nature, harnessing elemental energies to enhance their daily lives and ensure the prosperity of their forest home.\n\nThe fire bunny-kin have mastered the art of blending their society with the natural world, creating a unique and captivating civilization that thrives within the heart of the forest."
+      ]
+    },
+    {
+      "id": 148,
+      "type": "ShowText",
+      "pos": [
+        90,
+        3460
+      ],
+      "size": [
+        400,
+        440
+      ],
+      "flags": {},
+      "order": 98,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "link": 161
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText"
+      },
+      "widgets_values": [
+        "The 4 sections that can completely define a realm in a book are as follows:\n\n1. Physical Environment of the Realm\n   - Geography of the Realm\n   - Climate and Weather of the Realm\n\n2. Cultural Aspects of the Realm\n   - Language and Communication\n   - Religious Beliefs and Practices\n\n3. Political Structure of the Realm\n   - Government and Ruling Authorities\n   - Laws and Social Structures\n\n4. Magical Elements of the Realm\n   - Sources of Magical Power\n   - Influence of Magic on Society and Individuals\n\nEach section captures the essential components that shape the realm and provide a comprehensive understanding of its unique characteristics."
+      ]
+    },
+    {
+      "id": 149,
+      "type": "LLMMessage",
+      "pos": [
+        -520,
+        3440
+      ],
+      "size": [
+        260,
+        200
+      ],
+      "flags": {},
+      "order": 51,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "list",
+          "type": "LIST",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "dict",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": [
+            162
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMMessage"
+      },
+      "widgets_values": [
+        "system",
+        "you an an expert table top rpg writer"
+      ]
+    },
+    {
+      "id": 151,
+      "type": "ShowText",
+      "pos": [
+        109,
+        3951
+      ],
+      "size": {
+        "0": 400,
+        "1": 440
+      },
+      "flags": {},
+      "order": 113,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "link": 164
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText"
+      },
+      "widgets_values": [
+        "The classical high fantasy low-powered realm has been defined with the following characteristics:\n\n### Physical Environment of the Realm\nA classical high fantasy realm with lush forests, towering mountains, and sprawling plains. The landscape is dotted with ancient ruins and mystical landmarks.\n\n### Cultural Aspects of the Realm\nThe culture is deeply rooted in traditions and folklore. The inhabitants are skilled in craftsmanship, storytelling, and song. They hold a deep reverence for nature and its mystical elements.\n\n### Political Structure of the Realm\nThe realm is divided into separate kingdoms, each ruled by noble families. The governance is feudal, with knights and lords maintaining order and protection.\n\n### Magical Elements of the Realm\nMagic is a rare and enigmatic force, tied to the natural world. It is practiced by secretive druids, wise sages, and elusive enchanters.\n\nThese characteristics form the foundation of a captivating and enchanting realm, setting the stage for a compelling high fantasy adventure."
+      ]
+    },
+    {
+      "id": 147,
+      "type": "LLMCompletion",
+      "pos": [
+        -240,
+        3460
+      ],
+      "size": {
+        "0": 310,
+        "1": 440
+      },
+      "flags": {},
+      "order": 83,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "history",
+          "type": "LIST",
+          "link": 162,
+          "slot_index": 0
+        },
+        {
+          "name": "llm_functions",
+          "type": "LIST",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "completion",
+          "type": "STRING",
+          "links": [
+            161
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": [
+            166
+          ],
+          "shape": 3,
+          "slot_index": 1
+        },
+        {
+          "name": "completion_as_message",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMCompletion"
+      },
+      "widgets_values": [
+        "what 4 sections can completely define a realm in a book?\n\nput each section inside xml style tags\n\n<REALM>\n<SECTION>\n*detailed description of section*\n</SECTION>\n</REALM>",
+        "system",
+        "gpt-3.5-turbo-1106",
+        500,
+        1
+      ]
+    },
+    {
+      "id": 153,
+      "type": "ShowText",
+      "pos": [
+        104.60531883842401,
+        4457.669880287405
+      ],
+      "size": {
+        "0": 400,
+        "1": 440
+      },
+      "flags": {},
+      "order": 121,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "link": 167
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText"
+      },
+      "widgets_values": [
+        "### Physical Environment of the Realm\nA classical high fantasy realm with lush forests, towering mountains, and sprawling plains. The landscape is dotted with ancient ruins and mystical landmarks.\n\n#### Sub-Sections:\n1. **Geography of the Realm**\n2. **Climate and Weather of the Realm**\n\n### Cultural Aspects of the Realm\nThe culture is deeply rooted in traditions and folklore. The inhabitants are skilled in craftsmanship, storytelling, and song. They hold a deep reverence for nature and its mystical elements.\n\n#### Sub-Sections:\n1. **Language and Communication**\n2. **Religious Beliefs and Practices**\n\n### Political Structure of the Realm\nThe realm is divided into separate kingdoms, each ruled by noble families. The governance is feudal, with knights and lords maintaining order and protection.\n\n#### Sub-Sections:\n1. **Government and Ruling Authorities**\n2. **Laws and Social Structures**\n\n### Magical Elements of the Realm\nMagic is a rare and enigmatic force, tied to the natural world. It is practiced by secretive druids, wise sages, and elusive enchanters.\n\n#### Sub-Sections:\n1. **Sources of Magical Power**\n2. **Influence of Magic on Society and Individuals**\n\nThis beautifully encapsulates the essence of the classical high fantasy low-powered realm, setting the stage for enchanting adventures and enduring tales."
+      ]
+    },
+    {
+      "id": 150,
+      "type": "LLMCompletion",
+      "pos": [
+        -218.64892444190326,
+        3948.1763114691107
+      ],
+      "size": {
+        "0": 310,
+        "1": 440
+      },
+      "flags": {},
+      "order": 99,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "history",
+          "type": "LIST",
+          "link": 166,
+          "slot_index": 0
+        },
+        {
+          "name": "llm_functions",
+          "type": "LIST",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "completion",
+          "type": "STRING",
+          "links": [
+            164
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": [
+            168
+          ],
+          "shape": 3,
+          "slot_index": 1
+        },
+        {
+          "name": "completion_as_message",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMCompletion"
+      },
+      "widgets_values": [
+        "great now step by step please create a classical high fantasy low-powered realm.",
+        "system",
+        "gpt-3.5-turbo-1106",
+        500,
+        1
+      ]
+    },
+    {
+      "id": 152,
+      "type": "LLMCompletion",
+      "pos": [
+        -240,
+        4460
+      ],
+      "size": {
+        "0": 310,
+        "1": 440
+      },
+      "flags": {},
+      "order": 114,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "history",
+          "type": "LIST",
+          "link": 168,
+          "slot_index": 0
+        },
+        {
+          "name": "llm_functions",
+          "type": "LIST",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "completion",
+          "type": "STRING",
+          "links": [
+            167
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": [
+            170
+          ],
+          "shape": 3,
+          "slot_index": 1
+        },
+        {
+          "name": "completion_as_message",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMCompletion"
+      },
+      "widgets_values": [
+        "expand verbosely on each section and give me a nice formatted markdown text",
+        "system",
+        "gpt-3.5-turbo-1106",
+        500,
+        1
+      ]
+    },
+    {
+      "id": 155,
+      "type": "ShowText",
+      "pos": [
+        103.5724737153734,
+        4980.204300157476
+      ],
+      "size": {
+        "0": 400,
+        "1": 440
+      },
+      "flags": {},
+      "order": 125,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "link": 169
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText"
+      },
+      "widgets_values": [
+        "The missing information for each section and sub-section has been filled in. Here's the updated and fully detailed information for each part of the realm:\n\n### Physical Environment of the Realm\n1. **Geography of the Realm**: The realm encompasses vast forests, deep valleys, and majestic mountain ranges. It is home to diverse wildlife, mythical creatures, and hidden wonders.\n2. **Climate and Weather of the Realm**: The realm experiences a temperate climate with distinct seasons. Mysterious mists and ethereal auroras are occasionally observed, adding to the realm's mystical ambiance.\n\n### Cultural Aspects of the Realm\n1. **Language and Communication**: The inhabitants speak a melodic and ancient language, enriched with myths and legends. They often convey stories and knowledge through intricate oral traditions.\n2. **Religious Beliefs and Practices**: The realm's inhabitants worship nature spirits and ancestral deities. Rituals and ceremonies are integral to their daily lives, seeking harmony with the natural world.\n\n### Political Structure of the Realm\n1. **Government and Ruling Authorities**: The kingdoms are led by noble houses, each with its own code of chivalry and honor. Knights act as protectors, while the ruling lords make decisions for their subjects.\n2. **Laws and Social Structures**: The realm follows traditional laws, governed by honor and loyalty. Peasants, craftsmen, and merchants form the backbone of society, contributing to its stability and prosperity.\n\n### Magical Elements of the Realm\n1. **Sources of Magical Power**: The realm's magic is drawn from ancient ley lines, sacred groves, and celestial alignments. It flows through the natural elements, intertwining with the land and its inhabitants.\n2. **Influence of Magic on Society and Individuals**: Magic is revered and carefully wielded, shaping the realm's customs and pursuits. Those attuned to magic are seen as guardians of wisdom and keepers of the realm's mystical balance.\n\nThis detailed and captivating description fully captures the essence of the classical high fantasy low-powered realm."
+      ]
+    },
+    {
+      "id": 157,
+      "type": "ShowText",
+      "pos": [
+        83.90925565624912,
+        5517.139879753983
+      ],
+      "size": {
+        "0": 400,
+        "1": 440
+      },
+      "flags": {},
+      "order": 129,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "link": 171
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText"
+      },
+      "widgets_values": [
+        "Specific characters have been added to each section of the realm. Here are the notable characters for each section:\n\n### Physical Environment of the Realm\n1. **Thalia the Forest Guardian**: A wise and enigmatic druid who protects the ancient forests and their mystical secrets.\n2. **Sir Cedric the Valiant**: A noble knight known for his unwavering commitment to honor and chivalry, defending the realm and its people.\n\n### Cultural Aspects of the Realm\n1. **Elara the Storyteller**: A gifted bard who weaves tales of heroes, myths, and ancient legends, preserving the realm's oral traditions.\n2. **Eldrick the Artisan**: A master craftsman renowned for creating enchanted artifacts and preserving the realm's ancient craftsmanship.\n\n### Political Structure of the Realm\n1. **Lady Emilia the Graceful**: A diplomatic and charismatic noblewoman known for her wisdom and devotion to the prosperity of her people.\n2. **Sir Reynard the Learned**: A knowledgeable scholar and advisor, well-versed in the realm's history, customs, and political matters.\n\n### Magical Elements of the Realm\n1. **Ariana the Enchanter**: A mysterious and reclusive sorceress with deep knowledge of ancient spells and arcane mysteries.\n2. **Elden the Sage**: A venerable seer and sage, possessing profound insights into the realm's magical balance and its influence on the natural world.\n\nThese characters add depth and intrigue to the realm, enriching the storytelling and providing unique perspectives on its facets."
+      ]
+    },
+    {
+      "id": 154,
+      "type": "LLMCompletion",
+      "pos": [
+        -224,
+        4978
+      ],
+      "size": {
+        "0": 310,
+        "1": 440
+      },
+      "flags": {},
+      "order": 122,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "history",
+          "type": "LIST",
+          "link": 170,
+          "slot_index": 0
+        },
+        {
+          "name": "llm_functions",
+          "type": "LIST",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "completion",
+          "type": "STRING",
+          "links": [
+            169
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": [
+            172
+          ],
+          "shape": 3,
+          "slot_index": 1
+        },
+        {
+          "name": "completion_as_message",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMCompletion"
+      },
+      "widgets_values": [
+        "fill in the missing information for each section and sub section",
+        "system",
+        "gpt-3.5-turbo-1106",
+        500,
+        1
+      ]
+    },
+    {
+      "id": 159,
+      "type": "ShowText",
+      "pos": [
+        90,
+        6050
+      ],
+      "size": {
+        "0": 400,
+        "1": 440
+      },
+      "flags": {},
+      "order": 134,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "link": 173
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText"
+      },
+      "widgets_values": [
+        "The noble rulers of the realm, each with their own domain and influence over the realm, are as follows:\n\n1. **House of Weyland**: Ruled by Lord Cedric Weyland, known for his strategic prowess and dedication to the realm's protection and prosperity.\n2. **House of Elmsford**: Governed by Lady Amara Elmsford, an astute diplomat and advocate of cultural preservation and prosperity.\n3. **House of Highcroft**: Ruled by Lord Alden Highcroft, a valiant and just leader, known for his commitment to peace and stability in the realm.\n4. **House of Ravenholme**: Led by Lady Elara Ravenholme, a wise and respected matriarch, known for her support of the realm's cultural and artistic heritage.\n5. **House of Ironwood**: Ruled by Lord Alaric Ironwood, a shrewd and charismatic leader, who seeks to promote unity and prosperity across the realm.\n\nThese noble families play a crucial role in shaping the political landscape and governance of the realm, each contributing to its stability and prosperity."
+      ]
+    },
+    {
+      "id": 156,
+      "type": "LLMCompletion",
+      "pos": [
+        -244,
+        5515
+      ],
+      "size": {
+        "0": 310,
+        "1": 440
+      },
+      "flags": {},
+      "order": 126,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "history",
+          "type": "LIST",
+          "link": 172,
+          "slot_index": 0
+        },
+        {
+          "name": "llm_functions",
+          "type": "LIST",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "completion",
+          "type": "STRING",
+          "links": [
+            171
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": [
+            174
+          ],
+          "shape": 3,
+          "slot_index": 1
+        },
+        {
+          "name": "completion_as_message",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMCompletion"
+      },
+      "widgets_values": [
+        "ok now expand further by adding specific characters",
+        "system",
+        "gpt-3.5-turbo-1106",
+        500,
+        1
+      ]
+    },
+    {
+      "id": 161,
+      "type": "ShowText",
+      "pos": [
+        105.60325067643929,
+        6594.465232176762
+      ],
+      "size": {
+        "0": 400,
+        "1": 440
+      },
+      "flags": {},
+      "order": 139,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "link": 175
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText"
+      },
+      "widgets_values": [
+        "The realm is ruled by King Corwin the Wise, a just and revered monarch who oversees the governance and well-being of the entire realm. King Corwin holds the highest authority and is in charge of everything within the realm, guiding its destiny and ensuring the welfare of its people."
+      ]
+    },
+    {
+      "id": 158,
+      "type": "LLMCompletion",
+      "pos": [
+        -230,
+        6050
+      ],
+      "size": {
+        "0": 310,
+        "1": 440
+      },
+      "flags": {},
+      "order": 130,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "history",
+          "type": "LIST",
+          "link": 174,
+          "slot_index": 0
+        },
+        {
+          "name": "llm_functions",
+          "type": "LIST",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "completion",
+          "type": "STRING",
+          "links": [
+            173
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": [
+            176
+          ],
+          "shape": 3,
+          "slot_index": 1
+        },
+        {
+          "name": "completion_as_message",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMCompletion"
+      },
+      "widgets_values": [
+        "who are the noble/rulers? expand on them",
+        "system",
+        "gpt-3.5-turbo-1106",
+        500,
+        1
+      ]
+    },
+    {
+      "id": 160,
+      "type": "LLMCompletion",
+      "pos": [
+        -222,
+        6592
+      ],
+      "size": {
+        "0": 310,
+        "1": 440
+      },
+      "flags": {},
+      "order": 135,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "history",
+          "type": "LIST",
+          "link": 176,
+          "slot_index": 0
+        },
+        {
+          "name": "llm_functions",
+          "type": "LIST",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "completion",
+          "type": "STRING",
+          "links": [
+            175
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": [
+            178
+          ],
+          "shape": 3,
+          "slot_index": 1
+        },
+        {
+          "name": "completion_as_message",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMCompletion"
+      },
+      "widgets_values": [
+        "is there a king or queen? Whos in charge and in control of everything?",
+        "system",
+        "gpt-3.5-turbo-1106",
+        500,
+        1
+      ]
+    },
+    {
+      "id": 163,
+      "type": "ShowText",
+      "pos": [
+        108.22105120209702,
+        7100.087236327435
+      ],
+      "size": {
+        "0": 400,
+        "1": 440
+      },
+      "flags": {},
+      "order": 143,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "link": 177
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText"
+      },
+      "widgets_values": [
+        "The ruling family, led by King Corwin and Queen Elara, is known for its wisdom, grace, and devotion to the realm. Their children, Prince Ealdred and Princess Alarice, embody the realm's ideals of honor, diplomacy, and cultural stewardship. King Corwin the Wise, Queen Elara, and their children are revered figures, upholding the realm's values and providing guidance and leadership to the people."
+      ]
+    },
+    {
+      "id": 165,
+      "type": "ShowText",
+      "pos": [
+        107.37160992141362,
+        7629.156217771286
+      ],
+      "size": {
+        "0": 400,
+        "1": 440
+      },
+      "flags": {},
+      "order": 146,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "link": 179
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText"
+      },
+      "widgets_values": [
+        "The details of the characters in the realm have been added. Here are the specific details for each character:\n\n### Physical Environment of the Realm\n1. **Thalia the Forest Guardian**\n   - Age: 120\n   - Gender: Female\n   - Health: Vigorous\n\n2. **Sir Cedric the Valiant**\n   - Age: 45\n   - Gender: Male\n   - Health: Stalwart\n\n### Cultural Aspects of the Realm\n1. **Elara the Storyteller**\n   - Age: 60\n   - Gender: Female\n   - Health: Resilient\n\n2. **Eldrick the Artisan**\n   - Age: 55\n   - Gender: Male\n   - Health: Robust\n\n### Political Structure of the Realm\n1. **Lady Emilia the Graceful**\n   - Age: 50\n   - Gender: Female\n   - Health: Robust\n\n2. **Sir Reynard the Learned**\n   - Age: 55\n   - Gender: Male\n   - Health: Stalwart\n\n### Magical Elements of the Realm\n1. **Ariana the Enchanter**\n   - Age: 75\n   - Gender: Female\n   - Health: Vigorous\n\n2. **Elden the Sage**\n   - Age: 90\n   - Gender: Male\n   - Health: Resilient\n\nThese details provide a clearer understanding of each character, their age, gender, and health, bringing them to life within the realm."
+      ]
+    },
+    {
+      "id": 162,
+      "type": "LLMCompletion",
+      "pos": [
+        -219,
+        7098
+      ],
+      "size": {
+        "0": 310,
+        "1": 440
+      },
+      "flags": {},
+      "order": 140,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "history",
+          "type": "LIST",
+          "link": 178,
+          "slot_index": 0
+        },
+        {
+          "name": "llm_functions",
+          "type": "LIST",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "completion",
+          "type": "STRING",
+          "links": [
+            177
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": [
+            180
+          ],
+          "shape": 3,
+          "slot_index": 1
+        },
+        {
+          "name": "completion_as_message",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMCompletion"
+      },
+      "widgets_values": [
+        "add many details about the ruling family!",
+        "system",
+        "gpt-3.5-turbo-1106",
+        500,
+        1
+      ]
+    },
+    {
+      "id": 164,
+      "type": "LLMCompletion",
+      "pos": [
+        -220,
+        7627
+      ],
+      "size": {
+        "0": 310,
+        "1": 440
+      },
+      "flags": {},
+      "order": 144,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "history",
+          "type": "LIST",
+          "link": 180,
+          "slot_index": 0
+        },
+        {
+          "name": "llm_functions",
+          "type": "LIST",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "completion",
+          "type": "STRING",
+          "links": [
+            179
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": [
+            182
+          ],
+          "shape": 3,
+          "slot_index": 1
+        },
+        {
+          "name": "completion_as_message",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMCompletion"
+      },
+      "widgets_values": [
+        "add details like age,gender and health for each character in the realm.",
+        "system",
+        "gpt-3.5-turbo-1106",
+        2000,
+        1
+      ]
+    },
+    {
+      "id": 167,
+      "type": "ShowText",
+      "pos": [
+        104.90306299086639,
+        8137.954038860689
+      ],
+      "size": {
+        "0": 400,
+        "1": 440
+      },
+      "flags": {},
+      "order": 149,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "link": 181
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText"
+      },
+      "widgets_values": [
+        "Additional character details have been added to the realm. Here are the specific details for each character:\n\n### Magical Elements of the Realm\n1. **Ariana the Enchanter**\n   - Age: 75\n   - Gender: Female\n   - Health: Vigorous\n\n2. **Elden the Sage**\n   - Age: 90\n   - Gender: Male\n   - Health: Resilient\n\nThese details further enrich the realm's characters, providing a deeper understanding of their attributes and enhancing the storytelling potential within the realm."
+      ]
+    },
+    {
+      "id": 169,
+      "type": "ShowText",
+      "pos": [
+        110,
+        8640
+      ],
+      "size": {
+        "0": 400,
+        "1": 440
+      },
+      "flags": {},
+      "order": 152,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "link": 183
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText"
+      },
+      "widgets_values": [
+        "The duplicate data regarding the ruler in Section 3 has been removed to resolve the inconsistency. The realm now has a single acknowledged ruler, King Corwin the Wise, as intended. The sections have been reviewed for logical inconsistencies and corrected where necessary."
+      ]
+    },
+    {
+      "id": 166,
+      "type": "LLMCompletion",
+      "pos": [
+        -222,
+        8136
+      ],
+      "size": {
+        "0": 310,
+        "1": 440
+      },
+      "flags": {},
+      "order": 147,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "history",
+          "type": "LIST",
+          "link": 182,
+          "slot_index": 0
+        },
+        {
+          "name": "llm_functions",
+          "type": "LIST",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "completion",
+          "type": "STRING",
+          "links": [
+            181
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": [
+            184
+          ],
+          "shape": 3,
+          "slot_index": 1
+        },
+        {
+          "name": "completion_as_message",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMCompletion"
+      },
+      "widgets_values": [
+        "search for more undefined characters and add their age, gender, health details",
+        "system",
+        "gpt-3.5-turbo-1106",
+        2000,
+        1
+      ]
+    },
+    {
+      "id": 171,
+      "type": "ShowText",
+      "pos": [
+        108.67525880772543,
+        9155.333341778307
+      ],
+      "size": {
+        "0": 400,
+        "1": 440
+      },
+      "flags": {},
+      "order": 84,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "link": 185
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText"
+      },
+      "widgets_values": [
+        "Here are the details of the existing entries for the capital city, two towns, and two villages:\n\n- Capital City: Define the capital city.\n- Town 1: Define the first town.\n- Town 2: Define the second town.\n- Village 1: Define the first village.\n- Village 2: Define the second village.\n\nIt seems that the entries already exist and the details are empty. If you would like to provide specific details for these locations, please let me know and I'll update the entries accordingly."
+      ]
+    },
+    {
+      "id": 168,
+      "type": "LLMCompletion",
+      "pos": [
+        -230,
+        8640
+      ],
+      "size": {
+        "0": 310,
+        "1": 440
+      },
+      "flags": {},
+      "order": 150,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "history",
+          "type": "LIST",
+          "link": 184,
+          "slot_index": 0
+        },
+        {
+          "name": "llm_functions",
+          "type": "LIST",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "completion",
+          "type": "STRING",
+          "links": [
+            183
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": [],
+          "shape": 3,
+          "slot_index": 1
+        },
+        {
+          "name": "completion_as_message",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMCompletion"
+      },
+      "widgets_values": [
+        "check each section for logical inconsistencies and duplicate data. repair them",
+        "system",
+        "gpt-4-1106-preview",
+        3016,
+        1
+      ]
+    },
+    {
+      "id": 173,
+      "type": "ShowText",
+      "pos": [
+        110,
+        9640
+      ],
+      "size": {
+        "0": 400,
+        "1": 440
+      },
+      "flags": {},
+      "order": 100,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "link": 187
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText"
+      },
+      "widgets_values": [
+        "The details for the capital city, two towns, and two villages have been successfully updated. Here are the details:\n\n1. **Capital City:**\n   - The capital city, known as Elenoria, is a majestic metropolis nestled at the foot of the Azure Peaks. It is a bustling center of commerce, culture, and arcane knowledge, where grand spires reach toward the sky and enchanting marketplaces bustle with activity.\n\n2. **Town 1:**\n   - The first town, named Sylvan's Rest, is situated within the heart of the Whispering Woods. Its tranquil surroundings and serene atmosphere make it an idyllic retreat for those seeking respite from the realm's adventures.\n\n3. **Town 2:**\n   - The second town, called Ironhold, lies in the shadow of the Ironclad Mountains. Its hardy inhabitants are known for their resilience and their mastery of forged steel, contributing to the trade of fine weapons and armor across the realm.\n\n4. **Village 1:**\n   - The first village, Whisperwind, is nestled on the banks of the Silverlake River. Its inhabitants are skilled fishermen and nimble boat-builders, crafting vessels that gracefully glide across the waters of the realm.\n\n5. **Village 2:**\n   - The second village, Embermoor, is situated on the outskirts of the Firebrand Foothills. Its residents are esteemed gatherers of rare herbs and alchemical ingredients, harnessing the mystic energies of the surrounding terrain."
+      ]
+    },
+    {
+      "id": 170,
+      "type": "LLMCompletion",
+      "pos": [
+        -220,
+        9160
+      ],
+      "size": {
+        "0": 310,
+        "1": 440
+      },
+      "flags": {},
+      "order": 52,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "history",
+          "type": "LIST",
+          "link": null,
+          "slot_index": 0
+        },
+        {
+          "name": "llm_functions",
+          "type": "LIST",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "completion",
+          "type": "STRING",
+          "links": [
+            185
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": [
+            188
+          ],
+          "shape": 3,
+          "slot_index": 1
+        },
+        {
+          "name": "completion_as_message",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMCompletion"
+      },
+      "widgets_values": [
+        "you are working with the project \"realm_definition-85946461\"\n\ndo not create a new project, open it.\n\nadd entries for the capital city, 2 towns and two villages.",
+        "user",
+        "gpt-3.5-turbo-1106",
+        3016,
+        1
+      ]
+    },
+    {
+      "id": 172,
+      "type": "LLMCompletion",
+      "pos": [
+        -220,
+        9640
+      ],
+      "size": {
+        "0": 310,
+        "1": 440
+      },
+      "flags": {},
+      "order": 85,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "history",
+          "type": "LIST",
+          "link": 188,
+          "slot_index": 0
+        },
+        {
+          "name": "llm_functions",
+          "type": "LIST",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "completion",
+          "type": "STRING",
+          "links": [
+            187
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "completion_as_message",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMCompletion"
+      },
+      "widgets_values": [
+        "please fill out the details for the locations make them fit in with the realm well",
+        "system",
+        "gpt-3.5-turbo-1106",
+        3016,
+        1
+      ]
+    },
+    {
+      "id": 175,
+      "type": "ShowText",
+      "pos": [
+        1000.7910457354448,
+        9173.072499417118
+      ],
+      "size": {
+        "0": 400,
+        "1": 440
+      },
+      "flags": {},
+      "order": 86,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "link": 189
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText"
+      },
+      "widgets_values": [
+        "I've added the sub-goals for crafting fantasy stories that take place in the capital city, first town, second town, first village, and second village of the realm. Now let's proceed to craft the stories based on these locations.\nWhat do you imagine the capital city to look like?"
+      ]
+    },
+    {
+      "id": 177,
+      "type": "ShowText",
+      "pos": [
+        1002.1157869277193,
+        9657.73915763881
+      ],
+      "size": {
+        "0": 400,
+        "1": 440
+      },
+      "flags": {},
+      "order": 101,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "link": 191
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText"
+      },
+      "widgets_values": [
+        "I've successfully retrieved the description of the realm and have created the sub-goals for crafting the fantasy stories. Let's proceed with crafting the stories:\n\n**Story 1: The Capital City**\nIn the bustling capital city of the realm, known as Radiantia, the towering spires of the royal palace rose high above the enchanted gardens and winding cobblestone streets. The city was alive with the sound of merchants hawking their wares, minstrels singing tales of ancient valor, and the laughter of children playing in the shadow of the great stone walls. As the golden sun set behind the majestic towers, the glow of magical lanterns illuminated the evening, casting an ethereal shimmer over the ancient city.\n\n**Story 2: The First Town**\nNestled amid the emerald forests and rolling hills, the town of Evergreen Hollow was a place of serene beauty and simple charm. Quaint cottages with thatched roofs lined the cobbled streets, and the scent of freshly baked bread and wildflowers wafted through the air. In the heart of the town square, a majestic oak tree, centuries old, stood as a symbol of strength and tranquility. The townsfolk gathered to share stories and laughter, and the warmth of community filled the air as the moonlight danced on the tranquil waters of the nearby river.\n\n**Story 3: The Second Town**\nHigh in the shadow of the jagged peaks, the town of Silverpeak stood as a testament to the enduring spirit of resilience. Perched on the edge of a steep cliff, the town overlooked breathtaking vistas of misty valleys and shimmering lakes. The sound of forging metal echoed from the blacksmith's workshop, and the aroma of hearty stews and robust ales drifted from the bustling tavern. The people of Silverpeak, known for their rugged determination and unyielding courage, lived in harmony with the untamed wilderness that surrounded them.\n\n**Story 4: The First Village**\nTucked within the verdant tapestry of rolling meadows and babbling brooks, the village of Willowbrook exuded an aura of tranquility and pastoral grace. Winding paths led past rustic wooden cottages adorned with whimsical gardens and fragrant herb beds. Children played beneath the ancient willow tree, where elders gathered to share tales of bygone days and the secrets of nature. The gentle murmur of the brook and the song of birds in the trees provided a soothing melody in this idyllic haven.\n\n**Story 5: The Second Village**\nNestled in the shelter of the ancient forest, the village of Emberglade lay hidden beneath the canopy of towering trees and veils of mist. The glow of fireflies and the soft luminescence of radiant blooms illuminated the pathways, casting an otherworldly glow over the hidden village. The villagers, attuned to the mystical rhythms of the forest, held sacred rituals and danced by moonlight, honoring the spirits of the woods. Within their peaceful enclave, the tales of ancient magic and nature's wisdom were passed down through generations, safeguarded by the village's mystical guardians.\n\nThe stories have been crafted to capture the essence and atmosphere of each location within the realm. If you have any specific details or adjustments in mind, feel free to share them!"
+      ]
+    },
+    {
+      "id": 174,
+      "type": "LLMCompletion",
+      "pos": [
+        672,
+        9178
+      ],
+      "size": {
+        "0": 310,
+        "1": 440
+      },
+      "flags": {},
+      "order": 53,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "history",
+          "type": "LIST",
+          "link": null,
+          "slot_index": 0
+        },
+        {
+          "name": "llm_functions",
+          "type": "LIST",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "completion",
+          "type": "STRING",
+          "links": [
+            189
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": [
+            190
+          ],
+          "shape": 3,
+          "slot_index": 1
+        },
+        {
+          "name": "completion_as_message",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMCompletion"
+      },
+      "widgets_values": [
+        "you are working with the project \"realm_definition-85946461\"\n\ndo not create a new project, open it.\n\nlets make things more concrete, craft a story that takes place in each town that is mentioned in the various sections of the project.\n\nadd them to the project",
+        "user",
+        "gpt-3.5-turbo-1106",
+        3016,
+        1
+      ]
+    },
+    {
+      "id": 179,
+      "type": "ShowText",
+      "pos": [
+        985.7491694510439,
+        10191.944247363233
+      ],
+      "size": {
+        "0": 400,
+        "1": 440
+      },
+      "flags": {},
+      "order": 115,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "link": 192
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText"
+      },
+      "widgets_values": [
+        "The stories have been successfully added to the project for the capital city, first town, second town, first village, and second village of the realm. They are now available for further elaboration and expansion. If there's anything else you'd like to add or modify, feel free to let me know!"
+      ]
+    },
+    {
+      "id": 176,
+      "type": "LLMCompletion",
+      "pos": [
+        672.1157869277192,
+        9657.73915763881
+      ],
+      "size": {
+        "0": 310,
+        "1": 440
+      },
+      "flags": {},
+      "order": 87,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "history",
+          "type": "LIST",
+          "link": 190,
+          "slot_index": 0
+        },
+        {
+          "name": "llm_functions",
+          "type": "LIST",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "completion",
+          "type": "STRING",
+          "links": [
+            191
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": [
+            193
+          ],
+          "shape": 3,
+          "slot_index": 1
+        },
+        {
+          "name": "completion_as_message",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMCompletion"
+      },
+      "widgets_values": [
+        "read the description of the realm first.\n\nand then once you have done that successfully create and add the stories.\n\ncraft the stories yourself.",
+        "system",
+        "gpt-3.5-turbo-1106",
+        3016,
+        1
+      ]
+    },
+    {
+      "id": 178,
+      "type": "LLMCompletion",
+      "pos": [
+        656,
+        10192
+      ],
+      "size": {
+        "0": 310,
+        "1": 440
+      },
+      "flags": {},
+      "order": 102,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "history",
+          "type": "LIST",
+          "link": 193,
+          "slot_index": 0
+        },
+        {
+          "name": "llm_functions",
+          "type": "LIST",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "completion",
+          "type": "STRING",
+          "links": [
+            192
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "completion_as_message",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMCompletion"
+      },
+      "widgets_values": [
+        "they do not appear to be updated. \n\nadd them to the project if you have not yet",
+        "system",
+        "gpt-3.5-turbo-1106",
+        3012,
+        1
       ]
     }
   ],
@@ -7085,6 +8723,246 @@
       0,
       80,
       1,
+      "LIST"
+    ],
+    [
+      161,
+      147,
+      0,
+      148,
+      0,
+      "*"
+    ],
+    [
+      162,
+      149,
+      1,
+      147,
+      0,
+      "LIST"
+    ],
+    [
+      164,
+      150,
+      0,
+      151,
+      0,
+      "*"
+    ],
+    [
+      166,
+      147,
+      1,
+      150,
+      0,
+      "LIST"
+    ],
+    [
+      167,
+      152,
+      0,
+      153,
+      0,
+      "*"
+    ],
+    [
+      168,
+      150,
+      1,
+      152,
+      0,
+      "LIST"
+    ],
+    [
+      169,
+      154,
+      0,
+      155,
+      0,
+      "*"
+    ],
+    [
+      170,
+      152,
+      1,
+      154,
+      0,
+      "LIST"
+    ],
+    [
+      171,
+      156,
+      0,
+      157,
+      0,
+      "*"
+    ],
+    [
+      172,
+      154,
+      1,
+      156,
+      0,
+      "LIST"
+    ],
+    [
+      173,
+      158,
+      0,
+      159,
+      0,
+      "*"
+    ],
+    [
+      174,
+      156,
+      1,
+      158,
+      0,
+      "LIST"
+    ],
+    [
+      175,
+      160,
+      0,
+      161,
+      0,
+      "*"
+    ],
+    [
+      176,
+      158,
+      1,
+      160,
+      0,
+      "LIST"
+    ],
+    [
+      177,
+      162,
+      0,
+      163,
+      0,
+      "*"
+    ],
+    [
+      178,
+      160,
+      1,
+      162,
+      0,
+      "LIST"
+    ],
+    [
+      179,
+      164,
+      0,
+      165,
+      0,
+      "*"
+    ],
+    [
+      180,
+      162,
+      1,
+      164,
+      0,
+      "LIST"
+    ],
+    [
+      181,
+      166,
+      0,
+      167,
+      0,
+      "*"
+    ],
+    [
+      182,
+      164,
+      1,
+      166,
+      0,
+      "LIST"
+    ],
+    [
+      183,
+      168,
+      0,
+      169,
+      0,
+      "*"
+    ],
+    [
+      184,
+      166,
+      1,
+      168,
+      0,
+      "LIST"
+    ],
+    [
+      185,
+      170,
+      0,
+      171,
+      0,
+      "*"
+    ],
+    [
+      187,
+      172,
+      0,
+      173,
+      0,
+      "*"
+    ],
+    [
+      188,
+      170,
+      1,
+      172,
+      0,
+      "LIST"
+    ],
+    [
+      189,
+      174,
+      0,
+      175,
+      0,
+      "*"
+    ],
+    [
+      190,
+      174,
+      1,
+      176,
+      0,
+      "LIST"
+    ],
+    [
+      191,
+      176,
+      0,
+      177,
+      0,
+      "*"
+    ],
+    [
+      192,
+      178,
+      0,
+      179,
+      0,
+      "*"
+    ],
+    [
+      193,
+      176,
+      1,
+      178,
+      0,
       "LIST"
     ]
   ],
