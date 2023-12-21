@@ -1,6 +1,6 @@
 {
-  "last_node_id": 24,
-  "last_link_id": 44,
+  "last_node_id": 26,
+  "last_link_id": 54,
   "nodes": [
     {
       "id": 1,
@@ -14,7 +14,7 @@
         "1": 262
       },
       "flags": {},
-      "order": 15,
+      "order": 14,
       "mode": 0,
       "inputs": [
         {
@@ -122,19 +122,19 @@
         26
       ],
       "flags": {},
-      "order": 14,
+      "order": 0,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 17
+          "link": null
         }
       ],
       "outputs": [
         {
           "name": "",
-          "type": "CONDITIONING",
+          "type": "*",
           "links": [
             14
           ],
@@ -158,7 +158,7 @@
         "1": 100
       },
       "flags": {},
-      "order": 0,
+      "order": 1,
       "mode": 0,
       "outputs": [
         {
@@ -206,318 +206,6 @@
       ]
     },
     {
-      "id": 18,
-      "type": "CLIPTextEncode",
-      "pos": [
-        -1051.0919216122152,
-        2249.0284745455665
-      ],
-      "size": {
-        "0": 400,
-        "1": 160
-      },
-      "flags": {},
-      "order": 6,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 24
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            36
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "CLIPTextEncode"
-      },
-      "widgets_values": [
-        "A map for a pen and paper fantasy game"
-      ]
-    },
-    {
-      "id": 19,
-      "type": "CLIPTextEncode",
-      "pos": [
-        -1051.0919216122152,
-        2439.0284745455665
-      ],
-      "size": {
-        "0": 400,
-        "1": 160
-      },
-      "flags": {},
-      "order": 7,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 25
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            37
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "CLIPTextEncode"
-      },
-      "widgets_values": [
-        "A map for a pen and paper fantasy game"
-      ]
-    },
-    {
-      "id": 20,
-      "type": "CLIPTextEncode",
-      "pos": [
-        -1051.0919216122152,
-        2610.842288699024
-      ],
-      "size": {
-        "0": 400,
-        "1": 160
-      },
-      "flags": {},
-      "order": 8,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 26
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            38
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "CLIPTextEncode"
-      },
-      "widgets_values": [
-        "A map for a pen and paper fantasy game"
-      ]
-    },
-    {
-      "id": 21,
-      "type": "CLIPTextEncode",
-      "pos": [
-        -1051.0919216122152,
-        2792.34221646173
-      ],
-      "size": {
-        "0": 400,
-        "1": 160
-      },
-      "flags": {},
-      "order": 9,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 27
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            39
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "CLIPTextEncode"
-      },
-      "widgets_values": [
-        "A map for a pen and paper fantasy game"
-      ]
-    },
-    {
-      "id": 22,
-      "type": "CLIPTextEncode",
-      "pos": [
-        -1051.0919216122152,
-        2968.5629047301777
-      ],
-      "size": {
-        "0": 400,
-        "1": 160
-      },
-      "flags": {},
-      "order": 10,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 28
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            40
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "CLIPTextEncode"
-      },
-      "widgets_values": [
-        "A map for a pen and paper fantasy game"
-      ]
-    },
-    {
-      "id": 23,
-      "type": "CLIPTextEncode",
-      "pos": [
-        -1051.0919216122152,
-        3158.394116300288
-      ],
-      "size": {
-        "0": 400,
-        "1": 160
-      },
-      "flags": {},
-      "order": 11,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 29
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            42
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "CLIPTextEncode"
-      },
-      "widgets_values": [
-        "A map for a pen and paper fantasy game"
-      ]
-    },
-    {
-      "id": 24,
-      "type": "CLIPTextEncode",
-      "pos": [
-        -1051.0919216122152,
-        3371.8646535007006
-      ],
-      "size": {
-        "0": 400,
-        "1": 160
-      },
-      "flags": {},
-      "order": 12,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 30
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            43
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "CLIPTextEncode"
-      },
-      "widgets_values": [
-        "A map for a pen and paper fantasy game"
-      ]
-    },
-    {
-      "id": 3,
-      "type": "CLIPTextEncode",
-      "pos": [
-        -1051,
-        1669
-      ],
-      "size": [
-        400,
-        160
-      ],
-      "flags": {},
-      "order": 2,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 3
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            44
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "CLIPTextEncode"
-      },
-      "widgets_values": [
-        "A map for a pen and paper fantasy game"
-      ]
-    },
-    {
       "id": 7,
       "type": "EmptyLatentImage",
       "pos": [
@@ -529,7 +217,7 @@
         "1": 106
       },
       "flags": {},
-      "order": 1,
+      "order": 2,
       "mode": 0,
       "outputs": [
         {
@@ -562,7 +250,7 @@
         "1": 200
       },
       "flags": {},
-      "order": 3,
+      "order": 4,
       "mode": 0,
       "inputs": [
         {
@@ -617,6 +305,45 @@
       }
     },
     {
+      "id": 3,
+      "type": "CLIPTextEncode",
+      "pos": [
+        -1051,
+        1669
+      ],
+      "size": {
+        "0": 400,
+        "1": 160
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            45
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "A map for a pen and paper fantasy game"
+      ]
+    },
+    {
       "id": 16,
       "type": "CLIPTextEncode",
       "pos": [
@@ -628,7 +355,7 @@
         "1": 160
       },
       "flags": {},
-      "order": 4,
+      "order": 5,
       "mode": 0,
       "inputs": [
         {
@@ -642,7 +369,7 @@
           "name": "CONDITIONING",
           "type": "CONDITIONING",
           "links": [
-            34
+            46
           ],
           "shape": 3,
           "slot_index": 0
@@ -667,7 +394,7 @@
         "1": 160
       },
       "flags": {},
-      "order": 5,
+      "order": 6,
       "mode": 0,
       "inputs": [
         {
@@ -681,7 +408,7 @@
           "name": "CONDITIONING",
           "type": "CONDITIONING",
           "links": [
-            35
+            47
           ],
           "shape": 3,
           "slot_index": 0
@@ -695,78 +422,24 @@
       ]
     },
     {
-      "id": 11,
-      "type": "MultiAreaConditioning",
+      "id": 18,
+      "type": "CLIPTextEncode",
       "pos": [
-        -410,
-        2560
+        -1051.0919216122152,
+        2249.0284745455665
       ],
       "size": {
-        "0": 220,
-        "1": 605
+        "0": 400,
+        "1": 160
       },
       "flags": {},
-      "order": 13,
+      "order": 7,
       "mode": 0,
       "inputs": [
         {
-          "name": "conditioning0",
-          "type": "CONDITIONING",
-          "link": 44
-        },
-        {
-          "name": "conditioning1",
-          "type": "CONDITIONING",
-          "link": 34
-        },
-        {
-          "name": "conditioning2",
-          "type": "CONDITIONING",
-          "link": 35,
-          "label": null
-        },
-        {
-          "name": "conditioning3",
-          "type": "CONDITIONING",
-          "link": 36,
-          "label": null
-        },
-        {
-          "name": "conditioning4",
-          "type": "CONDITIONING",
-          "link": 37,
-          "label": null
-        },
-        {
-          "name": "conditioning5",
-          "type": "CONDITIONING",
-          "link": 38,
-          "label": null
-        },
-        {
-          "name": "conditioning6",
-          "type": "CONDITIONING",
-          "link": 39,
-          "label": null
-        },
-        {
-          "name": "conditioning7",
-          "type": "CONDITIONING",
-          "link": 40,
-          "label": null
-        },
-        {
-          "name": "conditioning8",
-          "type": "CONDITIONING",
-          "link": 42,
-          "label": null,
-          "slot_index": 8
-        },
-        {
-          "name": "conditioning9",
-          "type": "CONDITIONING",
-          "link": 43,
-          "label": null
+          "name": "clip",
+          "type": "CLIP",
+          "link": 24
         }
       ],
       "outputs": [
@@ -774,10 +447,333 @@
           "name": "CONDITIONING",
           "type": "CONDITIONING",
           "links": [
-            17
+            48
           ],
           "shape": 3,
           "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "A map for a pen and paper fantasy game"
+      ]
+    },
+    {
+      "id": 19,
+      "type": "CLIPTextEncode",
+      "pos": [
+        -1051.0919216122152,
+        2439.0284745455665
+      ],
+      "size": {
+        "0": 400,
+        "1": 160
+      },
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 25
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            49
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "A map for a pen and paper fantasy game"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "CLIPTextEncode",
+      "pos": [
+        -1051.0919216122152,
+        2610.842288699024
+      ],
+      "size": {
+        "0": 400,
+        "1": 160
+      },
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 26
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            50
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "A map for a pen and paper fantasy game"
+      ]
+    },
+    {
+      "id": 21,
+      "type": "CLIPTextEncode",
+      "pos": [
+        -1051.0919216122152,
+        2792.34221646173
+      ],
+      "size": {
+        "0": 400,
+        "1": 160
+      },
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 27
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            51
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "A map for a pen and paper fantasy game"
+      ]
+    },
+    {
+      "id": 22,
+      "type": "CLIPTextEncode",
+      "pos": [
+        -1051.0919216122152,
+        2968.5629047301777
+      ],
+      "size": {
+        "0": 400,
+        "1": 160
+      },
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 28
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            52
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "A map for a pen and paper fantasy game"
+      ]
+    },
+    {
+      "id": 23,
+      "type": "CLIPTextEncode",
+      "pos": [
+        -1051.0919216122152,
+        3158.394116300288
+      ],
+      "size": {
+        "0": 400,
+        "1": 160
+      },
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 29
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            53
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "A map for a pen and paper fantasy game"
+      ]
+    },
+    {
+      "id": 24,
+      "type": "CLIPTextEncode",
+      "pos": [
+        -1051.0919216122152,
+        3371.8646535007006
+      ],
+      "size": {
+        "0": 400,
+        "1": 160
+      },
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 30
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            54
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "A map for a pen and paper fantasy game"
+      ]
+    },
+    {
+      "id": 26,
+      "type": "MultiAreaConditioning",
+      "pos": [
+        -360,
+        2550
+      ],
+      "size": {
+        "0": 220,
+        "1": 605
+      },
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "conditioning0",
+          "type": "CONDITIONING",
+          "link": 45
+        },
+        {
+          "name": "conditioning1",
+          "type": "CONDITIONING",
+          "link": 46
+        },
+        {
+          "name": "conditioning2",
+          "type": "CONDITIONING",
+          "link": 47,
+          "label": null
+        },
+        {
+          "name": "conditioning3",
+          "type": "CONDITIONING",
+          "link": 48,
+          "label": null
+        },
+        {
+          "name": "conditioning4",
+          "type": "CONDITIONING",
+          "link": 49,
+          "label": null
+        },
+        {
+          "name": "conditioning5",
+          "type": "CONDITIONING",
+          "link": 50,
+          "label": null
+        },
+        {
+          "name": "conditioning6",
+          "type": "CONDITIONING",
+          "link": 51,
+          "label": null
+        },
+        {
+          "name": "conditioning7",
+          "type": "CONDITIONING",
+          "link": 52,
+          "label": null
+        },
+        {
+          "name": "conditioning8",
+          "type": "CONDITIONING",
+          "link": 53,
+          "label": null
+        },
+        {
+          "name": "conditioning9",
+          "type": "CONDITIONING",
+          "link": 54,
+          "label": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": null,
+          "shape": 3
         },
         {
           "name": "resolutionX",
@@ -793,14 +789,14 @@
         }
       ],
       "properties": {
-        "width": 1024,
-        "height": 1024,
+        "width": 1152,
+        "height": 1152,
         "values": [
           [
             0,
             0,
-            1024,
-            1024,
+            1152,
+            1152,
             1
           ],
           [
@@ -811,8 +807,57 @@
             1
           ],
           [
+            384,
             0,
+            384,
+            384,
+            1
+          ],
+          [
+            768,
             0,
+            384,
+            384,
+            1
+          ],
+          [
+            0,
+            384,
+            384,
+            384,
+            1
+          ],
+          [
+            384,
+            384,
+            384,
+            384,
+            1
+          ],
+          [
+            768,
+            384,
+            384,
+            384,
+            1
+          ],
+          [
+            0,
+            768,
+            384,
+            384,
+            1
+          ],
+          [
+            384,
+            768,
+            384,
+            384,
+            1
+          ],
+          [
+            768,
+            768,
             384,
             384,
             1
@@ -821,12 +866,12 @@
         "Node name for S&R": "MultiAreaConditioning"
       },
       "widgets_values": [
-        1024,
-        1024,
+        1152,
+        1152,
         null,
-        6,
-        0,
-        0,
+        8,
+        384,
+        768,
         384,
         384,
         1
@@ -907,14 +952,6 @@
       "CONDITIONING"
     ],
     [
-      17,
-      11,
-      0,
-      9,
-      0,
-      "*"
-    ],
-    [
       22,
       2,
       1,
@@ -987,83 +1024,83 @@
       "CLIP"
     ],
     [
-      34,
+      45,
+      3,
+      0,
+      26,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      46,
       16,
       0,
-      11,
+      26,
       1,
       "CONDITIONING"
     ],
     [
-      35,
+      47,
       17,
       0,
-      11,
+      26,
       2,
       "CONDITIONING"
     ],
     [
-      36,
+      48,
       18,
       0,
-      11,
+      26,
       3,
       "CONDITIONING"
     ],
     [
-      37,
+      49,
       19,
       0,
-      11,
+      26,
       4,
       "CONDITIONING"
     ],
     [
-      38,
+      50,
       20,
       0,
-      11,
+      26,
       5,
       "CONDITIONING"
     ],
     [
-      39,
+      51,
       21,
       0,
-      11,
+      26,
       6,
       "CONDITIONING"
     ],
     [
-      40,
+      52,
       22,
       0,
-      11,
+      26,
       7,
       "CONDITIONING"
     ],
     [
-      42,
+      53,
       23,
       0,
-      11,
+      26,
       8,
       "CONDITIONING"
     ],
     [
-      43,
+      54,
       24,
       0,
-      11,
+      26,
       9,
-      "CONDITIONING"
-    ],
-    [
-      44,
-      3,
-      0,
-      11,
-      0,
       "CONDITIONING"
     ]
   ],
