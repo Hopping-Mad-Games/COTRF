@@ -1,6 +1,6 @@
 {
   "last_node_id": 26,
-  "last_link_id": 54,
+  "last_link_id": 55,
   "nodes": [
     {
       "id": 1,
@@ -14,7 +14,7 @@
         "1": 262
       },
       "flags": {},
-      "order": 14,
+      "order": 15,
       "mode": 0,
       "inputs": [
         {
@@ -122,19 +122,19 @@
         26
       ],
       "flags": {},
-      "order": 0,
+      "order": 14,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": null
+          "link": 55
         }
       ],
       "outputs": [
         {
           "name": "",
-          "type": "*",
+          "type": "CONDITIONING",
           "links": [
             14
           ],
@@ -158,7 +158,7 @@
         "1": 100
       },
       "flags": {},
-      "order": 1,
+      "order": 0,
       "mode": 0,
       "outputs": [
         {
@@ -217,7 +217,7 @@
         "1": 106
       },
       "flags": {},
-      "order": 2,
+      "order": 1,
       "mode": 0,
       "outputs": [
         {
@@ -250,7 +250,7 @@
         "1": 200
       },
       "flags": {},
-      "order": 4,
+      "order": 3,
       "mode": 0,
       "inputs": [
         {
@@ -308,15 +308,15 @@
       "id": 3,
       "type": "CLIPTextEncode",
       "pos": [
-        -1051,
-        1669
+        -810,
+        1460
       ],
       "size": {
         "0": 400,
         "1": 160
       },
       "flags": {},
-      "order": 3,
+      "order": 2,
       "mode": 0,
       "inputs": [
         {
@@ -347,15 +347,15 @@
       "id": 16,
       "type": "CLIPTextEncode",
       "pos": [
-        -1051.0919216122152,
-        1869.0284745455676
+        -1250,
+        1780
       ],
       "size": {
         "0": 400,
         "1": 160
       },
       "flags": {},
-      "order": 5,
+      "order": 4,
       "mode": 0,
       "inputs": [
         {
@@ -386,15 +386,15 @@
       "id": 17,
       "type": "CLIPTextEncode",
       "pos": [
-        -1051.0919216122152,
-        2059.028474545567
+        -840,
+        1780
       ],
       "size": {
         "0": 400,
         "1": 160
       },
       "flags": {},
-      "order": 6,
+      "order": 5,
       "mode": 0,
       "inputs": [
         {
@@ -418,22 +418,22 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        ""
+        "hills"
       ]
     },
     {
       "id": 18,
       "type": "CLIPTextEncode",
       "pos": [
-        -1051.0919216122152,
-        2249.0284745455665
+        -420,
+        1770
       ],
       "size": {
         "0": 400,
         "1": 160
       },
       "flags": {},
-      "order": 7,
+      "order": 6,
       "mode": 0,
       "inputs": [
         {
@@ -457,22 +457,22 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "A map for a pen and paper fantasy game"
+        "hills"
       ]
     },
     {
       "id": 19,
       "type": "CLIPTextEncode",
       "pos": [
-        -1051.0919216122152,
-        2439.0284745455665
+        -1260,
+        2070
       ],
       "size": {
         "0": 400,
         "1": 160
       },
       "flags": {},
-      "order": 8,
+      "order": 7,
       "mode": 0,
       "inputs": [
         {
@@ -496,15 +496,15 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "A map for a pen and paper fantasy game"
+        "forest"
       ]
     },
     {
-      "id": 20,
+      "id": 21,
       "type": "CLIPTextEncode",
       "pos": [
-        -1051.0919216122152,
-        2610.842288699024
+        -380,
+        2070
       ],
       "size": {
         "0": 400,
@@ -512,45 +512,6 @@
       },
       "flags": {},
       "order": 9,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 26
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            50
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "CLIPTextEncode"
-      },
-      "widgets_values": [
-        "A map for a pen and paper fantasy game"
-      ]
-    },
-    {
-      "id": 21,
-      "type": "CLIPTextEncode",
-      "pos": [
-        -1051.0919216122152,
-        2792.34221646173
-      ],
-      "size": {
-        "0": 400,
-        "1": 160
-      },
-      "flags": {},
-      "order": 10,
       "mode": 0,
       "inputs": [
         {
@@ -574,22 +535,22 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "A map for a pen and paper fantasy game"
+        "forest"
       ]
     },
     {
       "id": 22,
       "type": "CLIPTextEncode",
       "pos": [
-        -1051.0919216122152,
-        2968.5629047301777
+        -1260,
+        2300
       ],
       "size": {
         "0": 400,
         "1": 160
       },
       "flags": {},
-      "order": 11,
+      "order": 10,
       "mode": 0,
       "inputs": [
         {
@@ -613,22 +574,22 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "A map for a pen and paper fantasy game"
+        "meadows"
       ]
     },
     {
       "id": 23,
       "type": "CLIPTextEncode",
       "pos": [
-        -1051.0919216122152,
-        3158.394116300288
+        -790,
+        2340
       ],
       "size": {
         "0": 400,
         "1": 160
       },
       "flags": {},
-      "order": 12,
+      "order": 11,
       "mode": 0,
       "inputs": [
         {
@@ -652,22 +613,22 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "A map for a pen and paper fantasy game"
+        "plains"
       ]
     },
     {
       "id": 24,
       "type": "CLIPTextEncode",
       "pos": [
-        -1051.0919216122152,
-        3371.8646535007006
+        -290,
+        2320
       ],
       "size": {
         "0": 400,
         "1": 160
       },
       "flags": {},
-      "order": 13,
+      "order": 12,
       "mode": 0,
       "inputs": [
         {
@@ -691,22 +652,61 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "A map for a pen and paper fantasy game"
+        "river and forest"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "CLIPTextEncode",
+      "pos": [
+        -810,
+        2050
+      ],
+      "size": {
+        "0": 400,
+        "1": 160
+      },
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 26
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            50
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "forest and lake"
       ]
     },
     {
       "id": 26,
       "type": "MultiAreaConditioning",
       "pos": [
-        -360,
-        2550
+        150,
+        2770
       ],
       "size": {
         "0": 220,
         "1": 605
       },
       "flags": {},
-      "order": 15,
+      "order": 13,
       "mode": 0,
       "inputs": [
         {
@@ -772,8 +772,11 @@
         {
           "name": "CONDITIONING",
           "type": "CONDITIONING",
-          "links": null,
-          "shape": 3
+          "links": [
+            55
+          ],
+          "shape": 3,
+          "slot_index": 0
         },
         {
           "name": "resolutionX",
@@ -1102,6 +1105,14 @@
       26,
       9,
       "CONDITIONING"
+    ],
+    [
+      55,
+      26,
+      0,
+      9,
+      0,
+      "*"
     ]
   ],
   "groups": [],
