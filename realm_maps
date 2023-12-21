@@ -3,69 +3,6 @@
   "last_link_id": 55,
   "nodes": [
     {
-      "id": 1,
-      "type": "KSampler",
-      "pos": [
-        420,
-        3750
-      ],
-      "size": {
-        "0": 315,
-        "1": 262
-      },
-      "flags": {},
-      "order": 15,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 1,
-          "slot_index": 0
-        },
-        {
-          "name": "positive",
-          "type": "CONDITIONING",
-          "link": 14,
-          "slot_index": 1
-        },
-        {
-          "name": "negative",
-          "type": "CONDITIONING",
-          "link": 5
-        },
-        {
-          "name": "latent_image",
-          "type": "LATENT",
-          "link": 9,
-          "slot_index": 3
-        }
-      ],
-      "outputs": [
-        {
-          "name": "LATENT",
-          "type": "LATENT",
-          "links": [
-            10
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "KSampler"
-      },
-      "widgets_values": [
-        70585885339598,
-        "fixed",
-        8,
-        4,
-        "lcm",
-        "normal",
-        1
-      ]
-    },
-    {
       "id": 8,
       "type": "VAEDecodeTiled",
       "pos": [
@@ -226,47 +163,6 @@
       "properties": {
         "Node name for S&R": "PreviewImage"
       }
-    },
-    {
-      "id": 4,
-      "type": "CLIPTextEncode",
-      "pos": [
-        810,
-        3870
-      ],
-      "size": {
-        "0": 400,
-        "1": 200
-      },
-      "flags": {},
-      "order": 3,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 4
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            5
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "CLIPTextEncode"
-      },
-      "widgets_values": [
-        "city, text, caption, label, symbol, words, compass, key, legend, water, ocean, amateur"
-      ],
-      "color": "#322",
-      "bgcolor": "#533"
     },
     {
       "id": 9,
@@ -539,45 +435,6 @@
       ]
     },
     {
-      "id": 16,
-      "type": "CLIPTextEncode",
-      "pos": [
-        -1250,
-        1780
-      ],
-      "size": {
-        "0": 400,
-        "1": 160
-      },
-      "flags": {},
-      "order": 4,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 22
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            46
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "CLIPTextEncode"
-      },
-      "widgets_values": [
-        "mountain range, section"
-      ]
-    },
-    {
       "id": 19,
       "type": "CLIPTextEncode",
       "pos": [
@@ -695,6 +552,149 @@
       ]
     },
     {
+      "id": 1,
+      "type": "KSampler",
+      "pos": [
+        420,
+        3750
+      ],
+      "size": {
+        "0": 315,
+        "1": 262
+      },
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 1,
+          "slot_index": 0
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 14,
+          "slot_index": 1
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 5
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 9,
+          "slot_index": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            10
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSampler"
+      },
+      "widgets_values": [
+        70585885339598,
+        "fixed",
+        12,
+        3.75,
+        "lcm",
+        "normal",
+        1
+      ]
+    },
+    {
+      "id": 4,
+      "type": "CLIPTextEncode",
+      "pos": [
+        810,
+        3900
+      ],
+      "size": {
+        "0": 400,
+        "1": 200
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 4
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            5
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "city, text, caption, label, symbol, words, compass, key, legend, water, ocean, amateur, river, forest, mountains, hills"
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 16,
+      "type": "CLIPTextEncode",
+      "pos": [
+        -1250,
+        1780
+      ],
+      "size": {
+        "0": 400,
+        "1": 160
+      },
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 22
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            46
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "mountain range, section"
+      ]
+    },
+    {
       "id": 26,
       "type": "MultiAreaConditioning",
       "pos": [
@@ -800,67 +800,67 @@
             0,
             1152,
             1152,
-            1
+            1.25
           ],
           [
-            0,
-            0,
+            64,
+            64,
             384,
             384,
             0.5
           ],
           [
             384,
-            0,
+            64,
             384,
             384,
             0.5
           ],
           [
-            768,
-            0,
+            704,
+            64,
             384,
             384,
             0.5
           ],
           [
-            0,
-            384,
-            384,
-            384,
-            0.5
-          ],
-          [
-            384,
+            64,
             384,
             384,
             384,
             0.5
           ],
           [
-            768,
+            384,
+            384,
+            384,
+            384,
+            0.5
+          ],
+          [
+            704,
             384,
             384,
             384,
             0.5
           ],
           [
-            0,
-            768,
+            64,
+            704,
             384,
             384,
             0.5
           ],
           [
             384,
-            768,
+            704,
             384,
             384,
             0.5
           ],
           [
-            768,
-            768,
+            704,
+            704,
             384,
             384,
             0.5
@@ -872,12 +872,12 @@
         1152,
         1152,
         null,
-        0,
-        0,
-        0,
-        1152,
-        1152,
-        1
+        1,
+        64,
+        64,
+        384,
+        384,
+        0.5
       ]
     }
   ],
