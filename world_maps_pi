@@ -1,6 +1,6 @@
 {
   "last_node_id": 513,
-  "last_link_id": 1102,
+  "last_link_id": 1104,
   "nodes": [
     {
       "id": 182,
@@ -167,71 +167,6 @@
       }
     },
     {
-      "id": 301,
-      "type": "workflow/qwe",
-      "pos": [
-        -5650,
-        -380
-      ],
-      "size": {
-        "0": 210,
-        "1": 80
-      },
-      "flags": {
-        "collapsed": false
-      },
-      "order": 49,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "Max",
-          "type": "FLOAT",
-          "link": 699,
-          "widget": {
-            "name": "Max"
-          }
-        },
-        {
-          "name": "Min",
-          "type": "FLOAT",
-          "link": 698,
-          "widget": {
-            "name": "Min"
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "FLOAT",
-          "type": "FLOAT",
-          "links": [
-            682
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "middle FLOAT",
-          "type": "FLOAT",
-          "links": [
-            675,
-            676,
-            680
-          ],
-          "shape": 3,
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "workflow/qwe"
-      },
-      "widgets_values": [
-        0,
-        0,
-        0.5
-      ]
-    },
-    {
       "id": 310,
       "type": "Select From RGB Similarity",
       "pos": [
@@ -245,7 +180,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 79,
+      "order": 80,
       "mode": 0,
       "inputs": [
         {
@@ -401,45 +336,6 @@
       }
     },
     {
-      "id": 307,
-      "type": "FloatFromListIdx",
-      "pos": [
-        -5990,
-        -280
-      ],
-      "size": {
-        "0": 210,
-        "1": 60
-      },
-      "flags": {},
-      "order": 32,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "list",
-          "type": "LIST",
-          "link": 696
-        }
-      ],
-      "outputs": [
-        {
-          "name": "float",
-          "type": "FLOAT",
-          "links": [
-            698
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "FloatFromListIdx"
-      },
-      "widgets_values": [
-        2
-      ]
-    },
-    {
       "id": 309,
       "type": "FloatFromListIdx",
       "pos": [
@@ -554,85 +450,6 @@
       },
       "widgets_values": [
         5
-      ]
-    },
-    {
-      "id": 289,
-      "type": "Select From RGB Similarity",
-      "pos": [
-        -5396,
-        -436
-      ],
-      "size": {
-        "0": 220,
-        "1": 130
-      },
-      "flags": {
-        "collapsed": false
-      },
-      "order": 85,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": 1059,
-          "label": "height map"
-        },
-        {
-          "name": "r",
-          "type": "FLOAT",
-          "link": 680,
-          "widget": {
-            "name": "r"
-          },
-          "slot_index": 1
-        },
-        {
-          "name": "g",
-          "type": "FLOAT",
-          "link": 675,
-          "widget": {
-            "name": "g"
-          }
-        },
-        {
-          "name": "b",
-          "type": "FLOAT",
-          "link": 676,
-          "widget": {
-            "name": "b"
-          }
-        },
-        {
-          "name": "similarity",
-          "type": "FLOAT",
-          "link": 682,
-          "widget": {
-            "name": "similarity"
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            672,
-            673
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "Select From RGB Similarity"
-      },
-      "widgets_values": [
-        0.2,
-        0.2,
-        0.2,
-        0.026
       ]
     },
     {
@@ -1154,79 +971,6 @@
       ]
     },
     {
-      "id": 350,
-      "type": "Reroute",
-      "pos": [
-        -5990,
-        -1160
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 69,
-      "mode": 2,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 775
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "IMAGE",
-          "links": [
-            770,
-            772
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 352,
-      "type": "Reroute",
-      "pos": [
-        -5990,
-        -576.0842320354179
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 61,
-      "mode": 2,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 773
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "IMAGE",
-          "links": [
-            775
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
       "id": 351,
       "type": "Reroute",
       "pos": [
@@ -1238,7 +982,7 @@
         26
       ],
       "flags": {},
-      "order": 78,
+      "order": 79,
       "mode": 2,
       "inputs": [
         {
@@ -2218,31 +1962,6 @@
       ]
     },
     {
-      "id": 414,
-      "type": "PreviewImage",
-      "pos": [
-        -5937.204213616944,
-        1929.7231999999997
-      ],
-      "size": {
-        "0": 210,
-        "1": 250
-      },
-      "flags": {},
-      "order": 28,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 892
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "PreviewImage"
-      }
-    },
-    {
       "id": 412,
       "type": "FuncStrToStr",
       "pos": [
@@ -2297,7 +2016,7 @@
         "1": 220
       },
       "flags": {},
-      "order": 73,
+      "order": 74,
       "mode": 0,
       "inputs": [
         {
@@ -2337,7 +2056,7 @@
         "1": 220
       },
       "flags": {},
-      "order": 83,
+      "order": 84,
       "mode": 0,
       "inputs": [
         {
@@ -2437,7 +2156,7 @@
         "1": 220
       },
       "flags": {},
-      "order": 72,
+      "order": 73,
       "mode": 0,
       "inputs": [
         {
@@ -2477,7 +2196,7 @@
         "1": 220
       },
       "flags": {},
-      "order": 82,
+      "order": 83,
       "mode": 0,
       "inputs": [
         {
@@ -3138,42 +2857,6 @@
       }
     },
     {
-      "id": 418,
-      "type": "Reroute",
-      "pos": [
-        -5820,
-        1790
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 29,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 896
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "IMAGE",
-          "links": [
-            894
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
       "id": 438,
       "type": "Image RGBA Mod",
       "pos": [
@@ -3381,7 +3064,7 @@
         "1": 154
       },
       "flags": {},
-      "order": 74,
+      "order": 75,
       "mode": 0,
       "inputs": [
         {
@@ -3449,7 +3132,7 @@
         "1": 220
       },
       "flags": {},
-      "order": 71,
+      "order": 72,
       "mode": 0,
       "inputs": [
         {
@@ -3489,7 +3172,7 @@
         "1": 220
       },
       "flags": {},
-      "order": 81,
+      "order": 82,
       "mode": 0,
       "inputs": [
         {
@@ -3592,7 +3275,7 @@
         10,
         2,
         1,
-        1980,
+        557,
         "randomize",
         0,
         4,
@@ -3962,7 +3645,7 @@
         10,
         2,
         1,
-        539,
+        1904,
         "randomize",
         0,
         4,
@@ -4044,48 +3727,12 @@
         10,
         2,
         1,
-        214,
+        506,
         "randomize",
         0,
         4,
         true
       ]
-    },
-    {
-      "id": 320,
-      "type": "Reroute",
-      "pos": [
-        -6100,
-        1350
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 30,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 1051
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "IMAGE",
-          "links": [
-            883
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
     },
     {
       "id": 465,
@@ -4163,7 +3810,7 @@
         10,
         2,
         1,
-        948,
+        108,
         "randomize",
         0,
         4,
@@ -4182,7 +3829,7 @@
         "1": 250
       },
       "flags": {},
-      "order": 75,
+      "order": 76,
       "mode": 0,
       "inputs": [
         {
@@ -4218,43 +3865,6 @@
       ],
       "properties": {
         "Node name for S&R": "PreviewImage"
-      }
-    },
-    {
-      "id": 296,
-      "type": "Reroute",
-      "pos": [
-        -5990,
-        230
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 47,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 883
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "IMAGE",
-          "links": [
-            773,
-            884
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
       }
     },
     {
@@ -4340,7 +3950,7 @@
         26
       ],
       "flags": {},
-      "order": 77,
+      "order": 78,
       "mode": 0,
       "inputs": [
         {
@@ -4353,9 +3963,7 @@
         {
           "name": "",
           "type": "IMAGE",
-          "links": [
-            1059
-          ],
+          "links": [],
           "slot_index": 0
         }
       ],
@@ -4376,7 +3984,7 @@
         "1": 250
       },
       "flags": {},
-      "order": 76,
+      "order": 77,
       "mode": 0,
       "inputs": [
         {
@@ -4388,61 +3996,6 @@
       "properties": {
         "Node name for S&R": "PreviewImage"
       }
-    },
-    {
-      "id": 499,
-      "type": "FuncAnysToImage",
-      "pos": [
-        -9350,
-        400
-      ],
-      "size": {
-        "0": 400,
-        "1": 200
-      },
-      "flags": {},
-      "order": 67,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "any1",
-          "type": "*",
-          "link": 1053
-        },
-        {
-          "name": "any2",
-          "type": "*",
-          "link": 1056
-        },
-        {
-          "name": "any3",
-          "type": "*",
-          "link": null
-        },
-        {
-          "name": "any4",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            1057,
-            1058
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "FuncAnysToImage"
-      },
-      "widgets_values": [
-        "texs=.90\nmaps = 1-texs\nyy = ((any1 -.1)*(maps))*((any2-.5)*(texs))\ny = any2+(yy)"
-      ]
     },
     {
       "id": 280,
@@ -4470,82 +4023,6 @@
       }
     },
     {
-      "id": 417,
-      "type": "PerlinFractalImage",
-      "pos": [
-        -6500,
-        2060
-      ],
-      "size": {
-        "0": 320,
-        "1": 340
-      },
-      "flags": {},
-      "order": 17,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "width",
-          "type": "INT",
-          "link": 1025,
-          "widget": {
-            "name": "width"
-          }
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "link": 1024,
-          "widget": {
-            "name": "height"
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "Image",
-          "type": "IMAGE",
-          "links": [
-            892,
-            896,
-            1051,
-            1056,
-            1060
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "Grayscale Image",
-          "type": "IMAGE",
-          "links": null,
-          "shape": 3
-        },
-        {
-          "name": "Mask",
-          "type": "MASK",
-          "links": null,
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "PerlinFractalImage"
-      },
-      "widgets_values": [
-        512,
-        512,
-        0.002,
-        3,
-        2,
-        0.5,
-        795,
-        "randomize",
-        0,
-        4,
-        true
-      ]
-    },
-    {
       "id": 503,
       "type": "PreviewImage",
       "pos": [
@@ -4564,79 +4041,6 @@
           "name": "images",
           "type": "IMAGE",
           "link": 1061
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "PreviewImage"
-      }
-    },
-    {
-      "id": 94,
-      "type": "Image Perlin Noise",
-      "pos": [
-        -6550,
-        1620
-      ],
-      "size": {
-        "0": 320,
-        "1": 200
-      },
-      "flags": {},
-      "order": 41,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "seed",
-          "type": "INT",
-          "link": 509,
-          "widget": {
-            "name": "seed"
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "links": [
-            895
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "Image Perlin Noise"
-      },
-      "widgets_values": [
-        512,
-        512,
-        100,
-        2,
-        0.5,
-        458986027732045,
-        "increment"
-      ]
-    },
-    {
-      "id": 419,
-      "type": "PreviewImage",
-      "pos": [
-        -6120,
-        1590
-      ],
-      "size": {
-        "0": 210,
-        "1": 250
-      },
-      "flags": {},
-      "order": 55,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 895
         }
       ],
       "properties": {
@@ -4838,7 +4242,7 @@
         "1": 400
       },
       "flags": {},
-      "order": 80,
+      "order": 81,
       "mode": 0,
       "inputs": [
         {
@@ -4865,7 +4269,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 70,
+      "order": 71,
       "mode": 0,
       "inputs": [
         {
@@ -5280,7 +4684,7 @@
         "1": 220
       },
       "flags": {},
-      "order": 84,
+      "order": 85,
       "mode": 0,
       "inputs": [
         {
@@ -5370,101 +4774,6 @@
         "showOutputText": false,
         "horizontal": false
       }
-    },
-    {
-      "id": 488,
-      "type": "workflow/tex ocean",
-      "pos": [
-        -6020,
-        690
-      ],
-      "size": {
-        "0": 320,
-        "1": 770
-      },
-      "flags": {},
-      "order": 68,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "seed",
-          "type": "INT",
-          "link": 1020,
-          "widget": {
-            "name": "seed"
-          }
-        },
-        {
-          "name": "width",
-          "type": "INT",
-          "link": 1021,
-          "widget": {
-            "name": "width"
-          }
-        },
-        {
-          "name": "height",
-          "type": "INT",
-          "link": 1022,
-          "widget": {
-            "name": "height"
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "Grayscale Image",
-          "type": "IMAGE",
-          "links": [],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "Mask",
-          "type": "MASK",
-          "links": null,
-          "shape": 3
-        },
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            1079,
-            1102
-          ],
-          "shape": 3,
-          "slot_index": 2
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "workflow/tex ocean"
-      },
-      "widgets_values": [
-        0.12,
-        3,
-        1,
-        1,
-        0,
-        4,
-        false,
-        414,
-        "randomize",
-        256,
-        256,
-        0,
-        0,
-        0,
-        0.25000000000000017,
-        0,
-        "area",
-        0.125,
-        "bicubic",
-        8,
-        0.4320001220703126,
-        0.47200012207031244,
-        1,
-        1
-      ]
     },
     {
       "id": 444,
@@ -5557,6 +4866,721 @@
       }
     },
     {
+      "id": 507,
+      "type": "PreviewImage",
+      "pos": [
+        -5220,
+        790
+      ],
+      "size": [
+        360,
+        390
+      ],
+      "flags": {},
+      "order": 110,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 1071
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    },
+    {
+      "id": 488,
+      "type": "workflow/tex ocean",
+      "pos": [
+        -5980,
+        720
+      ],
+      "size": {
+        "0": 320,
+        "1": 770
+      },
+      "flags": {},
+      "order": 68,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "seed",
+          "type": "INT",
+          "link": 1020,
+          "widget": {
+            "name": "seed"
+          }
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "link": 1021,
+          "widget": {
+            "name": "width"
+          }
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "link": 1022,
+          "widget": {
+            "name": "height"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Grayscale Image",
+          "type": "IMAGE",
+          "links": [],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "Mask",
+          "type": "MASK",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            1079,
+            1102
+          ],
+          "shape": 3,
+          "slot_index": 2
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "workflow/tex ocean"
+      },
+      "widgets_values": [
+        0.12,
+        3,
+        1,
+        1,
+        0,
+        4,
+        false,
+        563,
+        "randomize",
+        256,
+        256,
+        0,
+        0,
+        0,
+        0.25000000000000017,
+        0,
+        "area",
+        0.125,
+        "bicubic",
+        8,
+        0.4320001220703126,
+        0.47200012207031244,
+        1,
+        1
+      ]
+    },
+    {
+      "id": 418,
+      "type": "Reroute",
+      "pos": [
+        -5810,
+        1790
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 29,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 896
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            894
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 289,
+      "type": "Select From RGB Similarity",
+      "pos": [
+        -5380,
+        -430
+      ],
+      "size": {
+        "0": 220,
+        "1": 130
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 70,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 1103,
+          "label": "height map"
+        },
+        {
+          "name": "r",
+          "type": "FLOAT",
+          "link": 680,
+          "widget": {
+            "name": "r"
+          },
+          "slot_index": 1
+        },
+        {
+          "name": "g",
+          "type": "FLOAT",
+          "link": 675,
+          "widget": {
+            "name": "g"
+          }
+        },
+        {
+          "name": "b",
+          "type": "FLOAT",
+          "link": 676,
+          "widget": {
+            "name": "b"
+          }
+        },
+        {
+          "name": "similarity",
+          "type": "FLOAT",
+          "link": 682,
+          "widget": {
+            "name": "similarity"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            672,
+            673
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Select From RGB Similarity"
+      },
+      "widgets_values": [
+        0.2,
+        0.2,
+        0.2,
+        0.026
+      ]
+    },
+    {
+      "id": 307,
+      "type": "FloatFromListIdx",
+      "pos": [
+        -5990,
+        -220
+      ],
+      "size": {
+        "0": 210,
+        "1": 60
+      },
+      "flags": {},
+      "order": 32,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "list",
+          "type": "LIST",
+          "link": 696
+        }
+      ],
+      "outputs": [
+        {
+          "name": "float",
+          "type": "FLOAT",
+          "links": [
+            698
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "FloatFromListIdx"
+      },
+      "widgets_values": [
+        2
+      ]
+    },
+    {
+      "id": 301,
+      "type": "workflow/qwe",
+      "pos": [
+        -5670,
+        -310
+      ],
+      "size": {
+        "0": 210,
+        "1": 80
+      },
+      "flags": {
+        "collapsed": false
+      },
+      "order": 49,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Max",
+          "type": "FLOAT",
+          "link": 699,
+          "widget": {
+            "name": "Max"
+          }
+        },
+        {
+          "name": "Min",
+          "type": "FLOAT",
+          "link": 698,
+          "widget": {
+            "name": "Min"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            682
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "middle FLOAT",
+          "type": "FLOAT",
+          "links": [
+            675,
+            676,
+            680
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "workflow/qwe"
+      },
+      "widgets_values": [
+        0,
+        0,
+        0.5
+      ]
+    },
+    {
+      "id": 499,
+      "type": "FuncAnysToImage",
+      "pos": [
+        -9400,
+        350
+      ],
+      "size": {
+        "0": 400,
+        "1": 200
+      },
+      "flags": {},
+      "order": 67,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "any1",
+          "type": "*",
+          "link": 1053
+        },
+        {
+          "name": "any2",
+          "type": "*",
+          "link": 1056
+        },
+        {
+          "name": "any3",
+          "type": "*",
+          "link": null
+        },
+        {
+          "name": "any4",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            1057,
+            1058
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "FuncAnysToImage"
+      },
+      "widgets_values": [
+        "texs=.90\nmaps = 1-texs\nyy = ((any1 -.1)*(maps))*((any2-.5)*(texs))\ny = any2+(yy)"
+      ]
+    },
+    {
+      "id": 419,
+      "type": "PreviewImage",
+      "pos": [
+        -6940,
+        1720
+      ],
+      "size": {
+        "0": 210,
+        "1": 250
+      },
+      "flags": {},
+      "order": 55,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 895
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    },
+    {
+      "id": 94,
+      "type": "Image Perlin Noise",
+      "pos": [
+        -7350,
+        1700
+      ],
+      "size": {
+        "0": 320,
+        "1": 200
+      },
+      "flags": {},
+      "order": 41,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "seed",
+          "type": "INT",
+          "link": 509,
+          "widget": {
+            "name": "seed"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            895
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Image Perlin Noise"
+      },
+      "widgets_values": [
+        512,
+        512,
+        100,
+        2,
+        0.5,
+        458986027732049,
+        "increment"
+      ]
+    },
+    {
+      "id": 417,
+      "type": "PerlinFractalImage",
+      "pos": [
+        -6560,
+        1940
+      ],
+      "size": {
+        "0": 320,
+        "1": 340
+      },
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "width",
+          "type": "INT",
+          "link": 1025,
+          "widget": {
+            "name": "width"
+          }
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "link": 1024,
+          "widget": {
+            "name": "height"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Image",
+          "type": "IMAGE",
+          "links": [
+            892,
+            896,
+            1051,
+            1056,
+            1060
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "Grayscale Image",
+          "type": "IMAGE",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "Mask",
+          "type": "MASK",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PerlinFractalImage"
+      },
+      "widgets_values": [
+        512,
+        512,
+        0.002,
+        4,
+        2,
+        0.5,
+        45,
+        "randomize",
+        0,
+        4,
+        true
+      ]
+    },
+    {
+      "id": 414,
+      "type": "PreviewImage",
+      "pos": [
+        -5930,
+        1960
+      ],
+      "size": {
+        "0": 210,
+        "1": 250
+      },
+      "flags": {},
+      "order": 28,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 892
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    },
+    {
+      "id": 320,
+      "type": "Reroute",
+      "pos": [
+        -6260,
+        1350
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 30,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1051
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            883
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 296,
+      "type": "Reroute",
+      "pos": [
+        -6080,
+        280
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 47,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 883
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            884,
+            1104
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 350,
+      "type": "Reroute",
+      "pos": [
+        -5990,
+        -1160
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 69,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 775
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            770,
+            772
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 352,
+      "type": "Reroute",
+      "pos": [
+        -5990,
+        -580
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 61,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 1104
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            775,
+            1103
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
       "id": 506,
       "type": "FuncAnysToImage",
       "pos": [
@@ -5564,8 +5588,8 @@
         800
       ],
       "size": [
-        230,
-        530
+        210,
+        760
       ],
       "flags": {},
       "order": 105,
@@ -5616,33 +5640,8 @@
         "Node name for S&R": "FuncAnysToImage"
       },
       "widgets_values": [
-        "x_image = any2\nany2=any1[0]\nany1=any1[1]\n\nmmax = any1\nmmin = any2\n\n\nmrng = mmax-mmin\nr=mrng/2\nc= mmin+(mrng/2)\n\nx=x_image\n\nx=x - c\nx[x<-r]=-r\nx[x>r]=r\nx=x+c\n# x[x==(r+c)]=0\n# x[x==(-r+c)]=0\nx = x-c+r\nx=x/(r*2)\ny=x\n\nany3=any3.clone()\nany4=any4.clone()\n# invert\nany4[:,:,:,:3] = y*any4[:,:,:,:3] \ny = 1-y\nany3[:,:,:,:3] = y*any3[:,:,:,:3] \n\nimport torch\ny = any3+any4\ny = y[:,:,:,:3]\n"
+        "x_image = any2\nar_in = list(any1)\n\n\nmmax = ar_in[1]\nmmin = ar_in[0]\n\n\nmrng = mmax-mmin\nr=mrng/2\nc= mmin+(mrng/2)\n\nx=x_image\n\nx=x - c\nx[x<-r]=-r\nx[x>r]=r\nx=x+c\n# x[x==(r+c)]=0\n# x[x==(-r+c)]=0\nx = x-c+r\nx=x/(r*2)\ny=x\n\nany3=any3.clone()\nany4=any4.clone()\n# invert\nany3[:,:,:,:3] = y*any3[:,:,:,:3] \ny = 1-y\nany4[:,:,:,:3] = y*any4[:,:,:,:3] \n\nimport torch\ny = any3+any4\ny = y[:,:,:,:3]\n"
       ]
-    },
-    {
-      "id": 507,
-      "type": "PreviewImage",
-      "pos": [
-        -5220,
-        790
-      ],
-      "size": [
-        360,
-        390
-      ],
-      "flags": {},
-      "order": 110,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 1071
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "PreviewImage"
-      }
     }
   ],
   "links": [
@@ -6205,14 +6204,6 @@
       310,
       0,
       "IMAGE"
-    ],
-    [
-      773,
-      296,
-      0,
-      352,
-      0,
-      "*"
     ],
     [
       775,
@@ -6943,14 +6934,6 @@
       "*"
     ],
     [
-      1059,
-      501,
-      0,
-      289,
-      0,
-      "IMAGE"
-    ],
-    [
       1060,
       417,
       0,
@@ -7100,6 +7083,22 @@
       2,
       506,
       3,
+      "*"
+    ],
+    [
+      1103,
+      352,
+      0,
+      289,
+      0,
+      "IMAGE"
+    ],
+    [
+      1104,
+      296,
+      0,
+      352,
+      0,
       "*"
     ]
   ],
