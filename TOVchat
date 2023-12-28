@@ -1,41 +1,7 @@
 {
-  "last_node_id": 8,
-  "last_link_id": 6,
+  "last_node_id": 12,
+  "last_link_id": 13,
   "nodes": [
-    {
-      "id": 1,
-      "type": "RequestInput",
-      "pos": [
-        -1632.9163630821245,
-        -1917.9626837630303
-      ],
-      "size": {
-        "0": 310,
-        "1": 220
-      },
-      "flags": {},
-      "order": 0,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            5
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "RequestInput"
-      },
-      "widgets_values": [
-        "prompt",
-        "hi",
-        ""
-      ]
-    },
     {
       "id": 2,
       "type": "SaveLastExec",
@@ -48,7 +14,7 @@
         "1": 58
       },
       "flags": {},
-      "order": 1,
+      "order": 0,
       "mode": 0,
       "outputs": [
         {
@@ -80,7 +46,7 @@
         "1": 80
       },
       "flags": {},
-      "order": 4,
+      "order": 3,
       "mode": 0,
       "inputs": [
         {
@@ -116,7 +82,7 @@
         "1": 200
       },
       "flags": {},
-      "order": 2,
+      "order": 1,
       "mode": 0,
       "outputs": [
         {
@@ -157,7 +123,7 @@
         "1": 80
       },
       "flags": {},
-      "order": 5,
+      "order": 4,
       "mode": 0,
       "inputs": [
         {
@@ -178,15 +144,149 @@
         "Node name for S&R": "Show Text"
       },
       "widgets_values": [
-        "fb4e793f-c0de-4ece-9c98-1033d5a3a4e4"
+        "dbffcbff-940f-40b9-996d-07713a7d7bb1"
       ]
     },
     {
-      "id": 6,
-      "type": "SetApiResultKV",
+      "id": 1,
+      "type": "RequestInput",
       "pos": [
-        -692.9163630821245,
-        -1827.9626837630303
+        -2443.8106049197395,
+        -1800.042440121977
+      ],
+      "size": {
+        "0": 310,
+        "1": 220
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            11
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "RequestInput"
+      },
+      "widgets_values": [
+        "prompt",
+        "hi",
+        ""
+      ]
+    },
+    {
+      "id": 11,
+      "type": "LLMMessage",
+      "pos": [
+        -2103.8106049197395,
+        -1820.042440121977
+      ],
+      "size": [
+        210,
+        90
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "list",
+          "type": "LIST",
+          "link": null
+        },
+        {
+          "name": "content",
+          "type": "STRING",
+          "link": 11,
+          "widget": {
+            "name": "content"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "dict",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": [
+            12
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMMessage"
+      },
+      "widgets_values": [
+        "user",
+        "message content"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "LLMMessage",
+      "pos": [
+        -1834,
+        -1790
+      ],
+      "size": {
+        "0": 400,
+        "1": 200
+      },
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "list",
+          "type": "LIST",
+          "link": 12
+        }
+      ],
+      "outputs": [
+        {
+          "name": "dict",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": [
+            10
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMMessage"
+      },
+      "widgets_values": [
+        "assistant",
+        "HELLO!"
+      ]
+    },
+    {
+      "id": 9,
+      "type": "FuncAnysToString",
+      "pos": [
+        -1360,
+        -1770
       ],
       "size": {
         "0": 400,
@@ -194,6 +294,97 @@
       },
       "flags": {},
       "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "any1",
+          "type": "*",
+          "link": 10
+        },
+        {
+          "name": "any2",
+          "type": "*",
+          "link": null
+        },
+        {
+          "name": "any3",
+          "type": "*",
+          "link": null
+        },
+        {
+          "name": "any4",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            9,
+            13
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "FuncAnysToString"
+      },
+      "widgets_values": [
+        "import json\ny= json.dumps(any1)\n"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "Show Text",
+      "pos": [
+        -820,
+        -1530
+      ],
+      "size": [
+        330,
+        90
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "link": 13
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Show Text"
+      },
+      "widgets_values": [
+        "[{\"role\": \"user\", \"content\": \"Hi from bubble!!\"}, {\"role\": \"assistant\", \"content\": \"HELLO!\"}]"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "SetApiResultKV",
+      "pos": [
+        -810,
+        -1820
+      ],
+      "size": {
+        "0": 400,
+        "1": 200
+      },
+      "flags": {},
+      "order": 8,
       "mode": 0,
       "inputs": [
         {
@@ -209,7 +400,7 @@
         {
           "name": "text",
           "type": "STRING",
-          "link": 3,
+          "link": 9,
           "widget": {
             "name": "text"
           },
@@ -238,90 +429,7 @@
       "widgets_values": [
         "maps",
         "",
-        "image/jpeg",
-        ""
-      ]
-    },
-    {
-      "id": 7,
-      "type": "Text box",
-      "pos": [
-        -1642.9163630821245,
-        -1627.9626837630303
-      ],
-      "size": {
-        "0": 400,
-        "1": 200
-      },
-      "flags": {},
-      "order": 3,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            6
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "Text box"
-      },
-      "widgets_values": [
-        ""
-      ]
-    },
-    {
-      "id": 8,
-      "type": "TextConcatNewLine",
-      "pos": [
-        -1202.9163630821245,
-        -1777.9626837630303
-      ],
-      "size": {
-        "0": 400,
-        "1": 200
-      },
-      "flags": {},
-      "order": 6,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "text",
-          "type": "STRING",
-          "link": 5,
-          "widget": {
-            "name": "text"
-          }
-        },
-        {
-          "name": "text2",
-          "type": "STRING",
-          "link": 6,
-          "widget": {
-            "name": "text2"
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            3
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "TextConcatNewLine"
-      },
-      "widgets_values": [
-        "",
+        "application/json",
         ""
       ]
     }
@@ -344,36 +452,52 @@
       "*"
     ],
     [
+      4,
+      4,
+      1,
+      6,
       3,
-      8,
+      "STRING"
+    ],
+    [
+      9,
+      9,
       0,
       6,
       2,
       "STRING"
     ],
     [
-      4,
-      4,
+      10,
+      10,
       1,
-      6,
-      3,
+      9,
+      0,
+      "*"
+    ],
+    [
+      11,
+      1,
+      0,
+      11,
+      1,
       "STRING"
     ],
     [
-      5,
+      12,
+      11,
       1,
+      10,
       0,
-      8,
-      0,
-      "STRING"
+      "LIST"
     ],
     [
-      6,
-      7,
+      13,
+      9,
       0,
-      8,
-      1,
-      "STRING"
+      12,
+      0,
+      "*"
     ]
   ],
   "groups": [],
