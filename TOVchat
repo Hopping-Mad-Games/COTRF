@@ -1,152 +1,7 @@
 {
-  "last_node_id": 12,
-  "last_link_id": 13,
+  "last_node_id": 19,
+  "last_link_id": 23,
   "nodes": [
-    {
-      "id": 2,
-      "type": "SaveLastExec",
-      "pos": [
-        -1020.9163630821245,
-        -1364.9626837630303
-      ],
-      "size": {
-        "0": 315,
-        "1": 58
-      },
-      "flags": {},
-      "order": 0,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            1
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "SaveLastExec"
-      },
-      "widgets_values": [
-        "TOVChat"
-      ]
-    },
-    {
-      "id": 3,
-      "type": "Show Text",
-      "pos": [
-        -652.9163630821245,
-        -1357.9626837630303
-      ],
-      "size": {
-        "0": 320,
-        "1": 80
-      },
-      "flags": {},
-      "order": 3,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "text",
-          "type": "*",
-          "link": 1
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING_OUT",
-          "type": "STRING",
-          "links": null,
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "Show Text"
-      },
-      "widgets_values": [
-        "Saved last execution graph to saved_requests.json"
-      ]
-    },
-    {
-      "id": 4,
-      "type": "UUIDNode",
-      "pos": [
-        -1172.9163630821245,
-        -2187.9626837630303
-      ],
-      "size": {
-        "0": 400,
-        "1": 200
-      },
-      "flags": {},
-      "order": 1,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "uuid",
-          "type": "UUID",
-          "links": null,
-          "shape": 3
-        },
-        {
-          "name": "uuid_string",
-          "type": "STRING",
-          "links": [
-            2,
-            4
-          ],
-          "shape": 3,
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "UUIDNode"
-      },
-      "widgets_values": [
-        "generated",
-        "",
-        0
-      ]
-    },
-    {
-      "id": 5,
-      "type": "Show Text",
-      "pos": [
-        -632.9163630821245,
-        -2157.9626837630303
-      ],
-      "size": {
-        "0": 320,
-        "1": 80
-      },
-      "flags": {},
-      "order": 4,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "text",
-          "type": "*",
-          "link": 2
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING_OUT",
-          "type": "STRING",
-          "links": null,
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "Show Text"
-      },
-      "widgets_values": [
-        "dbffcbff-940f-40b9-996d-07713a7d7bb1"
-      ]
-    },
     {
       "id": 1,
       "type": "RequestInput",
@@ -159,7 +14,7 @@
         "1": 220
       },
       "flags": {},
-      "order": 2,
+      "order": 0,
       "mode": 0,
       "outputs": [
         {
@@ -182,18 +37,73 @@
       ]
     },
     {
+      "id": 9,
+      "type": "FuncAnysToString",
+      "pos": [
+        -1360,
+        -1770
+      ],
+      "size": {
+        "0": 400,
+        "1": 200
+      },
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "any1",
+          "type": "*",
+          "link": 10
+        },
+        {
+          "name": "any2",
+          "type": "*",
+          "link": null
+        },
+        {
+          "name": "any3",
+          "type": "*",
+          "link": null
+        },
+        {
+          "name": "any4",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            13,
+            18
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "FuncAnysToString"
+      },
+      "widgets_values": [
+        "import json\ny= json.dumps(any1)\n"
+      ]
+    },
+    {
       "id": 11,
       "type": "LLMMessage",
       "pos": [
-        -2103.8106049197395,
-        -1820.042440121977
+        -2110,
+        -1800
       ],
-      "size": [
-        210,
-        90
-      ],
+      "size": {
+        "0": 210,
+        "1": 90
+      },
       "flags": {},
-      "order": 5,
+      "order": 3,
       "mode": 0,
       "inputs": [
         {
@@ -239,7 +149,7 @@
       "id": 10,
       "type": "LLMMessage",
       "pos": [
-        -1834,
+        -1860,
         -1790
       ],
       "size": {
@@ -282,73 +192,50 @@
       ]
     },
     {
-      "id": 9,
-      "type": "FuncAnysToString",
+      "id": 2,
+      "type": "SaveLastExec",
       "pos": [
-        -1360,
-        -1770
+        -1171.3597774468997,
+        -737.6452527661131
       ],
       "size": {
-        "0": 400,
-        "1": 200
+        "0": 315,
+        "1": 58
       },
       "flags": {},
-      "order": 7,
+      "order": 1,
       "mode": 0,
-      "inputs": [
-        {
-          "name": "any1",
-          "type": "*",
-          "link": 10
-        },
-        {
-          "name": "any2",
-          "type": "*",
-          "link": null
-        },
-        {
-          "name": "any3",
-          "type": "*",
-          "link": null
-        },
-        {
-          "name": "any4",
-          "type": "*",
-          "link": null
-        }
-      ],
       "outputs": [
         {
           "name": "STRING",
           "type": "STRING",
           "links": [
-            9,
-            13
+            1
           ],
           "shape": 3,
           "slot_index": 0
         }
       ],
       "properties": {
-        "Node name for S&R": "FuncAnysToString"
+        "Node name for S&R": "SaveLastExec"
       },
       "widgets_values": [
-        "import json\ny= json.dumps(any1)\n"
+        "TOVChat"
       ]
     },
     {
       "id": 12,
       "type": "Show Text",
       "pos": [
-        -820,
-        -1530
+        -1280,
+        -1540
       ],
-      "size": [
-        330,
-        90
-      ],
+      "size": {
+        "0": 330,
+        "1": 90
+      },
       "flags": {},
-      "order": 9,
+      "order": 8,
       "mode": 0,
       "inputs": [
         {
@@ -373,18 +260,95 @@
       ]
     },
     {
+      "id": 3,
+      "type": "Show Text",
+      "pos": [
+        -831,
+        -758
+      ],
+      "size": {
+        "0": 320,
+        "1": 80
+      },
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "link": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Show Text"
+      },
+      "widgets_values": [
+        "Saved last execution graph to saved_requests.json"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "UUIDNode",
+      "pos": [
+        -1210,
+        -2190
+      ],
+      "size": [
+        210,
+        144
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "uuid",
+          "type": "UUID",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "uuid_string",
+          "type": "STRING",
+          "links": [
+            2,
+            4
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "UUIDNode"
+      },
+      "widgets_values": [
+        "generated",
+        "",
+        0
+      ]
+    },
+    {
       "id": 6,
       "type": "SetApiResultKV",
       "pos": [
-        -810,
-        -1820
+        -700,
+        -1930
       ],
-      "size": {
-        "0": 400,
-        "1": 200
-      },
+      "size": [
+        400,
+        200
+      ],
       "flags": {},
-      "order": 8,
+      "order": 9,
       "mode": 0,
       "inputs": [
         {
@@ -400,7 +364,7 @@
         {
           "name": "text",
           "type": "STRING",
-          "link": 9,
+          "link": null,
           "widget": {
             "name": "text"
           },
@@ -412,6 +376,14 @@
           "link": 4,
           "widget": {
             "name": "uuid"
+          }
+        },
+        {
+          "name": "json_str",
+          "type": "STRING",
+          "link": 18,
+          "widget": {
+            "name": "json_str"
           }
         }
       ],
@@ -427,10 +399,47 @@
         "Node name for S&R": "SetApiResultKV"
       },
       "widgets_values": [
-        "maps",
+        "conversation",
         "",
         "application/json",
+        "",
         ""
+      ]
+    },
+    {
+      "id": 5,
+      "type": "Show Text",
+      "pos": [
+        -690,
+        -1690
+      ],
+      "size": {
+        "0": 320,
+        "1": 80
+      },
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "link": 2
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Show Text"
+      },
+      "widgets_values": [
+        "6b59a39f-e40d-4e42-9310-c3dc153829ce"
       ]
     }
   ],
@@ -457,14 +466,6 @@
       1,
       6,
       3,
-      "STRING"
-    ],
-    [
-      9,
-      9,
-      0,
-      6,
-      2,
       "STRING"
     ],
     [
@@ -498,6 +499,14 @@
       12,
       0,
       "*"
+    ],
+    [
+      18,
+      9,
+      0,
+      6,
+      4,
+      "STRING"
     ]
   ],
   "groups": [],
