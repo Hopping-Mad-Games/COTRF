@@ -256,7 +256,7 @@
         "Node name for S&R": "Show Text"
       },
       "widgets_values": [
-        "[{\"role\": \"user\", \"content\": \"Hi from bubble!!\"}, {\"role\": \"assistant\", \"content\": \"HELLO!\"}]"
+        "[{\"role\": \"user\", \"content\": \"hi\"}, {\"role\": \"assistant\", \"content\": \"HELLO!\"}]"
       ]
     },
     {
