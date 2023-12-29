@@ -1,6 +1,6 @@
 {
-  "last_node_id": 32,
-  "last_link_id": 39,
+  "last_node_id": 35,
+  "last_link_id": 45,
   "nodes": [
     {
       "id": 2,
@@ -15,7 +15,7 @@
       },
       "flags": {},
       "order": 0,
-      "mode": 2,
+      "mode": 0,
       "outputs": [
         {
           "name": "STRING",
@@ -46,8 +46,8 @@
         "1": 80
       },
       "flags": {},
-      "order": 5,
-      "mode": 2,
+      "order": 6,
+      "mode": 0,
       "inputs": [
         {
           "name": "text",
@@ -71,18 +71,305 @@
       ]
     },
     {
+      "id": 29,
+      "type": "RequestInput",
+      "pos": [
+        -3110,
+        -1420
+      ],
+      "size": {
+        "0": 310,
+        "1": 220
+      },
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "overridden_value",
+          "type": "STRING",
+          "link": 42,
+          "widget": {
+            "name": "overridden_value"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            34
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "RequestInput"
+      },
+      "widgets_values": [
+        "thread_id",
+        "hi",
+        ""
+      ]
+    },
+    {
+      "id": 23,
+      "type": "AddMessageToThread",
+      "pos": [
+        -2400,
+        -1350
+      ],
+      "size": {
+        "0": 400,
+        "1": 200
+      },
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "thread_id",
+          "type": "THREAD_ID",
+          "link": 43
+        },
+        {
+          "name": "client",
+          "type": "API_CLIENT",
+          "link": null
+        },
+        {
+          "name": "content",
+          "type": "STRING",
+          "link": 28,
+          "widget": {
+            "name": "content"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "THREAD_ID",
+          "type": "THREAD_ID",
+          "links": [
+            27
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "AddMessageToThread"
+      },
+      "widgets_values": [
+        "user",
+        ""
+      ]
+    },
+    {
+      "id": 1,
+      "type": "RequestInput",
+      "pos": [
+        -3080,
+        -1940
+      ],
+      "size": {
+        "0": 310,
+        "1": 220
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            28,
+            37
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "RequestInput"
+      },
+      "widgets_values": [
+        "prompt",
+        "hi",
+        ""
+      ]
+    },
+    {
+      "id": 4,
+      "type": "UUIDNode",
+      "pos": [
+        -1030,
+        -2150
+      ],
+      "size": {
+        "0": 210,
+        "1": 144
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "uuid",
+          "type": "UUID",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "uuid_string",
+          "type": "STRING",
+          "links": [
+            2,
+            4
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "UUIDNode"
+      },
+      "widgets_values": [
+        "generated",
+        "",
+        0
+      ]
+    },
+    {
+      "id": 30,
+      "type": "StringToThreadID",
+      "pos": [
+        -2760,
+        -1390
+      ],
+      "size": {
+        "0": 210,
+        "1": 34
+      },
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "string",
+          "type": "STRING",
+          "link": 34,
+          "widget": {
+            "name": "string"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "THREAD_ID",
+          "type": "THREAD_ID",
+          "links": [
+            43
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "StringToThreadID"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 34,
+      "type": "ThreadIDToString",
+      "pos": [
+        -3370,
+        -1400
+      ],
+      "size": {
+        "0": 210,
+        "1": 26
+      },
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "thread_id",
+          "type": "THREAD_ID",
+          "link": 40
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            42
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ThreadIDToString"
+      }
+    },
+    {
+      "id": 33,
+      "type": "CreateThread",
+      "pos": [
+        -3610,
+        -1410
+      ],
+      "size": {
+        "0": 210,
+        "1": 26
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "client",
+          "type": "API_CLIENT",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "THREAD_ID",
+          "type": "THREAD_ID",
+          "links": [
+            40
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CreateThread"
+      }
+    },
+    {
       "id": 6,
       "type": "SetApiResultKV",
       "pos": [
         -700,
         -1930
       ],
-      "size": [
-        400,
-        200
-      ],
+      "size": {
+        "0": 400,
+        "1": 200
+      },
       "flags": {},
-      "order": 15,
+      "order": 18,
       "mode": 0,
       "inputs": [
         {
@@ -133,7 +420,7 @@
         "Node name for S&R": "SetApiResultKV"
       },
       "widgets_values": [
-        "conversation",
+        "message",
         "",
         "application/json",
         "",
@@ -145,7 +432,7 @@
       "type": "Show Text",
       "pos": [
         -690,
-        -1690
+        -1680
       ],
       "size": {
         "0": 320,
@@ -173,260 +460,91 @@
         "Node name for S&R": "Show Text"
       },
       "widgets_values": [
-        "13b3c25d-8076-4a88-84ab-d404ad6a6b29"
-      ]
-    },
-    {
-      "id": 12,
-      "type": "Show Text",
-      "pos": [
-        -1100,
-        -1510
-      ],
-      "size": {
-        "0": 330,
-        "1": 90
-      },
-      "flags": {},
-      "order": 14,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "text",
-          "type": "*",
-          "link": 13
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING_OUT",
-          "type": "STRING",
-          "links": null,
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "Show Text"
-      },
-      "widgets_values": [
-        "[{\"role\": \"user\", \"content\": \"test\"}, {\"role\": \"assistant\", \"content\": \"HELLO!\"}]"
-      ]
-    },
-    {
-      "id": 27,
-      "type": "Show Text",
-      "pos": [
-        -1530,
-        -1430
-      ],
-      "size": {
-        "0": 330,
-        "1": 90
-      },
-      "flags": {},
-      "order": 11,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "text",
-          "type": "*",
-          "link": 32
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING_OUT",
-          "type": "STRING",
-          "links": null,
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "Show Text"
-      },
-      "widgets_values": [
-        "Hello! How can I assist you today?"
-      ]
-    },
-    {
-      "id": 29,
-      "type": "RequestInput",
-      "pos": [
-        -3110,
-        -1420
-      ],
-      "size": {
-        "0": 310,
-        "1": 220
-      },
-      "flags": {},
-      "order": 1,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            34
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "RequestInput"
-      },
-      "widgets_values": [
-        "thread_id",
-        "hi",
-        ""
-      ]
-    },
-    {
-      "id": 30,
-      "type": "StringToThreadID",
-      "pos": [
-        -2760,
-        -1390
-      ],
-      "size": [
-        210,
-        30
-      ],
-      "flags": {},
-      "order": 6,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "string",
-          "type": "STRING",
-          "link": 34,
-          "widget": {
-            "name": "string"
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "THREAD_ID",
-          "type": "THREAD_ID",
-          "links": [
-            35
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "StringToThreadID"
-      },
-      "widgets_values": [
-        ""
-      ]
-    },
-    {
-      "id": 23,
-      "type": "AddMessageToThread",
-      "pos": [
-        -2400,
-        -1350
-      ],
-      "size": [
-        400,
-        200
-      ],
-      "flags": {},
-      "order": 9,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "thread_id",
-          "type": "THREAD_ID",
-          "link": 35
-        },
-        {
-          "name": "client",
-          "type": "API_CLIENT",
-          "link": null
-        },
-        {
-          "name": "content",
-          "type": "STRING",
-          "link": 28,
-          "widget": {
-            "name": "content"
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "THREAD_ID",
-          "type": "THREAD_ID",
-          "links": [
-            27
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "AddMessageToThread"
-      },
-      "widgets_values": [
-        "user",
-        ""
+        "f93c01e1-6187-4201-a136-791cf665ab46"
       ]
     },
     {
       "id": 21,
       "type": "StringToAssistantID",
       "pos": [
-        -2310,
-        -1490
+        -2430,
+        -1710
       ],
       "size": {
         "0": 315,
         "1": 58
       },
       "flags": {},
-      "order": 2,
+      "order": 4,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "ASSISTANT_ID",
+          "type": "ASSISTANT_ID",
+          "links": [],
+          "shape": 3
+        }
+      ],
+      "title": "version 1",
+      "properties": {
+        "Node name for S&R": "StringToAssistantID"
+      },
+      "widgets_values": [
+        "asst_vDcX7LziF0mZf2w3vDTWcO0y"
+      ]
+    },
+    {
+      "id": 35,
+      "type": "StringToAssistantID",
+      "pos": [
+        -2420,
+        -1520
+      ],
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 5,
       "mode": 0,
       "outputs": [
         {
           "name": "ASSISTANT_ID",
           "type": "ASSISTANT_ID",
           "links": [
-            24
+            45
           ],
-          "shape": 3
+          "shape": 3,
+          "slot_index": 0
         }
       ],
+      "title": "version 2",
       "properties": {
         "Node name for S&R": "StringToAssistantID"
       },
       "widgets_values": [
-        "asst_O5MOqLvkzOSJqJ9ruvHlEk1T"
+        "asst_ECTCsqyXv4HvePgmNbOfbziq"
       ]
     },
     {
       "id": 20,
       "type": "AssistantCompletion",
       "pos": [
-        -1930,
-        -1430
+        -1990,
+        -1500
       ],
       "size": {
-        "0": 317.4000244140625,
-        "1": 66
+        "0": 211.60000610351562,
+        "1": 70
       },
       "flags": {},
-      "order": 10,
+      "order": 13,
       "mode": 0,
       "inputs": [
         {
           "name": "assistant_id",
           "type": "ASSISTANT_ID",
-          "link": 24,
+          "link": 45,
           "slot_index": 0
         },
         {
@@ -471,113 +589,60 @@
       }
     },
     {
-      "id": 1,
-      "type": "RequestInput",
+      "id": 27,
+      "type": "Show Text",
       "pos": [
-        -3080,
-        -1940
+        -1730,
+        -1420
       ],
       "size": {
-        "0": 310,
-        "1": 220
+        "0": 390,
+        "1": 370
       },
       "flags": {},
-      "order": 3,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            28,
-            37
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "RequestInput"
-      },
-      "widgets_values": [
-        "prompt",
-        "hi",
-        ""
-      ]
-    },
-    {
-      "id": 32,
-      "type": "LLMMessage",
-      "pos": [
-        -1790,
-        -1650
-      ],
-      "size": {
-        "0": 210,
-        "1": 140
-      },
-      "flags": {},
-      "order": 7,
+      "order": 14,
       "mode": 0,
       "inputs": [
         {
-          "name": "list",
-          "type": "LIST",
-          "link": null
-        },
-        {
-          "name": "content",
-          "type": "STRING",
-          "link": 37,
-          "widget": {
-            "name": "content"
-          }
+          "name": "text",
+          "type": "*",
+          "link": 32
         }
       ],
       "outputs": [
         {
-          "name": "dict",
-          "type": "DICT",
+          "name": "STRING_OUT",
+          "type": "STRING",
           "links": null,
           "shape": 3
-        },
-        {
-          "name": "history",
-          "type": "LIST",
-          "links": [
-            38
-          ],
-          "shape": 3,
-          "slot_index": 1
         }
       ],
       "properties": {
-        "Node name for S&R": "LLMMessage"
+        "Node name for S&R": "Show Text"
       },
       "widgets_values": [
-        "user",
-        "HELLO!"
+        "Hello! How can I assist you today? If you need help with anything related to Tales of the Valiant or any other topic, feel free to ask."
       ]
     },
     {
       "id": 31,
       "type": "LLMMessage",
       "pos": [
-        -1520,
-        -1650
+        -1710,
+        -1840
       ],
-      "size": [
-        210,
-        140
-      ],
+      "size": {
+        "0": 210,
+        "1": 140
+      },
       "flags": {},
-      "order": 12,
+      "order": 15,
       "mode": 0,
       "inputs": [
         {
           "name": "list",
           "type": "LIST",
-          "link": 38
+          "link": null
         },
         {
           "name": "content",
@@ -592,15 +657,16 @@
         {
           "name": "dict",
           "type": "DICT",
-          "links": null,
-          "shape": 3
+          "links": [
+            44
+          ],
+          "shape": 3,
+          "slot_index": 0
         },
         {
           "name": "history",
           "type": "LIST",
-          "links": [
-            39
-          ],
+          "links": [],
           "shape": 3,
           "slot_index": 1
         }
@@ -617,21 +683,21 @@
       "id": 9,
       "type": "FuncAnysToString",
       "pos": [
-        -1250,
-        -1880
+        -1460,
+        -1830
       ],
-      "size": [
-        310,
-        180
-      ],
+      "size": {
+        "0": 310,
+        "1": 180
+      },
       "flags": {},
-      "order": 13,
+      "order": 16,
       "mode": 0,
       "inputs": [
         {
           "name": "any1",
           "type": "*",
-          "link": 39
+          "link": 44
         },
         {
           "name": "any2",
@@ -665,48 +731,95 @@
         "Node name for S&R": "FuncAnysToString"
       },
       "widgets_values": [
-        "import json\ny= json.dumps(any1)\n"
+        "import json\ny= json.dumps(any1) \n"
       ]
     },
     {
-      "id": 4,
-      "type": "UUIDNode",
+      "id": 12,
+      "type": "Show Text",
       "pos": [
-        -1030,
-        -2150
+        -1060,
+        -1510
       ],
-      "size": [
-        210,
-        144
-      ],
+      "size": {
+        "0": 400,
+        "1": 380
+      },
       "flags": {},
-      "order": 4,
+      "order": 17,
       "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "link": 13
+        }
+      ],
       "outputs": [
         {
-          "name": "uuid",
-          "type": "UUID",
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Show Text"
+      },
+      "widgets_values": [
+        "{\"role\": \"assistant\", \"content\": \"Hello! How can I assist you today? If you need help with anything related to Tales of the Valiant or any other topic, feel free to ask.\"}"
+      ]
+    },
+    {
+      "id": 32,
+      "type": "LLMMessage",
+      "pos": [
+        -2500,
+        -1970
+      ],
+      "size": {
+        "0": 210,
+        "1": 140
+      },
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "list",
+          "type": "LIST",
+          "link": null
+        },
+        {
+          "name": "content",
+          "type": "STRING",
+          "link": 37,
+          "widget": {
+            "name": "content"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "dict",
+          "type": "DICT",
           "links": null,
           "shape": 3
         },
         {
-          "name": "uuid_string",
-          "type": "STRING",
-          "links": [
-            2,
-            4
-          ],
+          "name": "history",
+          "type": "LIST",
+          "links": [],
           "shape": 3,
           "slot_index": 1
         }
       ],
       "properties": {
-        "Node name for S&R": "UUIDNode"
+        "Node name for S&R": "LLMMessage"
       },
       "widgets_values": [
-        "generated",
-        "",
-        0
+        "user",
+        "HELLO!"
       ]
     }
   ],
@@ -752,14 +865,6 @@
       "STRING"
     ],
     [
-      24,
-      21,
-      0,
-      20,
-      0,
-      "ASSISTANT_ID"
-    ],
-    [
       27,
       23,
       0,
@@ -792,14 +897,6 @@
       "STRING"
     ],
     [
-      35,
-      30,
-      0,
-      23,
-      0,
-      "THREAD_ID"
-    ],
-    [
       36,
       20,
       0,
@@ -816,20 +913,44 @@
       "STRING"
     ],
     [
-      38,
-      32,
-      1,
-      31,
+      40,
+      33,
       0,
-      "LIST"
+      34,
+      0,
+      "THREAD_ID"
     ],
     [
-      39,
+      42,
+      34,
+      0,
+      29,
+      0,
+      "STRING"
+    ],
+    [
+      43,
+      30,
+      0,
+      23,
+      0,
+      "THREAD_ID"
+    ],
+    [
+      44,
       31,
-      1,
+      0,
       9,
       0,
       "*"
+    ],
+    [
+      45,
+      35,
+      0,
+      20,
+      0,
+      "ASSISTANT_ID"
     ]
   ],
   "groups": [],
