@@ -3,61 +3,11 @@
   "last_link_id": 32,
   "nodes": [
     {
-      "id": 7,
-      "type": "PreviewImage",
-      "pos": [
-        -4350,
-        2000
-      ],
-      "size": {
-        "0": 210,
-        "1": 250
-      },
-      "flags": {},
-      "order": 16,
-      "mode": 2,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 4
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "PreviewImage"
-      }
-    },
-    {
-      "id": 11,
-      "type": "PreviewImage",
-      "pos": [
-        -4240,
-        2360
-      ],
-      "size": {
-        "0": 210,
-        "1": 250
-      },
-      "flags": {},
-      "order": 13,
-      "mode": 2,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 7
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "PreviewImage"
-      }
-    },
-    {
       "id": 1,
       "type": "LoadHFDataset",
       "pos": [
-        -5530,
-        2230
+        -5545.7300000000005,
+        1961.3799999999997
       ],
       "size": {
         "0": 315,
@@ -83,65 +33,11 @@
       ]
     },
     {
-      "id": 10,
-      "type": "FuncAnysToImage",
-      "pos": [
-        -4840,
-        2460
-      ],
-      "size": {
-        "0": 410,
-        "1": 310
-      },
-      "flags": {},
-      "order": 9,
-      "mode": 2,
-      "inputs": [
-        {
-          "name": "any1",
-          "type": "*",
-          "link": 9
-        },
-        {
-          "name": "any2",
-          "type": "*",
-          "link": null
-        },
-        {
-          "name": "any3",
-          "type": "*",
-          "link": null
-        },
-        {
-          "name": "any4",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            7
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "FuncAnysToImage"
-      },
-      "widgets_values": [
-        "import torch\nimport diffusers\nfrom diffusers import StableDiffusionPipeline\nfrom diffusers import DDPMPipeline\n\nfrom datasets import load_dataset\nfrom torchvision import transforms\nfrom diffusers import DDPMScheduler\nfrom diffusers import UNet2DModel\ntorch.inference_mode(False)\n\n#import diffusers.models.lora\n\ntorch.load(any1)\n#any1(batch_size=1,num_inference_steps=10,output_type=\"tensor\")"
-      ]
-    },
-    {
       "id": 12,
       "type": "Text box",
       "pos": [
-        -5290,
-        2470
+        -5136.329852294917,
+        2102.159926147461
       ],
       "size": {
         "0": 400,
@@ -172,8 +68,8 @@
       "id": 2,
       "type": "DDPMPipline",
       "pos": [
-        -5260,
-        1980
+        -5158.3600000000015,
+        1740.4199815368636
       ],
       "size": {
         "0": 315,
@@ -205,8 +101,8 @@
       "id": 6,
       "type": "TensorToImage",
       "pos": [
-        -4610,
-        1980
+        -4508.3600000000015,
+        1740.4199815368636
       ],
       "size": {
         "0": 220,
@@ -354,8 +250,8 @@
       "id": 5,
       "type": "SampleDDPMPipline",
       "pos": [
-        -4860,
-        1980
+        -4758.3600000000015,
+        1740.4199815368636
       ],
       "size": {
         "0": 210,
@@ -394,8 +290,8 @@
       "id": 24,
       "type": "ETK_Tuple",
       "pos": [
-        -5738.18181818182,
-        2629.090909090909
+        -5651.061892034359,
+        2699.270946017178
       ],
       "size": {
         "0": 315,
@@ -611,8 +507,8 @@
       "id": 25,
       "type": "ETK_Tuple",
       "pos": [
-        -5738.18181818182,
-        2739.090909090909
+        -5651.061892034359,
+        2809.270946017178
       ],
       "size": {
         "0": 350,
@@ -781,44 +677,11 @@
       }
     },
     {
-      "id": 15,
-      "type": "ETK_Tuple",
-      "pos": [
-        -5738,
-        2529
-      ],
-      "size": {
-        "0": 315,
-        "1": 58
-      },
-      "flags": {},
-      "order": 7,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "TUPLE",
-          "type": "TUPLE",
-          "links": [
-            11,
-            28
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "ETK_Tuple"
-      },
-      "widgets_values": [
-        "(512,512,3)"
-      ]
-    },
-    {
       "id": 29,
       "type": "ETK_Tuple",
       "pos": [
-        -5740,
-        2840
+        -5652.880073852539,
+        2910.180036926269
       ],
       "size": {
         "0": 350,
@@ -902,6 +765,143 @@
         128,
         128,
         "center"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "FuncAnysToImage",
+      "pos": [
+        -4686.7300000000005,
+        2092.38
+      ],
+      "size": {
+        "0": 410,
+        "1": 310
+      },
+      "flags": {},
+      "order": 9,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "any1",
+          "type": "*",
+          "link": 9
+        },
+        {
+          "name": "any2",
+          "type": "*",
+          "link": null
+        },
+        {
+          "name": "any3",
+          "type": "*",
+          "link": null
+        },
+        {
+          "name": "any4",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            7
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "FuncAnysToImage"
+      },
+      "widgets_values": [
+        "import torch\nimport diffusers\nfrom diffusers import StableDiffusionPipeline\nfrom diffusers import DDPMPipeline\n\nfrom datasets import load_dataset\nfrom torchvision import transforms\nfrom diffusers import DDPMScheduler\nfrom diffusers import UNet2DModel\ntorch.inference_mode(False)\n\n#import diffusers.models.lora\n\ntorch.load(any1)\n#any1(batch_size=1,num_inference_steps=10,output_type=\"tensor\")"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "PreviewImage",
+      "pos": [
+        -4248,
+        1760
+      ],
+      "size": {
+        "0": 210,
+        "1": 250
+      },
+      "flags": {},
+      "order": 16,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 4
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    },
+    {
+      "id": 11,
+      "type": "PreviewImage",
+      "pos": [
+        -4256,
+        2091
+      ],
+      "size": {
+        "0": 210,
+        "1": 250
+      },
+      "flags": {},
+      "order": 13,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 7
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    },
+    {
+      "id": 15,
+      "type": "ETK_Tuple",
+      "pos": [
+        -5651,
+        2599
+      ],
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "TUPLE",
+          "type": "TUPLE",
+          "links": [
+            11,
+            28
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ETK_Tuple"
+      },
+      "widgets_values": [
+        "(512,512,3)"
       ]
     }
   ],
