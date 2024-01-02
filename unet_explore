@@ -1,6 +1,6 @@
 {
-  "last_node_id": 29,
-  "last_link_id": 32,
+  "last_node_id": 30,
+  "last_link_id": 34,
   "nodes": [
     {
       "id": 1,
@@ -137,103 +137,18 @@
       ]
     },
     {
-      "id": 16,
-      "type": "PyTorchInferenceNode",
-      "pos": [
-        -4676.482562866211,
-        2909.8615869140626
-      ],
-      "size": {
-        "0": 292.20001220703125,
-        "1": 66
-      },
-      "flags": {},
-      "order": 20,
-      "mode": 2,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "TORCH_MODEL",
-          "link": 12
-        },
-        {
-          "name": "input_data",
-          "type": "TORCH_TENSOR",
-          "link": 17
-        },
-        {
-          "name": "dataset",
-          "type": "TORCH_DATASET",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "TORCH_TENSOR",
-          "type": "TORCH_TENSOR",
-          "links": [
-            13
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "PyTorchInferenceNode"
-      }
-    },
-    {
-      "id": 17,
-      "type": "TensorToImage",
-      "pos": [
-        -4301.767215625001,
-        2919.3795882812497
-      ],
-      "size": {
-        "0": 315,
-        "1": 58
-      },
-      "flags": {},
-      "order": 22,
-      "mode": 2,
-      "inputs": [
-        {
-          "name": "tensor",
-          "type": "TORCH_TENSOR",
-          "link": 13
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            14
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "TensorToImage"
-      },
-      "widgets_values": [
-        "BHWC"
-      ]
-    },
-    {
       "id": 18,
       "type": "PreviewImage",
       "pos": [
-        -3910.8525156250007,
-        2922.3077882812495
+        -4017.3325156250025,
+        2660.947788281249
       ],
       "size": {
         "0": 210,
         "1": 26
       },
       "flags": {},
-      "order": 23,
+      "order": 24,
       "mode": 2,
       "inputs": [
         {
@@ -290,8 +205,8 @@
       "id": 24,
       "type": "ETK_Tuple",
       "pos": [
-        -5651.061892034359,
-        2699.270946017178
+        -6274.211887418578,
+        2655.7109829434485
       ],
       "size": {
         "0": 315,
@@ -319,45 +234,6 @@
       ]
     },
     {
-      "id": 19,
-      "type": "LoadImage",
-      "pos": [
-        -5910,
-        3230
-      ],
-      "size": {
-        "0": 320,
-        "1": 310
-      },
-      "flags": {},
-      "order": 4,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            15
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": null,
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LoadImage"
-      },
-      "widgets_values": [
-        "IL_AUTMN__00045_.png",
-        "image"
-      ]
-    },
-    {
       "id": 21,
       "type": "ComfyUIImageToPytorchTENSOR",
       "pos": [
@@ -369,7 +245,7 @@
         "1": 46
       },
       "flags": {},
-      "order": 17,
+      "order": 18,
       "mode": 0,
       "inputs": [
         {
@@ -403,82 +279,6 @@
       }
     },
     {
-      "id": 14,
-      "type": "Tuple",
-      "pos": [
-        -6260,
-        3040
-      ],
-      "size": {
-        "0": 315,
-        "1": 106
-      },
-      "flags": {},
-      "order": 5,
-      "mode": 2,
-      "outputs": [
-        {
-          "name": "TUPLE",
-          "type": "TUPLE",
-          "links": [],
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "Tuple"
-      },
-      "widgets_values": [
-        1,
-        1,
-        "No"
-      ]
-    },
-    {
-      "id": 26,
-      "type": "Tuple to ints",
-      "pos": [
-        -5800,
-        3110
-      ],
-      "size": {
-        "0": 210,
-        "1": 46
-      },
-      "flags": {},
-      "order": 11,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "Tuple",
-          "type": "TUPLE",
-          "link": 28
-        }
-      ],
-      "outputs": [
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": [
-            29
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": [
-            30
-          ],
-          "shape": 3,
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "Tuple to ints"
-      }
-    },
-    {
       "id": 28,
       "type": "PreviewImage",
       "pos": [
@@ -490,7 +290,7 @@
         "1": 250
       },
       "flags": {},
-      "order": 18,
+      "order": 19,
       "mode": 0,
       "inputs": [
         {
@@ -507,15 +307,15 @@
       "id": 25,
       "type": "ETK_Tuple",
       "pos": [
-        -5651.061892034359,
-        2809.270946017178
+        -6274.211887418578,
+        2765.7109829434485
       ],
       "size": {
         "0": 350,
         "1": 60
       },
       "flags": {},
-      "order": 6,
+      "order": 4,
       "mode": 0,
       "outputs": [
         {
@@ -536,159 +336,18 @@
       ]
     },
     {
-      "id": 13,
-      "type": "CreateUnet2dModel",
-      "pos": [
-        -5240,
-        2790
-      ],
-      "size": {
-        "0": 355.20001220703125,
-        "1": 238
-      },
-      "flags": {},
-      "order": 12,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "sample_size",
-          "type": "TUPLE",
-          "link": 11,
-          "slot_index": 0
-        },
-        {
-          "name": "down_block_types",
-          "type": "TUPLE",
-          "link": 22,
-          "slot_index": 1
-        },
-        {
-          "name": "up_block_types",
-          "type": "TUPLE",
-          "link": 23
-        },
-        {
-          "name": "block_out_channels",
-          "type": "TUPLE",
-          "link": 32
-        }
-      ],
-      "outputs": [
-        {
-          "name": "TORCH_MODEL",
-          "type": "TORCH_MODEL",
-          "links": [
-            12,
-            18
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "CreateUnet2dModel"
-      },
-      "widgets_values": [
-        "UNet2D",
-        3,
-        3,
-        2,
-        1,
-        0.5
-      ]
-    },
-    {
-      "id": 22,
-      "type": "FuncAnysToImage",
-      "pos": [
-        -4770,
-        3180
-      ],
-      "size": {
-        "0": 330,
-        "1": 550
-      },
-      "flags": {},
-      "order": 19,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "any1",
-          "type": "*",
-          "link": 18
-        },
-        {
-          "name": "any2",
-          "type": "*",
-          "link": 27
-        },
-        {
-          "name": "any3",
-          "type": "*",
-          "link": null
-        },
-        {
-          "name": "any4",
-          "type": "*",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            20
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "FuncAnysToImage"
-      },
-      "widgets_values": [
-        "import torch\nimport diffusers\nfrom diffusers import StableDiffusionPipeline\nfrom diffusers import DDPMPipeline\n\nfrom datasets import load_dataset\nfrom torchvision import transforms\nfrom diffusers import DDPMScheduler\nfrom diffusers import UNet2DModel\nimport os\nos.putenv(\"PYTORCH_CUDA_ALLOC_CONF\",\"expandable_segments:True\")\n\ntorch.inference_mode(False)\nany1=any1.to(torch.float16)\nany2=any2.to(torch.float16)\nany1=any1.to(\"cuda\")\nany2=any2.to(\"cuda\")\n\nif len(any2.shape) == 4:\n any2=any2.permute(0,3,1,2)\nelse:\n any2=any2\n\ny=any1(any2,timestep=1).sample\n\n#y = y.detach().cpu().permute(1, 2, 0).clip(0, 1) * 255\n#y = y.squeeze(0)\n\nif len(y.shape) == 4:\n y=y.permute(0,2,3,1)\nelse:\n y=y\n\nprint(y.shape)"
-      ]
-    },
-    {
-      "id": 23,
-      "type": "PreviewImage",
-      "pos": [
-        -4390,
-        3180
-      ],
-      "size": {
-        "0": 240,
-        "1": 270
-      },
-      "flags": {},
-      "order": 21,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 20
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "PreviewImage"
-      }
-    },
-    {
       "id": 29,
       "type": "ETK_Tuple",
       "pos": [
-        -5652.880073852539,
-        2910.180036926269
+        -6276.030069236758,
+        2866.6200738525395
       ],
       "size": {
         "0": 350,
         "1": 60
       },
       "flags": {},
-      "order": 8,
+      "order": 5,
       "mode": 0,
       "outputs": [
         {
@@ -720,7 +379,7 @@
         "1": 130
       },
       "flags": {},
-      "order": 15,
+      "order": 17,
       "mode": 0,
       "inputs": [
         {
@@ -875,15 +534,15 @@
       "id": 15,
       "type": "ETK_Tuple",
       "pos": [
-        -5651,
-        2599
+        -6274,
+        2555
       ],
       "size": {
         "0": 315,
         "1": 58
       },
       "flags": {},
-      "order": 7,
+      "order": 6,
       "mode": 0,
       "outputs": [
         {
@@ -891,7 +550,7 @@
           "type": "TUPLE",
           "links": [
             11,
-            28
+            33
           ],
           "shape": 3,
           "slot_index": 0
@@ -902,6 +561,383 @@
       },
       "widgets_values": [
         "(512,512,3)"
+      ]
+    },
+    {
+      "id": 30,
+      "type": "Reroute",
+      "pos": [
+        -5880,
+        2560
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 33
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "TUPLE",
+          "links": [
+            34
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 13,
+      "type": "CreateUnet2dModel",
+      "pos": [
+        -5750,
+        2660
+      ],
+      "size": {
+        "0": 355.20001220703125,
+        "1": 238
+      },
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "sample_size",
+          "type": "TUPLE",
+          "link": 11,
+          "slot_index": 0
+        },
+        {
+          "name": "down_block_types",
+          "type": "TUPLE",
+          "link": 22,
+          "slot_index": 1
+        },
+        {
+          "name": "up_block_types",
+          "type": "TUPLE",
+          "link": 23
+        },
+        {
+          "name": "block_out_channels",
+          "type": "TUPLE",
+          "link": 32
+        }
+      ],
+      "outputs": [
+        {
+          "name": "TORCH_MODEL",
+          "type": "TORCH_MODEL",
+          "links": [
+            12,
+            18
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CreateUnet2dModel"
+      },
+      "widgets_values": [
+        "UNet2D",
+        3,
+        3,
+        2,
+        1,
+        0.5
+      ]
+    },
+    {
+      "id": 16,
+      "type": "PyTorchInferenceNode",
+      "pos": [
+        -4730,
+        2660
+      ],
+      "size": {
+        "0": 292.20001220703125,
+        "1": 66
+      },
+      "flags": {},
+      "order": 21,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "TORCH_MODEL",
+          "link": 12
+        },
+        {
+          "name": "input_data",
+          "type": "TORCH_TENSOR",
+          "link": 17
+        },
+        {
+          "name": "dataset",
+          "type": "TORCH_DATASET",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "TORCH_TENSOR",
+          "type": "TORCH_TENSOR",
+          "links": [
+            13
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PyTorchInferenceNode"
+      }
+    },
+    {
+      "id": 17,
+      "type": "TensorToImage",
+      "pos": [
+        -4408,
+        2658
+      ],
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 23,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "tensor",
+          "type": "TORCH_TENSOR",
+          "link": 13
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            14
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "TensorToImage"
+      },
+      "widgets_values": [
+        "BHWC"
+      ]
+    },
+    {
+      "id": 26,
+      "type": "Tuple to ints",
+      "pos": [
+        -5800,
+        3110
+      ],
+      "size": [
+        140,
+        50
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Tuple",
+          "type": "TUPLE",
+          "link": 34
+        }
+      ],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            29
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            30
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Tuple to ints"
+      }
+    },
+    {
+      "id": 14,
+      "type": "Tuple",
+      "pos": [
+        -6340,
+        3600
+      ],
+      "size": {
+        "0": 315,
+        "1": 106
+      },
+      "flags": {},
+      "order": 7,
+      "mode": 2,
+      "outputs": [
+        {
+          "name": "TUPLE",
+          "type": "TUPLE",
+          "links": [],
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Tuple"
+      },
+      "widgets_values": [
+        1,
+        1,
+        "No"
+      ]
+    },
+    {
+      "id": 19,
+      "type": "LoadImage",
+      "pos": [
+        -5980,
+        3230
+      ],
+      "size": {
+        "0": 320,
+        "1": 310
+      },
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            15
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "IL_AUTMN__00045_.png",
+        "image"
+      ]
+    },
+    {
+      "id": 23,
+      "type": "PreviewImage",
+      "pos": [
+        -4340,
+        3210
+      ],
+      "size": [
+        430,
+        770
+      ],
+      "flags": {},
+      "order": 22,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 20
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    },
+    {
+      "id": 22,
+      "type": "FuncAnysToImage",
+      "pos": [
+        -4920,
+        3210
+      ],
+      "size": [
+        520,
+        770
+      ],
+      "flags": {},
+      "order": 20,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "any1",
+          "type": "*",
+          "link": 18
+        },
+        {
+          "name": "any2",
+          "type": "*",
+          "link": 27
+        },
+        {
+          "name": "any3",
+          "type": "*",
+          "link": null
+        },
+        {
+          "name": "any4",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            20
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "FuncAnysToImage"
+      },
+      "widgets_values": [
+        "import torch\nimport diffusers\nfrom diffusers import StableDiffusionPipeline\nfrom diffusers import DDPMPipeline\n\nfrom datasets import load_dataset\nfrom torchvision import transforms\nfrom diffusers import DDPMScheduler\nfrom diffusers import UNet2DModel\nimport os\nos.putenv(\"PYTORCH_CUDA_ALLOC_CONF\",\"expandable_segments:True\")\n\ntorch.inference_mode(False)\nany1=any1.to(torch.float16)\nany2=any2.to(torch.float16)\nany1=any1.to(\"cuda\")\nany2=any2.to(\"cuda\")\n\n\nany2=any2.permute(0,3,1,2)\n\n\n\n#y=any1(any2,timestep=1).sample\n\nfrom diffusers import DDPMPipeline, DDPMScheduler\nsample = any2\n\nnoise_scheduler = DDPMScheduler(\n num_train_timesteps=10, beta_schedule=\"squaredcos_cap_v2\"\n)\n\nfor _, t in enumerate(noise_scheduler.timesteps):\n  with torch.no_grad():\n    residual = any1(sample, t).sample\n    sample = noise_scheduler.step(residual, t, sample).prev_sample\n\ny=sample.permute(0,2,3,1)\n\nprint(y.shape)"
       ]
     }
   ],
@@ -1043,14 +1079,6 @@
       "*"
     ],
     [
-      28,
-      15,
-      0,
-      26,
-      0,
-      "TUPLE"
-    ],
-    [
       29,
       26,
       0,
@@ -1080,6 +1108,22 @@
       0,
       13,
       3,
+      "TUPLE"
+    ],
+    [
+      33,
+      15,
+      0,
+      30,
+      0,
+      "*"
+    ],
+    [
+      34,
+      30,
+      0,
+      26,
+      0,
       "TUPLE"
     ]
   ],
