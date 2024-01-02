@@ -1,6 +1,6 @@
 {
-  "last_node_id": 54,
-  "last_link_id": 70,
+  "last_node_id": 55,
+  "last_link_id": 73,
   "nodes": [
     {
       "id": 1,
@@ -148,7 +148,7 @@
         "1": 26
       },
       "flags": {},
-      "order": 43,
+      "order": 44,
       "mode": 2,
       "inputs": [
         {
@@ -202,38 +202,6 @@
       ]
     },
     {
-      "id": 24,
-      "type": "ETK_Tuple",
-      "pos": [
-        -6274.211887418578,
-        2655.7109829434485
-      ],
-      "size": {
-        "0": 315,
-        "1": 58
-      },
-      "flags": {},
-      "order": 3,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "TUPLE",
-          "type": "TUPLE",
-          "links": [
-            22
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "ETK_Tuple"
-      },
-      "widgets_values": [
-        "(\"DownBlock2D\",\"DownBlock2D\",\"AttnDownBlock2D\",\"AttnDownBlock2D\",)"
-      ]
-    },
-    {
       "id": 28,
       "type": "PreviewImage",
       "pos": [
@@ -270,7 +238,7 @@
         "1": 60
       },
       "flags": {},
-      "order": 4,
+      "order": 3,
       "mode": 0,
       "outputs": [
         {
@@ -452,7 +420,7 @@
         "1": 58
       },
       "flags": {},
-      "order": 42,
+      "order": 43,
       "mode": 2,
       "inputs": [
         {
@@ -491,7 +459,7 @@
         50
       ],
       "flags": {},
-      "order": 29,
+      "order": 28,
       "mode": 0,
       "inputs": [
         {
@@ -536,7 +504,7 @@
         "1": 106
       },
       "flags": {},
-      "order": 5,
+      "order": 4,
       "mode": 2,
       "outputs": [
         {
@@ -567,7 +535,7 @@
         "1": 310
       },
       "flags": {},
-      "order": 6,
+      "order": 5,
       "mode": 0,
       "outputs": [
         {
@@ -593,31 +561,6 @@
         "IL_AUTMN__00045_.png",
         "image"
       ]
-    },
-    {
-      "id": 36,
-      "type": "PreviewImage",
-      "pos": [
-        -3420,
-        2680
-      ],
-      "size": [
-        270,
-        330
-      ],
-      "flags": {},
-      "order": 28,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 39
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "PreviewImage"
-      }
     },
     {
       "id": 37,
@@ -665,7 +608,7 @@
         26
       ],
       "flags": {},
-      "order": 23,
+      "order": 22,
       "mode": 0,
       "inputs": [
         {
@@ -702,7 +645,7 @@
         "1": 58
       },
       "flags": {},
-      "order": 7,
+      "order": 6,
       "mode": 0,
       "outputs": [
         {
@@ -721,45 +664,6 @@
       ]
     },
     {
-      "id": 35,
-      "type": "TensorToImage",
-      "pos": [
-        -4110,
-        2820
-      ],
-      "size": [
-        220,
-        60
-      ],
-      "flags": {},
-      "order": 21,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "tensor",
-          "type": "TORCH_TENSOR",
-          "link": 54
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            39
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "TensorToImage"
-      },
-      "widgets_values": [
-        "BHWC"
-      ]
-    },
-    {
       "id": 41,
       "type": "RandomTensor",
       "pos": [
@@ -771,7 +675,7 @@
         "1": 106
       },
       "flags": {},
-      "order": 8,
+      "order": 7,
       "mode": 0,
       "outputs": [
         {
@@ -803,7 +707,7 @@
         "1": 60
       },
       "flags": {},
-      "order": 9,
+      "order": 8,
       "mode": 0,
       "outputs": [
         {
@@ -837,7 +741,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 24,
+      "order": 23,
       "mode": 2,
       "inputs": [
         {
@@ -862,7 +766,7 @@
         "1": 250
       },
       "flags": {},
-      "order": 31,
+      "order": 30,
       "mode": 0,
       "inputs": [
         {
@@ -876,40 +780,6 @@
       }
     },
     {
-      "id": 34,
-      "type": "RandomTensor",
-      "pos": [
-        -4480,
-        2800
-      ],
-      "size": {
-        "0": 315,
-        "1": 106
-      },
-      "flags": {},
-      "order": 10,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "TORCH_TENSOR",
-          "type": "TORCH_TENSOR",
-          "links": [
-            54
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "RandomTensor"
-      },
-      "widgets_values": [
-        "(10,512,512,3)",
-        "torch.float16",
-        "randn"
-      ]
-    },
-    {
       "id": 44,
       "type": "Image Resize",
       "pos": [
@@ -921,7 +791,7 @@
         180
       ],
       "flags": {},
-      "order": 25,
+      "order": 24,
       "mode": 0,
       "inputs": [
         {
@@ -1068,7 +938,7 @@
         "1": 58
       },
       "flags": {},
-      "order": 11,
+      "order": 9,
       "mode": 0,
       "outputs": [
         {
@@ -1097,7 +967,7 @@
         "1": 58
       },
       "flags": {},
-      "order": 12,
+      "order": 10,
       "mode": 0,
       "outputs": [
         {
@@ -1126,7 +996,7 @@
         26
       ],
       "flags": {},
-      "order": 13,
+      "order": 11,
       "mode": 0,
       "inputs": [
         {
@@ -1159,7 +1029,7 @@
         "1": 80
       },
       "flags": {},
-      "order": 14,
+      "order": 12,
       "mode": 0,
       "outputs": [
         {
@@ -1178,7 +1048,7 @@
         "Run widget replace on values": false
       },
       "widgets_values": [
-        293,
+        398,
         "increment"
       ]
     },
@@ -1194,7 +1064,7 @@
         60
       ],
       "flags": {},
-      "order": 22,
+      "order": 21,
       "mode": 0,
       "inputs": [
         {
@@ -1222,33 +1092,8 @@
         "Node name for S&R": "int _O"
       },
       "widgets_values": [
-        293
+        398
       ]
-    },
-    {
-      "id": 39,
-      "type": "PreviewImage",
-      "pos": [
-        -2750,
-        3000
-      ],
-      "size": {
-        "0": 430,
-        "1": 770
-      },
-      "flags": {},
-      "order": 15,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": null
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "PreviewImage"
-      }
     },
     {
       "id": 13,
@@ -1262,7 +1107,7 @@
         "1": 238
       },
       "flags": {},
-      "order": 30,
+      "order": 29,
       "mode": 0,
       "inputs": [
         {
@@ -1326,7 +1171,7 @@
         "1": 58
       },
       "flags": {},
-      "order": 16,
+      "order": 13,
       "mode": 0,
       "outputs": [
         {
@@ -1356,7 +1201,7 @@
         "1": 58
       },
       "flags": {},
-      "order": 17,
+      "order": 14,
       "mode": 0,
       "outputs": [
         {
@@ -1388,7 +1233,7 @@
         250
       ],
       "flags": {},
-      "order": 18,
+      "order": 15,
       "mode": 0,
       "outputs": [
         {
@@ -1434,7 +1279,7 @@
         "1": 46
       },
       "flags": {},
-      "order": 32,
+      "order": 31,
       "mode": 0,
       "inputs": [
         {
@@ -1508,7 +1353,8 @@
           "name": "IMAGE",
           "type": "IMAGE",
           "links": [
-            61
+            61,
+            71
           ],
           "shape": 3,
           "slot_index": 0
@@ -1569,11 +1415,50 @@
       }
     },
     {
+      "id": 35,
+      "type": "TensorToImage",
+      "pos": [
+        -4120,
+        2800
+      ],
+      "size": [
+        220,
+        60
+      ],
+      "flags": {},
+      "order": 25,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "tensor",
+          "type": "TORCH_TENSOR",
+          "link": 54
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            39
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "TensorToImage"
+      },
+      "widgets_values": [
+        "BHWC"
+      ]
+    },
+    {
       "id": 47,
       "type": "workflow/SampleUnet",
       "pos": [
-        -3450,
-        3210
+        -3440,
+        3240
       ],
       "size": [
         510,
@@ -1609,6 +1494,166 @@
       },
       "widgets_values": [
         "import torch\nimport diffusers\nfrom diffusers import StableDiffusionPipeline\nfrom diffusers import DDPMPipeline\n\nfrom datasets import load_dataset\nfrom torchvision import transforms\nfrom diffusers import DDPMScheduler\nfrom diffusers import UNet2DModel\nimport os\nos.putenv(\"PYTORCH_CUDA_ALLOC_CONF\",\"expandable_segments:True\") \n\ndt = torch.float32\n\ntorch.inference_mode(False)\nany1=any1.to(dt)\nany2=any2.to(dt)\nany1=any1.to(\"cpu\")\nany2=any2.to(\"cpu\")\n\n\nif len(any2.shape) ==4:\n any2 = any2.permute(0,3,1,2).to(dt).to(\"cpu\")\nelse:\n any2 = any2.unsqueeze(-1)\n any2 = any2.permute(0,3,1,2).to(dt).to(\"cpu\")\n\n#any2=any2.permute(0,3,1,2)\n\n\n\n#y=any1(any2,timestep=1).sample\n\nfrom diffusers import DDPMPipeline, DDPMScheduler\nsample = any2\n\nnoise_scheduler = DDPMScheduler(\n num_train_timesteps=3, beta_schedule=\"squaredcos_cap_v2\"\n)\n\nfor _, t in enumerate(noise_scheduler.timesteps):\n  with torch.no_grad():\n    residual = any1(sample, t).sample\n    sample = noise_scheduler.step(residual, t, sample).prev_sample\n\ny=sample.permute(0,2,3,1)\ny=torch.cat([y,y,y],dim=3)\n\nprint(y.shape)"
+      ]
+    },
+    {
+      "id": 39,
+      "type": "PreviewImage",
+      "pos": [
+        -2080,
+        2850
+      ],
+      "size": {
+        "0": 430,
+        "1": 770
+      },
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    },
+    {
+      "id": 34,
+      "type": "RandomTensor",
+      "pos": [
+        -4480,
+        2800
+      ],
+      "size": {
+        "0": 315,
+        "1": 106
+      },
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "TORCH_TENSOR",
+          "type": "TORCH_TENSOR",
+          "links": [
+            54,
+            73
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "RandomTensor"
+      },
+      "widgets_values": [
+        "(10,512,512,1)",
+        "torch.float16",
+        "randn"
+      ]
+    },
+    {
+      "id": 36,
+      "type": "PreviewImage",
+      "pos": [
+        -3420,
+        2680
+      ],
+      "size": [
+        270,
+        330
+      ],
+      "flags": {},
+      "order": 32,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 39
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    },
+    {
+      "id": 24,
+      "type": "ETK_Tuple",
+      "pos": [
+        -6270,
+        2660
+      ],
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 18,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "TUPLE",
+          "type": "TUPLE",
+          "links": [
+            22
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ETK_Tuple"
+      },
+      "widgets_values": [
+        "(\"DownBlock2D\",\"DownBlock2D\",\"AttnDownBlock2D\",\"AttnDownBlock2D\",)"
+      ]
+    },
+    {
+      "id": 55,
+      "type": "workflow/SampleUnet",
+      "pos": [
+        -2910,
+        3240
+      ],
+      "size": {
+        "0": 510,
+        "1": 1060
+      },
+      "flags": {},
+      "order": 42,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "*",
+          "link": 71
+        },
+        {
+          "name": "latent",
+          "type": "*",
+          "link": 73
+        },
+        {
+          "name": "any3",
+          "type": "*",
+          "link": null
+        },
+        {
+          "name": "any4",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "workflow/SampleUnet"
+      },
+      "widgets_values": [
+        "import torch\nimport diffusers\nfrom diffusers import StableDiffusionPipeline\nfrom diffusers import DDPMPipeline\n\nfrom datasets import load_dataset\nfrom torchvision import transforms\nfrom diffusers import DDPMScheduler\nfrom diffusers import UNet2DModel\nimport os\nos.putenv(\"PYTORCH_CUDA_ALLOC_CONF\",\"expandable_segments:True\") \n\ndt = torch.float32\ndv = \"cuda\"\n\ntorch.inference_mode(False)\nany1=any1.to(dt)\nany2=any2.to(dt)\nany1=any1.to(dv)\nany2=any2.to(dv)\n\n\nif len(any2.shape) ==4:\n any2 = any2.permute(0,3,1,2).to(dt).to(dv)\nelse:\n any2 = any2.unsqueeze(-1)\n any2 = any2.permute(0,3,1,2).to(dt).to(dv)\n\n#any2=any2.permute(0,3,1,2)\n\n\n\n#y=any1(any2,timestep=1).sample\n\nfrom diffusers import DDPMPipeline, DDPMScheduler\nsample = any2\n\nnoise_scheduler = DDPMScheduler(\n num_train_timesteps=3, beta_schedule=\"squaredcos_cap_v2\"\n)\n\nfor _, t in enumerate(noise_scheduler.timesteps):\n  with torch.no_grad():\n    residual = any1(sample, t).sample\n    sample = noise_scheduler.step(residual, t, sample).prev_sample\n\ny=sample.permute(0,2,3,1)\ny=torch.cat([y,y,y],dim=3)\n\nprint(y.shape)"
       ]
     }
   ],
@@ -1898,6 +1943,22 @@
       21,
       1,
       47,
+      1,
+      "*"
+    ],
+    [
+      71,
+      38,
+      0,
+      55,
+      0,
+      "*"
+    ],
+    [
+      73,
+      34,
+      0,
+      55,
       1,
       "*"
     ]
