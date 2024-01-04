@@ -1,0 +1,1034 @@
+{
+  "last_node_id": 18,
+  "last_link_id": 10,
+  "nodes": [
+    {
+      "id": 3,
+      "type": "StrBreakout",
+      "pos": [
+        -5310,
+        4800
+      ],
+      "size": [
+        210,
+        178
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 0,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "BOOL",
+          "type": "BOOL",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "LIST",
+          "type": "LIST",
+          "links": [
+            2
+          ],
+          "shape": 3
+        },
+        {
+          "name": "LIST",
+          "type": "LIST",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "LIST",
+          "type": "LIST",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "StrBreakout"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 6,
+      "type": "StrBreakout",
+      "pos": [
+        -5292.839278586118,
+        5331.444269954775
+      ],
+      "size": {
+        "0": 210,
+        "1": 178
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 1,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "BOOL",
+          "type": "BOOL",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "LIST",
+          "type": "LIST",
+          "links": [
+            3
+          ],
+          "shape": 3
+        },
+        {
+          "name": "LIST",
+          "type": "LIST",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "LIST",
+          "type": "LIST",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "StrBreakout"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 9,
+      "type": "StrBreakout",
+      "pos": [
+        -5318.113613882362,
+        5840.593547298642
+      ],
+      "size": {
+        "0": 210,
+        "1": 178
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 2,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "BOOL",
+          "type": "BOOL",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "LIST",
+          "type": "LIST",
+          "links": [
+            5
+          ],
+          "shape": 3
+        },
+        {
+          "name": "LIST",
+          "type": "LIST",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "LIST",
+          "type": "LIST",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "StrBreakout"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 5,
+      "type": "ShowText",
+      "pos": [
+        -4652.839278586118,
+        5281.444269954775
+      ],
+      "size": [
+        429.6974650938837,
+        474.7972286672348
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "link": 4
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText"
+      },
+      "widgets_values": [
+        "```yaml\nnodes:\n  - id: 1\n    name: Emberforest\n  - id: 2\n    name: Emberglade\n  - id: 3\n    name: Village\n  - id: 4\n    name: Resources\n  - id: 5\n    name: Beauty\n  - id: 6\n    name: Inhabitants\n  - id: 7\n    name: Ecosystem\n\nedges:\n  - source: 1\n    target: 2\n    relationship: \"contains\"\n  - source: 2\n    target: 3\n    relationship: \"contains\"\n  - source: 1\n    target: 4\n    relationship: \"provides\"\n  - source: 1\n    target: 5\n    relationship: \"surrounds\"\n  - source: 2\n    target: 6\n    relationship: \"inhabits\"\n  - source: 1\n    target: 7\n    relationship: \"creates\"\n```"
+      ]
+    },
+    {
+      "id": 1,
+      "type": "LLMCompletion",
+      "pos": [
+        -5163.5238037109375,
+        4750.2369384765625
+      ],
+      "size": [
+        490.6490138078225,
+        481.59482169820603
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "history",
+          "type": "LIST",
+          "link": null
+        },
+        {
+          "name": "llm_functions",
+          "type": "LIST",
+          "link": 2,
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "completion",
+          "type": "STRING",
+          "links": [
+            1
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "completion_as_message",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMCompletion"
+      },
+      "widgets_values": [
+        "```yaml\nnodes:\n  - id: 1\n    label: Emberforest\n  - id: 2\n    label: Emberglade\n  - id: 3\n    label: Emberglade\n    type: Village\n\nedges:\n  - source: 1\n    target: 2\n    label: contains\n  - source: 2\n    target: 3\n    label: contains\n```\n\nis this a correct yaml representation of a knowledge graph? if so tell me a story that involves the knowledge",
+        "user",
+        "gpt-3.5-turbo-1106",
+        252,
+        0.9
+      ]
+    },
+    {
+      "id": 2,
+      "type": "ShowText",
+      "pos": [
+        -4650,
+        4760
+      ],
+      "size": [
+        426.85843757785096,
+        484.4175781080048
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "link": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText"
+      },
+      "widgets_values": [
+        "Yes, this is a correct YAML representation of a simple knowledge graph. \n\nStory: In the land of Ember, there lies a dense and mysterious forest known as Emberforest. Within Emberforest, there is a beautiful area called Emberglade, which is home to a small village. The village, known simply as Emberglade, is a peaceful community nestled within the heart of the forest. The villagers of Emberglade rely on the resources found within Emberforest to sustain their way of life, and they cherish the natural beauty that surrounds them. The relationship between Emberforest, Emberglade, and the village creates a harmonious and interconnected ecosystem, where the inhabitants and the environment coexist in perfect balance."
+      ]
+    },
+    {
+      "id": 12,
+      "type": "StrBreakout",
+      "pos": [
+        -5310.905558204505,
+        6606.054671704767
+      ],
+      "size": {
+        "0": 210,
+        "1": 178
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 3,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "BOOL",
+          "type": "BOOL",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "LIST",
+          "type": "LIST",
+          "links": [
+            7
+          ],
+          "shape": 3
+        },
+        {
+          "name": "LIST",
+          "type": "LIST",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "LIST",
+          "type": "LIST",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "StrBreakout"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 4,
+      "type": "LLMCompletion",
+      "pos": [
+        -5150,
+        5280
+      ],
+      "size": {
+        "0": 477.71868896484375,
+        "1": 473.7786865234375
+      },
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "history",
+          "type": "LIST",
+          "link": null
+        },
+        {
+          "name": "llm_functions",
+          "type": "LIST",
+          "link": 3,
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "completion",
+          "type": "STRING",
+          "links": [
+            4
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "completion_as_message",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMCompletion"
+      },
+      "widgets_values": [
+        "Story: In the land of Ember, there lies a dense and mysterious forest known as Emberforest. Within Emberforest, there is a beautiful area called Emberglade, which is home to a small village. The village, known simply as Emberglade, is a peaceful community nestled within the heart of the forest. The villagers of Emberglade rely on the resources found within Emberforest to sustain their way of life, and they cherish the natural beauty that surrounds them. The relationship between Emberforest, Emberglade, and the village creates a harmonious and interconnected ecosystem, where the inhabitants and the environment coexist in perfect balance.\n\nplease create a yaml knowledge graph that represents this\n\nuse edges and nodes\neach node should have an integer id\neach edge should have a source and target id",
+        "user",
+        "gpt-3.5-turbo-1106",
+        252,
+        0.9
+      ]
+    },
+    {
+      "id": 8,
+      "type": "ShowText",
+      "pos": [
+        -4650,
+        5790
+      ],
+      "size": [
+        416.7905585934586,
+        723.0696996896459
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "link": 6
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText"
+      },
+      "widgets_values": [
+        "Yes, this is a correct representation of a knowledge graph. \n\nOnce upon a time, in the Emberforest (node 1), there was a beautiful area known as the Emberglade (node 2), surrounded by stunning natural beauty (node 5). The Emberglade was home to a small Village (node 3), which provided resources (node 4) for the inhabitants (node 6) living in the Emberglade. The ecosystem (node 7) of the Emberforest created a harmonious environment for all living beings.\n\nAs you can see from the knowledge graph, the Emberforest contains the Emberglade, which in turn contains the Village. The Emberforest also provides resources for the Village and surrounds it with beauty. The Emberglade is inhabited by the inhabitants, and the ecosystem creates a conducive environment for all the elements in the graph."
+      ]
+    },
+    {
+      "id": 13,
+      "type": "Text box",
+      "pos": [
+        -6650,
+        7030
+      ],
+      "size": {
+        "0": 640,
+        "1": 600
+      },
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "Character Creation",
+      "properties": {
+        "Node name for S&R": "Text box"
+      },
+      "widgets_values": [
+        "CHAPTER 1: CHARACTER CREATION\n\nThe first step to play is creating your player character (PC). Character creation involves making rule choices that define who your character is and what your character is good at, as well as creative choices about your character's history and personality.\n\nThis chapter contains exact steps and options to create your character. If you are creating a character for the first time, it can be helpful to work with your game master (GM) to choose options that make a good play experience.\n\nStep-by-Step Character Creation\n\nThese are the steps needed to create your character.\n\nSTEP 0: GATHER MATERIALS\n\nMake sure to have these basic tools handy to record your character choices:\n- Pencil\n- Blank character sheet\n- Scratch paper\n- Dice (see \"About Those Dice\" in the sidebar)\n\nABOUT THOSE DICE\n\nThe Black Flag Roleplaying system uses polyhedral dice to resolve actions. These dice are abbreviated in game text, so a four-sided die is a d4, a six-sided die is a d6, and so on for d8, d10, d12, and d20. Percentile dice rolls (1-100) are rolled with two dice and abbreviated d%.\n\nSTEP 1: CREATE A CHARACTER CONCEPT\n\nIt can help to think about what kind of character you want to play before you start picking from lists. Do you want to cast magic spells? Do you want to be good at swinging a sword? Do you want to play as a human or a member of some more fantastical lineage? Knowing what sounds like fun to you can help guide your decisions.\n\nTalk to the other players about your ideas if they're around. Hearing what other players have in mind can help focus your choices or inspire you to create a concept that works well with other adventurers in your party. For example, if all the other PCs are rough-and-tumble warriors, you might want to make a cleric so you can patch them up with healing magic!\n\nSTEP 2: CHOOSE A CLASS\n\nChoosing your character's class is the most important factor in bringing your concept into the game. Your character's class is sort of like their job. Each class covers a different set of capabilities and responsibilities.\n\nYour character class gives you class features at 1st level as described in each class features table (see Character Classes later in this chapter) and lists other features you gain access to as your character gains adventuring experience and levels up. Your choice of character class also dictates your proficiencies, which is a game term describing what kinds of equipment you are trained to use (like armor, weapons, or tools) and what kinds of challenges you are best at handling (skills and saves).\n\nChoosing your character class can also help you make other decisions. For example, each class has a Quick Build section that tells you which ability scores (described in Step 3) work best with your class abilities. See the Class Options at a Glance table later in this chapter for a brief summary and comparison of each class.\n\nSTEP 3: DETERMINE ABILITY SCORES\n\nAt their core, characters are defined by six abilities:\n- Strength (STR), representing your physical might.\n- Dexterity (DEX), representing your agility and reaction time.\n- Constitution (CON), representing your endurance and physical fortitude.\n- Intelligence (INT), representing your ability to acquire and apply knowledge.\n- Wisdom (WIS), representing your intuition and mental fortitude.\n- Charisma (CHA), representing your self-confidence and your ability to influence others.\n\nEach ability is assigned a number, called an ability score. These scores represent your various physical and mental abilities. Higher numbers in a score mean your character is better with that ability.\n\nAs you level up, you can increase these scores, but a PC can never have an ability score higher than 20. An average person has 10 in every ability score, so these numbers emphasize how powerful adventurers are!\n\nTHREE WAYS TO SCORE\n\nThere are three methods to determine your starting ability scores. No method is \"better\" than another, but some people like one way more, so we include them to appeal to different kinds of players.\n\nMETHOD ONE: ROLLING\n\nThis is the classic method, providing surprises and maybe a tough choice. It helps make a character you adapt to, instead of you making all the decisions:\n- Roll four d6s. Find the lowest die and throw it out. Then add up the remaining three dice to get your total. Write that number down on scratch paper.\n- Do this five more times until you have six totals between 3 and 18.\n- Assign those six numbers to the ability scores however you like.\n- Finally, add 2 to one score of your choice that is 16 or below and add 1 to one score of your choice that is 17 or below.\n\nMETHOD TWO: POINT-BUY\n\nIf you don't want to leave it up to chance, you can assign ability scores with the point-buy method:\n- Start with 32 points to spend on your ability scores.\n- Each score costs a certain number of points. Find the cost of each potential score on the Point-Buy Cost table. (As an example, a score of 12 costs 4 points.)\n- 18 is the highest ability score you can start with, and you can't have a score lower than 8.\n- Buy one score for each of the six abilities.\n- Don't add anything extra when you're done here. These numbers are already balanced without adding more.\n\nPOINT-BUY COST TABLE\n\nSCORE COST  SCORE COST  SCORE COST\n  8      0        12      4       16      11\n  9      1        13      5       17      13\n 10      2        14      7       18      16\n 11      3       15        9\n\nMETHOD THREE: STANDARD ARRAY\n\nTo get started faster, use the standard array. Start with six numbers: 16, 14, 14, 13, 10, and 8. Assign them as ability scores however you want. Again, don't modify them any further. That's it!\n\nFIND ABILITY MODIFIERS\n\nOnce you assign scores, use the following charts to figure out your ability modifiers. Your ability modifiers are the most important part of your ability scores. You use your modifiers much more than your score to calculate success or failure in the game.\n\nABILITY MODIFIERS\n\nABILITY SCORE  MODIFIER\n       1             -5\n     2-3            -4\n     4-5            -3\n     6-7            -2\n     8-9            -1\n   10-11           +0\n   12-13           +1\n   14-15           +2\n   16-17           +3\n   18-19           +4\n      20           +5\n\nPC Wisdom: When you see an ability referenced in the rules, assume it means the ability score modifier (-1, 0, +1, +2, etc.) rather than the ability score itself (8, 10, 12, 14, etc.). For example, if a feature reads \"...roll and add your STR,\" that means add your Strength ability modifier, not your full Strength ability score.\n\nSTEP 4: CHOOSE A LINEAGE\n\nChoose your character's lineage from the options in the Lineage section later in this chapter. Lineage tells you about certain hereditary traits such as average lifespan, size, speed, and any special adaptations like the ability to see in the dark.\n\nLineage represents the blood ties and hereditary traits of a creature. Adventurers can be humans or a common fantasy lineage, like dwarves or elves.\n\nSTEP 5: CHOOSE A HERITAGE\n\nChoose your character's heritage from the options in the Heritage section later in this chapter. Heritage tells you about traits your character has because of their connection to a particular group or society.\n\nHeritage represents the upbringing and culture of a character. Adventurers can come from nearly any kind of fantasy society, such as a big city, a forest enclave, or an underground citadel.\n\nSTEP 6: CHOOSE A BACKGROUND\n\nChoose your character's background from the options in the Backgrounds section later in this chapter. Backgrounds give you skill proficiencies, talents, and languages learned.\n\nBackgrounds represent what your character did as an individual before they took up the adventuring life. Adventurers are often a motley group and come from a wide variety of backgrounds. Backgrounds include options like adherent or scholar.\n\nSTEP 7: FILL IN THE BLANKS\n\nAt this point, your big decisions are locked in. You still need to equip your character (see Chapter 3) and pick spells if they're a spellcaster (see Chapter 4). But you've got the basics squared away.\n\nTake some time to look things over and fill in any blank sections on your character sheet (see Final Checklist below). Make sure to give your character a name and decide what they look like. It's also a good idea to think about your character's history and personality—but it's perfectly fine to decide these details later. You might discover more about who you want your character to be after playing for a couple of game sessions.\n"
+      ]
+    },
+    {
+      "id": 14,
+      "type": "Text box",
+      "pos": [
+        -6640,
+        7690
+      ],
+      "size": {
+        "0": 630,
+        "1": 600
+      },
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "Character Classes",
+      "properties": {
+        "Node name for S&R": "Text box"
+      },
+      "widgets_values": [
+        "Character Classes\n\nEvery adventurer has a character class that dictates the heroic features they have access to. It can be helpful to think of a character's class like their job, with each type covering a different set of capabilities and responsibilities. The Class Options at a Glance table gives an overview about the classes detailed in this section.\n\nElements of a Class\n\nThis section breaks down the various components of a character class.\n\nProgression Table\nThe Progression table for your class tells you what class features you get at 1st level and what new features you gain as you level up.\n\nLevel\nCharacters start at 1st level and can advance up to 20th level. See the After Level 1 sidebar for more on this.\n\nProficiency Bonus\nProficiency bonus (PB) represents the benefit of training. As your character advances in levels, their training leads to improved performance at things they are proficient in. Every class advances at the same rate, but we put the progression in each class Progression table for convenience.\n\nAfter Level 1\nCharacters start at 1st level and can advance up to 20th level by gaining experience points (XP) during their adventures. By default, PCs start with 0 XP.\n\nWhen your PC gains a new level, you gain access to the benefits listed in the Progression table for the class at the new level. You also gain 1 hit die and more hit points. To calculate these new hit points, roll the new hit die, add your CON modifier to the roll, and add the total to your total hit points. If you don't want to roll, you can use the average hit die value (listed in each class description) plus your CON modifier.\n\nLeveling Methods\nThe GM keeps players aware of progress toward the next level by awarding XP or by tracking milestones. The GM decides which method to use.\n\nTracking XP\nWhen a GM tracks XP, they tally up the challenges that the PCs overcame during the session and award XP for them at the end. This method is good for groups that battle lots of monsters and have clearly defined areas of challenge. The Level Advancement table details the XP you need to advance to new levels. Don't reset the XP total after each level, just keep piling it on.\n\nTracking Milestones\nWhen the GM tracks milestones, PCs level up when they achieve a specific goal established by the GM. The milestone method works well for looser, faster-paced games or player groups that focus on storytelling, as opposed to tactical combat or dungeon delving.\n\nAs a general rule, 1st-level PCs should hit a level-up milestone after a single game session. Then, 2nd-level PCs should hit a milestone after two game sessions, and 3rd-level PCs should hit a milestone after three game sessions. They should hit another milestone approximately every three sessions after that. A GM can use dramatic license to speed up or slow down milestone advancement.\n\nHit Points and Hit Dice\nYour class determines the size of your hit dice (HD), which you use to calculate your hit points (HP). Your hit point total represents your character's life force. Classes with bigger hit dice, like a d10, are more likely to survive a few hits in combat than a class with smaller hit dice, like a d6.\n\nProficiencies\nProficiencies describe what kinds of equipment you are trained to use, like armor, weapons, and tools. They also describe what kind of challenges you are best at handling, represented by skills and saves.\n\nStarting Equipment\nEach character class includes a list of starting equipment. If you are creating a 1st-level character, you get this equipment along with any equipment granted by your background.\n\nFeature Descriptions\nEach class includes descriptions of each of the features listed in the class Progression table.\n\nSubclasses\nEach class has access to a specialization of some kind—further study or training in a particular subject. These specializations are called subclasses. At the end of the class features section, you'll find some subclass options.\n\nClass Options at a Glance\n\nCLASS DESCRIPTION HIT DIE KEY ABILITY SAVE PROFICIENCIES EQUIPMENT PROFICIENCIES\nCleric Faithful casters who wield divine magic d8 WIS WIS & CHA Light and medium armor, shields, simple weapons\nFighter Hardy adventurers who excel in combat and weapon use d10 STR or DEX CON & STR/DEX All armor types, all weapon types\nRogue Cunning adventurers who rely on agility and trickery d8 DEX DEX & INT Light armor, simple weapons, martial weapons with the light property\nWizard Cerebral casters who wield arcane magic d6 INT INT & WIS None"
+      ]
+    },
+    {
+      "id": 16,
+      "type": "CreateDict",
+      "pos": [
+        -6660,
+        6370
+      ],
+      "size": {
+        "0": 400,
+        "1": 200
+      },
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "dict_passthrough",
+          "type": "DICT",
+          "link": null
+        },
+        {
+          "name": "append to list",
+          "type": "LIST",
+          "link": null
+        },
+        {
+          "name": "list",
+          "type": "LIST",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "dict",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "list-> [dict]",
+          "type": "LIST",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CreateDict"
+      },
+      "widgets_values": [
+        "nodes",
+        ""
+      ]
+    },
+    {
+      "id": 15,
+      "type": "CreateDict",
+      "pos": [
+        -6660,
+        6610
+      ],
+      "size": {
+        "0": 400,
+        "1": 200
+      },
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "dict_passthrough",
+          "type": "DICT",
+          "link": null
+        },
+        {
+          "name": "append to list",
+          "type": "LIST",
+          "link": null
+        },
+        {
+          "name": "list",
+          "type": "LIST",
+          "link": 9,
+          "slot_index": 2
+        }
+      ],
+      "outputs": [
+        {
+          "name": "dict",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "list-> [dict]",
+          "type": "LIST",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CreateDict"
+      },
+      "widgets_values": [
+        "edges",
+        ""
+      ]
+    },
+    {
+      "id": 17,
+      "type": "StrBreakout",
+      "pos": [
+        -6890,
+        6620
+      ],
+      "size": [
+        210,
+        154
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Text",
+          "type": "STRING",
+          "link": 10,
+          "widget": {
+            "name": "Text"
+          },
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "BOOL",
+          "type": "BOOL",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "LIST",
+          "type": "LIST",
+          "links": [
+            9
+          ],
+          "shape": 3
+        },
+        {
+          "name": "LIST",
+          "type": "LIST",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "LIST",
+          "type": "LIST",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "StrBreakout"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 18,
+      "type": "Text box",
+      "pos": [
+        -7350,
+        6610
+      ],
+      "size": {
+        "0": 400,
+        "1": 200
+      },
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            10
+          ],
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Text box"
+      },
+      "widgets_values": [
+        "{type:1}\n"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "LLMCompletion",
+      "pos": [
+        -5170,
+        5790
+      ],
+      "size": [
+        497.1259854590817,
+        716.3572634585871
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "history",
+          "type": "LIST",
+          "link": null
+        },
+        {
+          "name": "llm_functions",
+          "type": "LIST",
+          "link": 5,
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "completion",
+          "type": "STRING",
+          "links": [
+            6
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "completion_as_message",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMCompletion"
+      },
+      "widgets_values": [
+        "```yaml\nnodes:\n  - id: 1\n    name: Emberforest\n  - id: 2\n    name: Emberglade\n  - id: 3\n    name: Village\n  - id: 4\n    name: Resources\n  - id: 5\n    name: Beauty\n  - id: 6\n    name: Inhabitants\n  - id: 7\n    name: Ecosystem\n\nedges:\n  - source: 1\n    target: 2\n    relationship: \"contains\"\n  - source: 2\n    target: 3\n    relationship: \"contains\"\n  - source: 1\n    target: 4\n    relationship: \"provides\"\n  - source: 1\n    target: 5\n    relationship: \"surrounds\"\n  - source: 2\n    target: 6\n    relationship: \"inhabits\"\n  - source: 1\n    target: 7\n    relationship: \"creates\"\n```\n\n\nis this a correct yaml representation of a knowledge graph? if so tell me a story that involves the knowledge\n\ndo not add anything that is not in the graph and do not leave out anything ",
+        "user",
+        "gpt-3.5-turbo-1106",
+        252,
+        0.9
+      ]
+    },
+    {
+      "id": 11,
+      "type": "ShowText",
+      "pos": [
+        -4642.791944322143,
+        6555.461124406125
+      ],
+      "size": {
+        "0": 416.7905578613281,
+        "1": 723.0697021484375
+      },
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "link": 8
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText"
+      },
+      "widgets_values": [
+        "```python\n{\n  \"nodes\": [\n    {\"id\": 1, \"name\": \"Emberforest\"},\n    {\"id\": 2, \"name\": \"Emberglade\"},\n    {\"id\": 3, \"name\": \"Village\"},\n    {\"id\": 4, \"name\": \"Resources\"},\n    {\"id\": 5, \"name\": \"Beauty\"},\n    {\"id\": 6, \"name\": \"Inhabitants\"},\n    {\"id\": 7, \"name\": \"Ecosystem\"}\n  ],\n  \"edges\": [\n    {\"source\": 1, \"target\": 2, \"relationship\": \"contains\"},\n    {\"source\": 2, \"target\": 3, \"relationship\": \"contains\"},\n    {\"source\": 1, \"target\": 4, \"relationship\": \"provides\"},\n    {\"source\": 1, \"target\": 5, \"relationship\": \"surrounds\"},\n    {\"source\": 2, \"target\": 6, \"relationship\": \"inhabits\"},\n    {\"source\": 1, \"target\": 7, \"relationship\": \"creates\"}\n  ]\n}\n```\n\nSchema:\n- nodes: list of objects with keys \"id\" and \"name\"\n- edges: list of objects with keys \"source\", \"target\", and \"relationship\""
+      ]
+    },
+    {
+      "id": 10,
+      "type": "LLMCompletion",
+      "pos": [
+        -5160,
+        6560
+      ],
+      "size": {
+        "0": 497.1259765625,
+        "1": 716.3572387695312
+      },
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "history",
+          "type": "LIST",
+          "link": null
+        },
+        {
+          "name": "llm_functions",
+          "type": "LIST",
+          "link": 7,
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "completion",
+          "type": "STRING",
+          "links": [
+            8
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "completion_as_message",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMCompletion"
+      },
+      "widgets_values": [
+        "```yaml\nnodes:\n  - id: 1\n    name: Emberforest\n  - id: 2\n    name: Emberglade\n  - id: 3\n    name: Village\n  - id: 4\n    name: Resources\n  - id: 5\n    name: Beauty\n  - id: 6\n    name: Inhabitants\n  - id: 7\n    name: Ecosystem\n\nedges:\n  - source: 1\n    target: 2\n    relationship: \"contains\"\n  - source: 2\n    target: 3\n    relationship: \"contains\"\n  - source: 1\n    target: 4\n    relationship: \"provides\"\n  - source: 1\n    target: 5\n    relationship: \"surrounds\"\n  - source: 2\n    target: 6\n    relationship: \"inhabits\"\n  - source: 1\n    target: 7\n    relationship: \"creates\"\n```\n\n\ntransform this knowledge graph to a python dict\n\nalso provide the schema",
+        "user",
+        "gpt-3.5-turbo-1106",
+        350,
+        0.905
+      ]
+    }
+  ],
+  "links": [
+    [
+      1,
+      1,
+      0,
+      2,
+      0,
+      "*"
+    ],
+    [
+      2,
+      3,
+      4,
+      1,
+      1,
+      "LIST"
+    ],
+    [
+      3,
+      6,
+      4,
+      4,
+      1,
+      "LIST"
+    ],
+    [
+      4,
+      4,
+      0,
+      5,
+      0,
+      "*"
+    ],
+    [
+      5,
+      9,
+      4,
+      7,
+      1,
+      "LIST"
+    ],
+    [
+      6,
+      7,
+      0,
+      8,
+      0,
+      "*"
+    ],
+    [
+      7,
+      12,
+      4,
+      10,
+      1,
+      "LIST"
+    ],
+    [
+      8,
+      10,
+      0,
+      11,
+      0,
+      "*"
+    ],
+    [
+      9,
+      17,
+      4,
+      15,
+      2,
+      "LIST"
+    ],
+    [
+      10,
+      18,
+      0,
+      17,
+      0,
+      "STRING"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {},
+  "version": 0.4
+}
