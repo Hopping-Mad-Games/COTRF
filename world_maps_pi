@@ -1352,7 +1352,7 @@
         10,
         2,
         1,
-        827,
+        1505,
         "randomize",
         0,
         4,
@@ -1563,7 +1563,7 @@
         10,
         2,
         1,
-        1006,
+        106,
         "randomize",
         0,
         4,
@@ -1924,7 +1924,7 @@
         100,
         2,
         0.5,
-        458986027732189,
+        458986027732191,
         "increment"
       ]
     },
@@ -2414,7 +2414,7 @@
         3,
         1,
         1,
-        1219,
+        806,
         "randomize",
         0,
         4,
@@ -2543,7 +2543,7 @@
         4,
         2,
         0.5,
-        1752,
+        956,
         "randomize",
         0,
         4,
@@ -3436,7 +3436,7 @@
         10,
         2,
         1,
-        1814,
+        1201,
         "randomize",
         0,
         4,
@@ -3977,7 +3977,7 @@
         10,
         2,
         1,
-        353,
+        1938,
         "randomize",
         0,
         4,
@@ -4225,7 +4225,7 @@
         "Node name for S&R": "ShowText"
       },
       "widgets_values": [
-        "bool worked\nint failed: invalid literal for int() with base 10: '.001\\n.025\\n.025\\n.015'\nlist worked\nsplitlines worked\nsplit(',') worked\nlist dtype failed: could not convert string to float: '.'\nsplitlines dtype worked\nsplit(',') dtype failed: could not convert string to float: '.001\\n.025\\n.025\\n.015'"
+        "bool worked\nint failed: invalid literal for int() with base 10: '.001\\n.015\\n.025\\n.015'\nlist worked\nsplitlines worked\nsplit(',') worked\nlist dtype failed: could not convert string to float: '.'\nsplitlines dtype worked\nsplit(',') dtype failed: could not convert string to float: '.001\\n.015\\n.025\\n.015'"
       ]
     },
     {
@@ -4263,37 +4263,6 @@
         "showOutputText": false,
         "horizontal": false
       }
-    },
-    {
-      "id": 535,
-      "type": "Text box",
-      "pos": [
-        -5301.927176718551,
-        -486.8521145691203
-      ],
-      "size": [
-        210,
-        206.04867223617578
-      ],
-      "flags": {},
-      "order": 12,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            1164
-          ],
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "Text box"
-      },
-      "widgets_values": [
-        ".001\n.025\n.025\n.015"
-      ]
     },
     {
       "id": 521,
@@ -4733,6 +4702,37 @@
       ]
     },
     {
+      "id": 535,
+      "type": "Text box",
+      "pos": [
+        -5301.927176718551,
+        -486.8521145691203
+      ],
+      "size": [
+        210,
+        206.04867223617578
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            1164
+          ],
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Text box"
+      },
+      "widgets_values": [
+        ".001\n.015\n.025\n.015"
+      ]
+    },
+    {
       "id": 564,
       "type": "FuncImageStackToImageStack",
       "pos": [
@@ -4769,7 +4769,7 @@
         "Node name for S&R": "FuncImageStackToImageStack"
       },
       "widgets_values": [
-        "import torch\nz=.675\n\ny_image=x_image*x_image*x_image\nz=z*z*z\ny_image=y_image-z\ny_image = y_image *(1/(1-z))\ny_image[y_image<z] = z**(.333)\ny_image = y_image *(1/y_image.max())"
+        "import torch\nz=.675\n\ny_image=x_image*x_image*x_image\nz=z*z*z\ny_image=y_image-z\ny_image = y_image *(1/(1-z))\ny_image[y_image<z] = ((z**(.333))*.5)+((+.5)*.5)\ny_image = y_image *(1/y_image.max())"
       ]
     }
   ],
