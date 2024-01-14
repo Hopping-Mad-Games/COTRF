@@ -2889,42 +2889,6 @@
       ]
     },
     {
-      "id": 97,
-      "type": "SaveJsonList",
-      "pos": [
-        7520,
-        -140
-      ],
-      "size": [
-        210,
-        58
-      ],
-      "flags": {},
-      "order": 60,
-      "mode": 2,
-      "inputs": [
-        {
-          "name": "list",
-          "type": "LIST",
-          "link": 102
-        }
-      ],
-      "outputs": [
-        {
-          "name": "json",
-          "type": "STRING",
-          "links": null,
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "SaveJsonList"
-      },
-      "widgets_values": [
-        "C:\\\\Users\\\\Tasha\\\\Nextcloud\\\\ETK\\\\3suns\\\\GPTS\\\\all.json"
-      ]
-    },
-    {
       "id": 14,
       "type": "FuncStrToStr",
       "pos": [
@@ -3529,51 +3493,6 @@
       ]
     },
     {
-      "id": 108,
-      "type": "FuncListToList",
-      "pos": [
-        -3100,
-        -1680
-      ],
-      "size": [
-        282.7820738276482,
-        607.4530887104725
-      ],
-      "flags": {},
-      "order": 30,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "list",
-          "type": "LIST",
-          "link": 120
-        },
-        {
-          "name": "func",
-          "type": "FUNC",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "LIST",
-          "type": "LIST",
-          "links": [
-            117,
-            124
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "FuncListToList"
-      },
-      "widgets_values": [
-        "y_list=x_list.copy()\n\no =[]\n\nfor i in y_list:\n o.append(\"\\n\\n\"+i+\"\\n\\n#----------#\\n\")\n\ny_list=o\ny_list=o[10:11]"
-      ]
-    },
-    {
       "id": 109,
       "type": "Show Text",
       "pos": [
@@ -3670,11 +3589,47 @@
       ]
     },
     {
+      "id": 97,
+      "type": "SaveJsonList",
+      "pos": [
+        7520,
+        -140
+      ],
+      "size": [
+        210,
+        58
+      ],
+      "flags": {},
+      "order": 60,
+      "mode": 2,
+      "inputs": [
+        {
+          "name": "list",
+          "type": "LIST",
+          "link": 102
+        }
+      ],
+      "outputs": [
+        {
+          "name": "json",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SaveJsonList"
+      },
+      "widgets_values": [
+        "C:\\\\Users\\\\Tasha\\\\Nextcloud\\\\ETK\\\\3suns\\\\GPTS\\\\all.json"
+      ]
+    },
+    {
       "id": 117,
       "type": "SaveJsonList",
       "pos": [
-        -2044.1475048416453,
-        -2354.1270075933635
+        -2100,
+        -2330
       ],
       "size": {
         "0": 315,
@@ -3702,7 +3657,52 @@
         "Node name for S&R": "SaveJsonList"
       },
       "widgets_values": [
-        "filename"
+        "C:\\\\Users\\\\Tasha\\\\Nextcloud\\\\ETK\\\\3suns\\\\tov_pages_gpt3_fixed.json"
+      ]
+    },
+    {
+      "id": 108,
+      "type": "FuncListToList",
+      "pos": [
+        -3100,
+        -1680
+      ],
+      "size": [
+        282.7820738276482,
+        607.4530887104725
+      ],
+      "flags": {},
+      "order": 30,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "list",
+          "type": "LIST",
+          "link": 120
+        },
+        {
+          "name": "func",
+          "type": "FUNC",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LIST",
+          "type": "LIST",
+          "links": [
+            117,
+            124
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "FuncListToList"
+      },
+      "widgets_values": [
+        "y_list=x_list.copy()\n\no =[]\n\nfor i in y_list:\n o.append(\"\\n\\n\"+i+\"\\n\\n#----------#\\n\")\n\ny_list=o\n#y_list=o[10:11]"
       ]
     }
   ],
