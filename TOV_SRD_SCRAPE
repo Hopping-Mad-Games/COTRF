@@ -1,6 +1,6 @@
 {
-  "last_node_id": 141,
-  "last_link_id": 157,
+  "last_node_id": 146,
+  "last_link_id": 165,
   "nodes": [
     {
       "id": 1,
@@ -14,7 +14,7 @@
         "1": 843.5103759765625
       },
       "flags": {},
-      "order": 21,
+      "order": 23,
       "mode": 2,
       "inputs": [
         {
@@ -143,7 +143,7 @@
         "1": 976.0765991210938
       },
       "flags": {},
-      "order": 29,
+      "order": 31,
       "mode": 2,
       "inputs": [
         {
@@ -247,7 +247,7 @@
         "1": 843.5103759765625
       },
       "flags": {},
-      "order": 19,
+      "order": 21,
       "mode": 2,
       "inputs": [
         {
@@ -308,7 +308,7 @@
         "1": 843.5103759765625
       },
       "flags": {},
-      "order": 20,
+      "order": 22,
       "mode": 2,
       "inputs": [
         {
@@ -369,7 +369,7 @@
         "1": 976.0765991210938
       },
       "flags": {},
-      "order": 30,
+      "order": 32,
       "mode": 2,
       "inputs": [
         {
@@ -473,7 +473,7 @@
         "1": 976.0765991210938
       },
       "flags": {},
-      "order": 31,
+      "order": 33,
       "mode": 2,
       "inputs": [
         {
@@ -509,7 +509,7 @@
         "1": 308.43658447265625
       },
       "flags": {},
-      "order": 82,
+      "order": 87,
       "mode": 2,
       "inputs": [
         {
@@ -553,7 +553,7 @@
         "1": 86.25674438476562
       },
       "flags": {},
-      "order": 43,
+      "order": 45,
       "mode": 2,
       "inputs": [
         {
@@ -589,7 +589,7 @@
         "1": 530.0410766601562
       },
       "flags": {},
-      "order": 44,
+      "order": 46,
       "mode": 2,
       "inputs": [
         {
@@ -774,7 +774,7 @@
         "1": 678.0570678710938
       },
       "flags": {},
-      "order": 60,
+      "order": 62,
       "mode": 2,
       "inputs": [
         {
@@ -810,7 +810,7 @@
         "1": 488.5381774902344
       },
       "flags": {},
-      "order": 53,
+      "order": 55,
       "mode": 2,
       "inputs": [
         {
@@ -849,7 +849,7 @@
         "1": 76.00001525878906
       },
       "flags": {},
-      "order": 69,
+      "order": 72,
       "mode": 2,
       "inputs": [
         {
@@ -885,7 +885,7 @@
         "1": 170
       },
       "flags": {},
-      "order": 45,
+      "order": 47,
       "mode": 2,
       "inputs": [
         {
@@ -946,7 +946,7 @@
         26
       ],
       "flags": {},
-      "order": 76,
+      "order": 81,
       "mode": 2,
       "inputs": [
         {
@@ -1026,7 +1026,7 @@
         "1": 170
       },
       "flags": {},
-      "order": 23,
+      "order": 25,
       "mode": 2,
       "inputs": [
         {
@@ -1086,7 +1086,7 @@
         "1": 488.5381774902344
       },
       "flags": {},
-      "order": 33,
+      "order": 35,
       "mode": 2,
       "inputs": [
         {
@@ -1125,7 +1125,7 @@
         "1": 149.2461700439453
       },
       "flags": {},
-      "order": 41,
+      "order": 43,
       "mode": 2,
       "inputs": [
         {
@@ -1168,7 +1168,7 @@
         "1": 76
       },
       "flags": {},
-      "order": 50,
+      "order": 52,
       "mode": 2,
       "inputs": [
         {
@@ -1204,7 +1204,7 @@
         "1": 678.0570678710938
       },
       "flags": {},
-      "order": 58,
+      "order": 60,
       "mode": 2,
       "inputs": [
         {
@@ -1240,7 +1240,7 @@
         26
       ],
       "flags": {},
-      "order": 42,
+      "order": 44,
       "mode": 2,
       "inputs": [
         {
@@ -1275,7 +1275,7 @@
         "1": 308.43658447265625
       },
       "flags": {},
-      "order": 51,
+      "order": 53,
       "mode": 2,
       "inputs": [
         {
@@ -1389,7 +1389,7 @@
         "1": 530.0410766601562
       },
       "flags": {},
-      "order": 22,
+      "order": 24,
       "mode": 2,
       "inputs": [
         {
@@ -1433,7 +1433,7 @@
         "1": 678.0570678710938
       },
       "flags": {},
-      "order": 32,
+      "order": 34,
       "mode": 2,
       "inputs": [
         {
@@ -1469,7 +1469,7 @@
         26
       ],
       "flags": {},
-      "order": 34,
+      "order": 36,
       "mode": 2,
       "inputs": [
         {
@@ -1545,7 +1545,7 @@
         "1": 678.0570678710938
       },
       "flags": {},
-      "order": 70,
+      "order": 73,
       "mode": 2,
       "inputs": [
         {
@@ -1581,7 +1581,7 @@
         "1": 305.4878845214844
       },
       "flags": {},
-      "order": 55,
+      "order": 57,
       "mode": 2,
       "inputs": [
         {
@@ -1637,7 +1637,7 @@
         "1": 673.730224609375
       },
       "flags": {},
-      "order": 62,
+      "order": 64,
       "mode": 2,
       "inputs": [
         {
@@ -1681,7 +1681,7 @@
         "1": 488.5381774902344
       },
       "flags": {},
-      "order": 77,
+      "order": 82,
       "mode": 2,
       "inputs": [
         {
@@ -1720,7 +1720,7 @@
         "1": 149.2461700439453
       },
       "flags": {},
-      "order": 59,
+      "order": 61,
       "mode": 2,
       "inputs": [
         {
@@ -1763,7 +1763,7 @@
         26
       ],
       "flags": {},
-      "order": 80,
+      "order": 85,
       "mode": 2,
       "inputs": [
         {
@@ -1800,7 +1800,7 @@
         "1": 299.4737854003906
       },
       "flags": {},
-      "order": 61,
+      "order": 63,
       "mode": 2,
       "inputs": [
         {
@@ -1836,7 +1836,7 @@
         "1": 606.200927734375
       },
       "flags": {},
-      "order": 36,
+      "order": 38,
       "mode": 2,
       "inputs": [
         {
@@ -1880,7 +1880,7 @@
         "1": 678.0570678710938
       },
       "flags": {},
-      "order": 85,
+      "order": 90,
       "mode": 2,
       "inputs": [
         {
@@ -1916,7 +1916,7 @@
         "1": 488.5381774902344
       },
       "flags": {},
-      "order": 72,
+      "order": 75,
       "mode": 2,
       "inputs": [
         {
@@ -1953,7 +1953,7 @@
         "1": 649.0576171875
       },
       "flags": {},
-      "order": 63,
+      "order": 65,
       "mode": 2,
       "inputs": [
         {
@@ -1998,7 +1998,7 @@
         "1": 211.9998779296875
       },
       "flags": {},
-      "order": 94,
+      "order": 99,
       "mode": 2,
       "inputs": [
         {
@@ -2066,7 +2066,7 @@
         "1": 26
       },
       "flags": {},
-      "order": 89,
+      "order": 94,
       "mode": 2,
       "inputs": [
         {
@@ -2102,7 +2102,7 @@
         "1": 130.15902709960938
       },
       "flags": {},
-      "order": 92,
+      "order": 97,
       "mode": 2,
       "inputs": [
         {
@@ -2156,7 +2156,7 @@
         "1": 505.7913818359375
       },
       "flags": {},
-      "order": 96,
+      "order": 101,
       "mode": 0,
       "inputs": [
         {
@@ -2193,7 +2193,7 @@
         "1": 304.86224365234375
       },
       "flags": {},
-      "order": 54,
+      "order": 56,
       "mode": 2,
       "inputs": [
         {
@@ -2237,7 +2237,7 @@
         "1": 76
       },
       "flags": {},
-      "order": 84,
+      "order": 89,
       "mode": 2,
       "inputs": [
         {
@@ -2273,7 +2273,7 @@
         "1": 149.2461700439453
       },
       "flags": {},
-      "order": 81,
+      "order": 86,
       "mode": 2,
       "inputs": [
         {
@@ -2316,7 +2316,7 @@
         "1": 505.7913818359375
       },
       "flags": {},
-      "order": 88,
+      "order": 93,
       "mode": 0,
       "inputs": [
         {
@@ -2353,7 +2353,7 @@
         "1": 204
       },
       "flags": {},
-      "order": 86,
+      "order": 91,
       "mode": 2,
       "inputs": [
         {
@@ -2422,7 +2422,7 @@
         "1": 26
       },
       "flags": {},
-      "order": 91,
+      "order": 96,
       "mode": 2,
       "inputs": [
         {
@@ -2458,7 +2458,7 @@
         26
       ],
       "flags": {},
-      "order": 83,
+      "order": 88,
       "mode": 2,
       "inputs": [
         {
@@ -2495,7 +2495,7 @@
         "1": 678.0570678710938
       },
       "flags": {},
-      "order": 52,
+      "order": 54,
       "mode": 2,
       "inputs": [
         {
@@ -2531,7 +2531,7 @@
         "1": 130.15902709960938
       },
       "flags": {},
-      "order": 93,
+      "order": 98,
       "mode": 2,
       "inputs": [
         {
@@ -2585,7 +2585,7 @@
         "1": 277.4194030761719
       },
       "flags": {},
-      "order": 87,
+      "order": 92,
       "mode": 2,
       "inputs": [
         {
@@ -2654,7 +2654,7 @@
         "1": 188.17849731445312
       },
       "flags": {},
-      "order": 95,
+      "order": 100,
       "mode": 2,
       "inputs": [
         {
@@ -2700,7 +2700,7 @@
         "1": 211.9998779296875
       },
       "flags": {},
-      "order": 97,
+      "order": 102,
       "mode": 2,
       "inputs": [
         {
@@ -2768,7 +2768,7 @@
         "1": 505.7913818359375
       },
       "flags": {},
-      "order": 90,
+      "order": 95,
       "mode": 2,
       "inputs": [
         {
@@ -2805,7 +2805,7 @@
         "1": 505.7913818359375
       },
       "flags": {},
-      "order": 98,
+      "order": 103,
       "mode": 2,
       "inputs": [
         {
@@ -2842,7 +2842,7 @@
         "1": 170
       },
       "flags": {},
-      "order": 71,
+      "order": 74,
       "mode": 2,
       "inputs": [
         {
@@ -2903,7 +2903,7 @@
         "1": 148.43663024902344
       },
       "flags": {},
-      "order": 35,
+      "order": 37,
       "mode": 2,
       "inputs": [
         {
@@ -2946,7 +2946,7 @@
         "1": 154
       },
       "flags": {},
-      "order": 24,
+      "order": 26,
       "mode": 2,
       "inputs": [
         {
@@ -3082,7 +3082,7 @@
         "1": 678.0570678710938
       },
       "flags": {},
-      "order": 75,
+      "order": 80,
       "mode": 0,
       "inputs": [
         {
@@ -3118,7 +3118,7 @@
         "1": 304.86224365234375
       },
       "flags": {},
-      "order": 67,
+      "order": 70,
       "mode": 0,
       "inputs": [
         {
@@ -3266,7 +3266,7 @@
         "1": 58
       },
       "flags": {},
-      "order": 78,
+      "order": 83,
       "mode": 2,
       "inputs": [
         {
@@ -3302,7 +3302,7 @@
         "1": 607.4530639648438
       },
       "flags": {},
-      "order": 37,
+      "order": 39,
       "mode": 0,
       "inputs": [
         {
@@ -3346,7 +3346,7 @@
         "1": 58
       },
       "flags": {},
-      "order": 68,
+      "order": 71,
       "mode": 0,
       "inputs": [
         {
@@ -3455,7 +3455,7 @@
         "1": 304.86224365234375
       },
       "flags": {},
-      "order": 73,
+      "order": 76,
       "mode": 0,
       "inputs": [
         {
@@ -3499,7 +3499,7 @@
         "1": 678.0570678710938
       },
       "flags": {},
-      "order": 79,
+      "order": 84,
       "mode": 0,
       "inputs": [
         {
@@ -3535,7 +3535,7 @@
         "1": 58
       },
       "flags": {},
-      "order": 74,
+      "order": 77,
       "mode": 0,
       "inputs": [
         {
@@ -3611,7 +3611,7 @@
         26
       ],
       "flags": {},
-      "order": 64,
+      "order": 66,
       "mode": 0,
       "inputs": [
         {
@@ -3637,11 +3637,727 @@
       }
     },
     {
+      "id": 120,
+      "type": "FuncListToList",
+      "pos": [
+        -4213.272904829555,
+        1040.7363059303807
+      ],
+      "size": {
+        "0": 282.7820739746094,
+        "1": 607.4530639648438
+      },
+      "flags": {},
+      "order": 40,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "list",
+          "type": "LIST",
+          "link": 129
+        },
+        {
+          "name": "func",
+          "type": "FUNC",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LIST",
+          "type": "LIST",
+          "links": [
+            130
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "FuncListToList"
+      },
+      "widgets_values": [
+        "y_list=x_list.copy()\n\no =[]\n\nfor i in y_list:\n o.append(\"\\n\\n\"+i+\"\\n\\n#----------#\\n\")\n\ny_list=o\n#y_list=o[10:11]"
+      ]
+    },
+    {
+      "id": 121,
+      "type": "Show Text",
+      "pos": [
+        -3823.272904829555,
+        1040.7363059303807
+      ],
+      "size": {
+        "0": 581.0113525390625,
+        "1": 678.0570678710938
+      },
+      "flags": {},
+      "order": 49,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "link": 130
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Show Text"
+      },
+      "widgets_values": [
+        "\n\n\nThe following is an excerpt from my book. make sure all headings are ALL CAPS. Also make sure that paragraphs that belong to the same heading are are not separated by spaces. please use raw text. Only use information that is in the excerpt this is an EXCERPT from my book.##### EXCERPT:\nSTEP 3. DETERMINE ABILITY SCORES\n\nAt their core, characters are defined by six abilities:\n\n• Strength (STR), representing your physical might.\n\n• Dexterity (DEX), representing your agility and\n\nreaction time.\n\n• Constitution (CON), representing your endurance\n\nand physical fortitude.\n\n• Intelligence (INT), representing your ability to\n\nacquire and apply knowledge.\n\n• Wisdom (WIS), representing your intuition and\n\nmental fortitude.\n\n• Charisma (CHA), representing your self-confidence\n\nand your ability to influence others.\n\nEach ability is assigned a number, called an ability score.These scores represent your various physical and mentalabilities. Higher numbers in a score mean you character isbetter with that ability.\n\nAs you level up, you can increase these scores, but a PCcan never have an ability score higher than 20. An averageperson has 10 in every ability score, so these numbersemphasize how powerful adventurers are!\n\nTHREE WAYS TO SCORE\n\nThere are three methods to determine your starting abilityscores. No method is better than another, but somepeople like one way more, so we include them to appeal todifferent kinds of players.\n\nMETHOD ONE: ROLLING\n\nThis is the classic, providing surprises and maybe a toughchoice. It helps make a character you adapt to, instead ofyou making all the decisions:\n\n• Roll four d6s. Find the lowest die and throw it out.Then add up the remaining three dice to get your total.Write that number down on scratch paper.\n\n• Do this five more times until you have six totalsbetween 3 and I8.\n\n• Assign those six numbers to the ability scores howeveryou like.\n\n• Finally, add 2 to one score of your choice that is 16 orbelow and add 1 to one score of your choice that is 17or below.\n\nMETHOD TWO: POINT-BUYIf you dont want to leave it up to chance, you can assignability scores with the point-buy method:• Start with 32 points to spend on your ability scores.• Each score costs a certain number of points. Find thecost of each potential score on the Point-Buy Costtable. (As an example, a score of 12 costs 4 points.)\n\n• 18 isthe highest ability score you can start with, and youcant have a score lower than 8.\n\n• Buy one score for each of the six abilities.\n\n• Dont add anything extra when youre done here. Thesenumbers are already balanced without adding more.\n\nPOINT-BUY COST\n\nSCORE COST SCORE COST SCORE COST8 0 12 4 16 1\n\n9 1 13 5 17 13\n\n10 2 14 7 18 16\n\n11 3 15 9\n\nMETHOD THREE: STANDARD ARRAY\n\nTo get started faster, use the standard array. Start with sixnumbers: 16, 14, 14, 13, 10, and 8. Assign them as abilityscores however you want. Again, dont modify them anyfurther. Thats it!\n\nFIND ABILITY MODIFIERS\n\nOnce you assign scores, use the following charts to figureout your ability modifiers. Your ability modifiers are themost important part of your ability scores. You use yourmodifiers much more than your score to calculate successor failure in the game.\n\nABILITY MODIFIERS\n\nABILITY ABILITY\n\nSCORE MODIFIER SCORE MODIFIER1 5 12-13 +1\n\n2-3 -4 14-15 +2\n\n4-5 3 16-17 +3\n\n6-7 -2 18-19 +4\n\n8-9 -1 20 $5\n\n10-11 +0\n\nPC Wisdom: When you see an ability referencedin the rules, assume it means the ability scoremodifier (-1, 0, +1, +2, etc.) rather than the abilityscore itself (8, 10, 12, 14, etc.). For example, if afeature reads .. . roll and add your STR, thatmeans add your Strength ability modifier, not yourfull Strength ability score.\n\n#####END#####\n\n\n#----------#\n\n\n\n\nThe following is an excerpt from my book. make sure all headings are ALL CAPS. Also make sure that paragraphs that belong to the same heading are are not separated by spaces. please use raw text. Only use information that is in the excerpt this is an EXCERPT from my book.##### EXCERPT:\nSTEP 4. CHOOSE A LINEAGE\n\nChoose your characters lineage from the options in theLineage section later in this chapter. Lineage tells youabout certain hereditary traits such as average lifespan,size, speed, and any special adaptations like the ability tosee in the dark.\n\nLineage represents the blood ties and hereditary traits of acreature. Adventurers can be humans or a common fantasylineage, like dwarf or elf.\n\nSTEP 5. CHOOSE A HERITAGE\n\nChoose your characters heritage from the options in theHeritage section later in this chapter. Heritage tells youabout traits your character has because of their connectionto a particular group or society.\n\nHeritage represents the upbringing and culture ofacharacter. Adventurers can come from nearly any kind offantasy society, such as a big city, a forest enclave, or anunderground citadel.\n\nSTEP 6. CHOOSE A BACKGROUND\n\nChoose your characters background from the options inthe Backgrounds section later in this chapter. Backgroundsgive you skill proficiencies, talents, and languages learned.Backgrounds represent what your character did asan individual before they took up the adventuring life.Adventurers are often a motley group and come from awide variety of backgrounds. Backgrounds include optionslike adherent or scholar.\n\nSTEP 7. FILL IN THE BLANKS\n\nAt this point, your big decisions are locked in. You stillneed to equip your character (see Chapter 3) and pick spellsif theyre a spellcaster (see Chapter 4). But youve got thebasics squared away.\n\nTake some time to look things over and fill in any blanksections on your character sheet (see Final Checklist below).Make sure to give your character a name and decide what\n\nthey look like. Its also a good idea to think about yourcharacters history and personalitybut its perfectly fineto decide these details later. You might discover more aboutwho you want your character to be after playing for a coupleof game sessions.\n\n#####END#####\n\n\n#----------#\n"
+      ]
+    },
+    {
+      "id": 134,
+      "type": "LLMMessage",
+      "pos": [
+        -5100,
+        100
+      ],
+      "size": {
+        "0": 659.5386962890625,
+        "1": 585.6882934570312
+      },
+      "flags": {},
+      "order": 29,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "list",
+          "type": "LIST",
+          "link": 149
+        }
+      ],
+      "outputs": [
+        {
+          "name": "dict",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": [
+            151
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMMessage"
+      },
+      "widgets_values": [
+        "assistant",
+        "CHAPTER 1: CHARACTER CREATION\nThe first step to play is creating your player character (PC). Character creation involves making rules choices that define who your character is and what your character is good at, as well as creative choices about your character's history and personality.\n\nThis chapter contains exact steps and options to create your character. If you are creating a character for the first time, it can be helpful to work with your game master (GM) to choose options that make a good play experience.\n\nSTEP-BY-STEP CHARACTER CREATION\nThese are the steps needed to create your character.\nSTEP 0. GATHER MATERIALS\nMake sure these basic tools are handy to record your character choices:\n• pencil\n• blank character sheet\n• scratch paper\n• dice (see About Those Dice in the sidebar)\n\nABOUT THOSE DICE\nThe Black Flag Roleplaying system uses polyhedral dice to resolve actions. These dice are abbreviated in game text, so a four-sided die is a d4, a six-sided die is a d6, and so on for d8, d10, d12, and d20. Percentile dice rolls (1-100) are rolled with two dice and abbreviated d%.\n\nSTEP 1. CREATE A CHARACTER CONCEPT\nIt can help to think about what kind of character you want to play before you start picking from lists. Do you want to cast magic spells? Do you want to be good at swinging a sword? Do you want to play as a human or a member of some more fantastical lineage? Knowing what sounds like fun to you can help guide your decisions.\nTalk to the other players about your ideas if they're around. Hearing what other players have in mind can help focus your choices or inspire you to create a concept that works well with other adventurers in your party.\nFor example, if all the other PCs are rough-and-tumble warriors, you might want to make a cleric so you can patch them up with healing magic!\n\nSTEP 2. CHOOSE A CLASS\nChoosing your character's class is the most important factor in bringing your concept into the game. Your character's class is sort of like their job. Each class covers a different set of capabilities and responsibilities.\nYour character class gives you class features at 1st level as described in each class features table (see Character Classes later in this chapter) and lists other features you gain access to as your character gains adventuring experience and levels up. Your choice of character class also dictates your proficiencies, which is a game term describing what kinds of equipment you are trained to use (like armor, weapons, or tools) and what kinds of challenges you are best at handling (skills and saves).\nChoosing your character class can also help you make other decisions. For example, each class has a Quick Build section that tells you which ability scores (described in Step 3) work best with your class abilities.\nSee the Class Options at a Glance table later in this chapter for a brief summary and comparison of each class.\n"
+      ]
+    },
+    {
+      "id": 135,
+      "type": "LLMMessage",
+      "pos": [
+        -4330,
+        -30
+      ],
+      "size": [
+        210,
+        221.97466636688216
+      ],
+      "flags": {},
+      "order": 41,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "list",
+          "type": "LIST",
+          "link": 151
+        }
+      ],
+      "outputs": [
+        {
+          "name": "dict",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": [
+            152
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMMessage"
+      },
+      "widgets_values": [
+        "user",
+        "thank you! That is perfect please always do it like that!"
+      ]
+    },
+    {
+      "id": 136,
+      "type": "LLMMessage",
+      "pos": [
+        -4060,
+        -30
+      ],
+      "size": {
+        "0": 210,
+        "1": 221.97467041015625
+      },
+      "flags": {},
+      "order": 50,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "list",
+          "type": "LIST",
+          "link": 152
+        }
+      ],
+      "outputs": [
+        {
+          "name": "dict",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": [
+            153
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMMessage"
+      },
+      "widgets_values": [
+        "assistant",
+        "I will always do it like that for you!"
+      ]
+    },
+    {
+      "id": 133,
+      "type": "LLMMessage",
+      "pos": [
+        -5800,
+        100
+      ],
+      "size": [
+        659.5386928955081,
+        585.6883011291507
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "list",
+          "type": "LIST",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "dict",
+          "type": "DICT",
+          "links": null,
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": [
+            149
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMMessage"
+      },
+      "widgets_values": [
+        "user",
+        "The following is an excerpt from my book. make sure all headings are ALL CAPS. Also make sure that paragraphs that belong to the same heading are are not separated by spaces. please use raw text. Only use information that is in the excerpt this is an EXCERPT from my book.##### EXCERPT:\nCHAPTER 1: CHARACTER CREATION\n\nThe first step to play is creating your player character (PC).\n\nCharacter creation involves making rules choices thatdefine who your character is and what your character isgood at, as well as creative choices about your charactershistory and personality.\n\nThis chapter contains exact steps and options to createyour character. If you are creating a character for the firsttime, it can be helpful to work with your game master\n\n(GM) to choose options that make a good play experience.\n\nSTEP-BY-STEPCHARACTER CREATION\n\nThese are the steps needed to create your character.\n\nSTEP 0. GATHER MATERIALS\n\nMake sure these basic tools are handy to record yourcharacter choices:\n\n• pencil\n\n• blank character sheet\n\n• scratch paper\n\n• dice (see About Those Dice in the sidebar)\n\nABOUT THOSE DICE\n\nThe Black Flag Roleplaying system uses polyhedraldice to resolve actions. These dice are abbreviatedin game text, so a four-sided die is a d4, a six-sideddie is a d6, and so on for d8, d10, d12, and d20.Percentile dice rolls (1-100) are rolled with two diceand abbreviated d%.\n\nSTEP 1. CREATE A CHARACTER CONCEPT\n\nIt can help to think about what kind of character you wantto play before you start picking from lists. Do you want\n\nto cast magic spells? Do you want to be good at swinging\n\na sword? Do you want to play as a human or a member ofsome more fantastical lineage? Knowing what sounds likefun to you can help guide your decisions.\n\nTalk to the other players about your ideas if theyrearound. Hearing what other players have in mind canhelp focus your choices or inspire you to create a conceptthat works well with other adventurers in your party.\n\nFor example, if all the other PCs are rough-and-tumblewarriors, you might want to make a cleric so you can patchthem up with healing magic!\n\nSTEP 2. CHOOSE A CLASS\n\nChoosing your characters class is the most importantfactor in bringing your concept into the game. Yourcharacters class is sort of like their job. Each class covers adifferent set of capabilities and responsibilities.\n\nYour character class gives you class features at 1st level asdescribed in each class features table (see Character Classeslater in this chapter) and lists other features you gain accessto as your character gains adventuring experience andlevels up. Your choice of character class also dictates yourproficiencies, which is a game term describing what kindsof equipment you are trained to use (like armor, weapons,or tools) and what kinds of challenges you are best athandling (skills and saves).\n\nChoosing your character class can also help you makeother decisions. For example, each class has a Quick Buildsection that tells you which ability scores (described in Step3) work best with your class abilities.\n\nSee the Class Options at a Glance table later in thischapter for a brief summary and comparison of each class.\n\n#####END#####\n\n"
+      ]
+    },
+    {
+      "id": 139,
+      "type": "LLMMessage",
+      "pos": [
+        -3098.830691739049,
+        -2512.366625915798
+      ],
+      "size": {
+        "0": 210,
+        "1": 221.97467041015625
+      },
+      "flags": {},
+      "order": 42,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "list",
+          "type": "LIST",
+          "link": 155
+        }
+      ],
+      "outputs": [
+        {
+          "name": "dict",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": [
+            156
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMMessage"
+      },
+      "widgets_values": [
+        "user",
+        "thank you! That is perfect please always do it like that!"
+      ]
+    },
+    {
+      "id": 140,
+      "type": "LLMMessage",
+      "pos": [
+        -2828.830691739049,
+        -2512.366625915798
+      ],
+      "size": {
+        "0": 210,
+        "1": 221.97467041015625
+      },
+      "flags": {},
+      "order": 51,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "list",
+          "type": "LIST",
+          "link": 156
+        }
+      ],
+      "outputs": [
+        {
+          "name": "dict",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": [
+            157
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMMessage"
+      },
+      "widgets_values": [
+        "assistant",
+        "I will always do it like that for you!"
+      ]
+    },
+    {
+      "id": 141,
+      "type": "LLMMessage",
+      "pos": [
+        -3600,
+        -3380
+      ],
+      "size": {
+        "0": 659.5386962890625,
+        "1": 585.6882934570312
+      },
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "list",
+          "type": "LIST",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "dict",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": [],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMMessage"
+      },
+      "widgets_values": [
+        "assistant",
+        "STEP 3. DETERMINE ABILITY SCORES\nAt their core, characters are defined by six abilities:\n• Strength (STR), representing your physical might.\n• Dexterity (DEX), representing your agility and reaction time.\n• Constitution (CON), representing your endurance and physical fortitude.\n• Intelligence (INT), representing your ability to acquire and apply knowledge.\n• Wisdom (WIS), representing your intuition and mental fortitude.\n• Charisma (CHA), representing your self-confidence and your ability to influence others.\n\nEach ability is assigned a number, called an ability score. These scores represent your various physical and mental abilities. Higher numbers in a score mean your character is better with that ability.\n\nAs you level up, you can increase these scores, but a PC can never have an ability score higher than 20. An average person has 10 in every ability score, so these numbers emphasize how powerful adventurers are!\n\nTHREE WAYS TO SCORE\nThere are three methods to determine your starting ability scores. No method is better than another, but some people like one way more, so we include them to appeal to different kinds of players.\n\nMETHOD ONE: ROLLING\nThis is the classic, providing surprises and maybe a tough choice. It helps make a character you adapt to, instead of you making all the decisions:\n• Roll four d6s. Find the lowest die and throw it out. Then add up the remaining three dice to get your total. Write that number down on scratch paper.\n• Do this five more times until you have six totals between 3 and I8.\n• Assign those six numbers to the ability scores however you like.\n• Finally, add 2 to one score of your choice that is 16 or below and add 1 to one score of your choice that is 17 or below.\n\nMETHOD TWO: POINT-BUY\nIf you don't want to leave it up to chance, you can assign ability scores with the point-buy method:\n• Start with 32 points to spend on your ability scores.\n• Each score costs a certain number of points. Find the cost of each potential score on the Point-Buy Cost table. (As an example, a score of 12 costs 4 points.)\n• 18 is the highest ability score you can start with, and you can't have a score lower than 8.\n• Buy one score for each of the six abilities.\n• Don't add anything extra when you're done here\nSTEP 4. CHOOSE A LINEAGE\nChoose your character's lineage from the options in the Lineage section later in this chapter. Lineage tells you about certain hereditary traits such as average lifespan, size, speed, and any special adaptations like the ability to see in the dark.\n\nLineage represents the blood ties and hereditary traits of a creature. Adventurers can be humans or a common fantasy lineage, like dwarf or elf.\n\nSTEP 5. CHOOSE A HERITAGE\nChoose your character's heritage from the options in the Heritage section later in this chapter. Heritage tells you about traits your character has because of their connection to a particular group or society.\n\nHeritage represents the upbringing and culture of a character. Adventurers can come from nearly any kind of fantasy society, such as a big city, a forest enclave, or an underground citadel.\n\nSTEP 6. CHOOSE A BACKGROUND\nChoose your character's background from the options in the Backgrounds section later in this chapter. Backgrounds give you skill proficiencies, talents, and languages learned.\n\nBackgrounds represent what your character did as an individual before they took up the adventuring life. Adventurers are often a motley group and come from a wide variety of backgrounds. Backgrounds include options like adherent or scholar.\n\nSTEP 7. FILL IN THE BLANKS\nAt this point, your big decisions are locked in. You still need to equip your character (see Chapter 3) and pick spells if they're a spellcaster (see Chapter 4). But you've got the basics squared away.\n\nTake some time to look things over and fill in any blank sections on your character sheet (see Final Checklist below). Make sure to give your character a name and decide what they look like. It's also a good idea to think about your character's history and personality—but it's perfectly fine to decide these details later. You might discover more about who you want your character to be after playing for a couple of game sessions."
+      ]
+    },
+    {
+      "id": 109,
+      "type": "Show Text",
+      "pos": [
+        -2710,
+        -1680
+      ],
+      "size": {
+        "0": 581.0113525390625,
+        "1": 678.0570678710938
+      },
+      "flags": {},
+      "order": 48,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "link": 117
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Show Text"
+      },
+      "widgets_values": [
+        "\n\n\nThe following is an excerpt from my book. make sure all headings are ALL CAPS. Also make sure that paragraphs that belong to the same heading are are not separated by spaces. please use raw text. Only use information that is in the excerpt this is an EXCERPT from my book.##### EXCERPT:\nSTEP 3. DETERMINE ABILITY SCORES\n\nAt their core, characters are defined by six abilities:\n\n• Strength (STR), representing your physical might.\n\n• Dexterity (DEX), representing your agility and\n\nreaction time.\n\n• Constitution (CON), representing your endurance\n\nand physical fortitude.\n\n• Intelligence (INT), representing your ability to\n\nacquire and apply knowledge.\n\n• Wisdom (WIS), representing your intuition and\n\nmental fortitude.\n\n• Charisma (CHA), representing your self-confidence\n\nand your ability to influence others.\n\nEach ability is assigned a number, called an ability score.These scores represent your various physical and mentalabilities. Higher numbers in a score mean you character isbetter with that ability.\n\nAs you level up, you can increase these scores, but a PCcan never have an ability score higher than 20. An averageperson has 10 in every ability score, so these numbersemphasize how powerful adventurers are!\n\nTHREE WAYS TO SCORE\n\nThere are three methods to determine your starting abilityscores. No method is better than another, but somepeople like one way more, so we include them to appeal todifferent kinds of players.\n\nMETHOD ONE: ROLLING\n\nThis is the classic, providing surprises and maybe a toughchoice. It helps make a character you adapt to, instead ofyou making all the decisions:\n\n• Roll four d6s. Find the lowest die and throw it out.Then add up the remaining three dice to get your total.Write that number down on scratch paper.\n\n• Do this five more times until you have six totalsbetween 3 and I8.\n\n• Assign those six numbers to the ability scores howeveryou like.\n\n• Finally, add 2 to one score of your choice that is 16 orbelow and add 1 to one score of your choice that is 17or below.\n\nMETHOD TWO: POINT-BUYIf you dont want to leave it up to chance, you can assignability scores with the point-buy method:• Start with 32 points to spend on your ability scores.• Each score costs a certain number of points. Find thecost of each potential score on the Point-Buy Costtable. (As an example, a score of 12 costs 4 points.)\n\n• 18 isthe highest ability score you can start with, and youcant have a score lower than 8.\n\n• Buy one score for each of the six abilities.\n\n• Dont add anything extra when youre done here. Thesenumbers are already balanced without adding more.\n\nPOINT-BUY COST\n\nSCORE COST SCORE COST SCORE COST8 0 12 4 16 1\n\n9 1 13 5 17 13\n\n10 2 14 7 18 16\n\n11 3 15 9\n\nMETHOD THREE: STANDARD ARRAY\n\nTo get started faster, use the standard array. Start with sixnumbers: 16, 14, 14, 13, 10, and 8. Assign them as abilityscores however you want. Again, dont modify them anyfurther. Thats it!\n\nFIND ABILITY MODIFIERS\n\nOnce you assign scores, use the following charts to figureout your ability modifiers. Your ability modifiers are themost important part of your ability scores. You use yourmodifiers much more than your score to calculate successor failure in the game.\n\nABILITY MODIFIERS\n\nABILITY ABILITY\n\nSCORE MODIFIER SCORE MODIFIER1 5 12-13 +1\n\n2-3 -4 14-15 +2\n\n4-5 3 16-17 +3\n\n6-7 -2 18-19 +4\n\n8-9 -1 20 $5\n\n10-11 +0\n\nPC Wisdom: When you see an ability referencedin the rules, assume it means the ability scoremodifier (-1, 0, +1, +2, etc.) rather than the abilityscore itself (8, 10, 12, 14, etc.). For example, if afeature reads .. . roll and add your STR, thatmeans add your Strength ability modifier, not yourfull Strength ability score.\n\n#####END#####\n\n\n#----------#\n\n\n\n\nThe following is an excerpt from my book. make sure all headings are ALL CAPS. Also make sure that paragraphs that belong to the same heading are are not separated by spaces. please use raw text. Only use information that is in the excerpt this is an EXCERPT from my book.##### EXCERPT:\nSTEP 4. CHOOSE A LINEAGE\n\nChoose your characters lineage from the options in theLineage section later in this chapter. Lineage tells youabout certain hereditary traits such as average lifespan,size, speed, and any special adaptations like the ability tosee in the dark.\n\nLineage represents the blood ties and hereditary traits of acreature. Adventurers can be humans or a common fantasylineage, like dwarf or elf.\n\nSTEP 5. CHOOSE A HERITAGE\n\nChoose your characters heritage from the options in theHeritage section later in this chapter. Heritage tells youabout traits your character has because of their connectionto a particular group or society.\n\nHeritage represents the upbringing and culture ofacharacter. Adventurers can come from nearly any kind offantasy society, such as a big city, a forest enclave, or anunderground citadel.\n\nSTEP 6. CHOOSE A BACKGROUND\n\nChoose your characters background from the options inthe Backgrounds section later in this chapter. Backgroundsgive you skill proficiencies, talents, and languages learned.Backgrounds represent what your character did asan individual before they took up the adventuring life.Adventurers are often a motley group and come from awide variety of backgrounds. Backgrounds include optionslike adherent or scholar.\n\nSTEP 7. FILL IN THE BLANKS\n\nAt this point, your big decisions are locked in. You stillneed to equip your character (see Chapter 3) and pick spellsif theyre a spellcaster (see Chapter 4). But youve got thebasics squared away.\n\nTake some time to look things over and fill in any blanksections on your character sheet (see Final Checklist below).Make sure to give your character a name and decide what\n\nthey look like. Its also a good idea to think about yourcharacters history and personalitybut its perfectly fineto decide these details later. You might discover more aboutwho you want your character to be after playing for a coupleof game sessions.\n\n#####END#####\n\n\n#----------#\n"
+      ]
+    },
+    {
+      "id": 114,
+      "type": "ShowText",
+      "pos": [
+        -1940,
+        -120
+      ],
+      "size": [
+        341.9763056229858,
+        926.7875780214841
+      ],
+      "flags": {},
+      "order": 69,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "link": 122
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": [],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText"
+      },
+      "widgets_values": [
+        "STEP 3. DETERMINE ABILITY SCORES\nAt their core, characters are defined by six abilities:\n• Strength (STR), representing your physical might.\n• Dexterity (DEX), representing your agility and reaction time.\n• Constitution (CON), representing your endurance and physical fortitude.\n• Intelligence (INT), representing your ability to acquire and apply knowledge.\n• Wisdom (WIS), representing your intuition and mental fortitude.\n• Charisma (CHA), representing your self-confidence and your ability to influence others.\n\nEach ability is assigned a number, called an ability score. These scores represent your various physical and mental abilities. Higher numbers in a score mean your character is better with that ability.\n\nAs you level up, you can increase these scores, but a PC can never have an ability score higher than 20. An average person has 10 in every ability score, so these numbers emphasize how powerful adventurers are!\n\nTHREE WAYS TO SCORE\nThere are three methods to determine your starting ability scores. No method is better than another, but some people like one way more, so we include them to appeal to different kinds of players.\n\nMETHOD ONE: ROLLING\nThis is the classic, providing surprises and maybe a tough choice. It helps make a character you adapt to, instead of you making all the decisions:\n• Roll four d6s. Find the lowest die and throw it out. Then add up the remaining three dice to get your total. Write that number down on scratch paper.\n• Do this five more times until you have six totals between 3 and I8.\n• Assign those six numbers to the ability scores however you like.\n• Finally, add 2 to one score of your choice that is 16 or below and add 1 to one score of your choice that is 17 or below.\n\nMETHOD TWO: POINT-BUY\nIf you dont want to leave it up to chance, you can assign ability scores with the point-buy method:\n• Start with 32 points to spend on your ability scores.\n• Each score costs a certain number of points. Find the cost of each potential score on the Point-Buy Cost table. (As an example, a score of 12 costs 4 points.)\n• 18 isthe highest ability score you can start with, and youcant have a score lower than 8.\n• Buy one score for each of the six abilities.\n• Dont add anything extra when youre done here. Thesenumbers are already balanced without adding more.\n\nPOINT-BUY COST\n\nSCORE COST SCORE COST SCORE COST8 0 12 4 16 1\n9 1 13 5 17 13\n10 2 14 7 18 16\n11 3 15 9\n\nMETHOD THREE: STANDARD ARRAY\nTo get started faster, use the standard array. Start with sixnumbers: 16, 14, 14, 13, 10, and 8. Assign them as abilityscores however you want. Again, dont modify them anyfurther. Thats it!\n\nFIND ABILITY MODIFIERS\nOnce you assign scores, use the following charts to figureout your ability modifiers. Your ability modifiers are themost important part of your ability scores. You use yourmodifiers much more than your score to calculate successor failure in the game.\n\nABILITY MODIFIERS\n\nABILITY ABILITY\n\nSCORE MODIFIER SCORE MODIFIER1 5 12-13 +1\n2-3 -4 14-15 +2\n4-5 3 16-17 +3\n6-7 -2 18-19 +4\n8-9 -1 20 $5\n10-11 +0\n\nPC Wisdom: When you see an ability referencedin the rules, assume it means the ability scoremodifier (-1, 0, +1, +2, etc.) rather than the abilityscore itself (8, 10, 12, 14, etc.). For example, if afeature reads .. . roll and add your STR, thatmeans add your Strength ability modifier, not yourfull Strength ability score.\n\n#####END#####\nSTEP 4. CHOOSE A LINEAGE\nChoose your character's lineage from the options in the Lineage section later in this chapter. Lineage tells you about certain hereditary traits such as average lifespan, size, speed, and any special adaptations like the ability to see in the dark.\nLineage represents the blood ties and hereditary traits of a creature. Adventurers can be humans or a common fantasy lineage, like dwarf or elf.\n\nSTEP 5. CHOOSE A HERITAGE\nChoose your character's heritage from the options in the Heritage section later in this chapter. Heritage tells you about traits your character has because of their connection to a particular group or society.\nHeritage represents the upbringing and culture of a character. Adventurers can come from nearly any kind of fantasy society, such as a big city, a forest enclave, or an underground citadel.\n\nSTEP 6. CHOOSE A BACKGROUND\nChoose your character's background from the options in the Backgrounds section later in this chapter. Backgrounds give you skill proficiencies, talents, and languages learned. Backgrounds represent what your character did as an individual before they took up the adventuring life. Adventurers are often a motley group and come from a wide variety of backgrounds. Backgrounds include options like adherent or scholar.\n\nSTEP 7. FILL IN THE BLANKS\nAt this point, your big decisions are locked in. You still need to equip your character (see Chapter 3) and pick spells if they're a spellcaster (see Chapter 4). But you've got the basics squared away. Take some time to look things over and fill in any blank sections on your character sheet (see Final Checklist below). Make sure to give your character a name and decide what they look like. It's also a good idea to think about your character's history and personality but it's perfectly fine to decide these details later. You might discover more about who you want your character to be after playing for a couple of game sessions.\n\n#####END#####"
+      ]
+    },
+    {
+      "id": 137,
+      "type": "LLMMessage",
+      "pos": [
+        -5360,
+        -2540
+      ],
+      "size": {
+        "0": 659.5386962890625,
+        "1": 585.6882934570312
+      },
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "list",
+          "type": "LIST",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "dict",
+          "type": "DICT",
+          "links": null,
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": [
+            154
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMMessage"
+      },
+      "widgets_values": [
+        "user",
+        "The following is an excerpt from my book. make sure all headings are ALL CAPS. Also make sure that paragraphs that belong to the same heading are only separated by one newline. please use raw text. Only use information that is in the excerpt this is an EXCERPT from my book.##### EXCERPT:\nSTEP 3. DETERMINE ABILITY SCORES\n\nAt their core, characters are defined by six abilities:\n\n• Strength (STR), representing your physical might.\n\n• Dexterity (DEX), representing your agility and\n\nreaction time.\n\n• Constitution (CON), representing your endurance\n\nand physical fortitude.\n\n• Intelligence (INT), representing your ability to\n\nacquire and apply knowledge.\n\n• Wisdom (WIS), representing your intuition and\n\nmental fortitude.\n\n• Charisma (CHA), representing your self-confidence\n\nand your ability to influence others.\n\nEach ability is assigned a number, called an ability score.These scores represent your various physical and mentalabilities. Higher numbers in a score mean you character isbetter with that ability.\n\nAs you level up, you can increase these scores, but a PCcan never have an ability score higher than 20. An averageperson has 10 in every ability score, so these numbersemphasize how powerful adventurers are!\n\nTHREE WAYS TO SCORE\n\nThere are three methods to determine your starting abilityscores. No method is better than another, but somepeople like one way more, so we include them to appeal todifferent kinds of players.\n\nMETHOD ONE: ROLLING\n\nThis is the classic, providing surprises and maybe a toughchoice. It helps make a character you adapt to, instead ofyou making all the decisions:\n\n• Roll four d6s. Find the lowest die and throw it out.Then add up the remaining three dice to get your total.Write that number down on scratch paper.\n\n• Do this five more times until you have six totalsbetween 3 and I8.\n\n• Assign those six numbers to the ability scores howeveryou like.\n\n• Finally, add 2 to one score of your choice that is 16 orbelow and add 1 to one score of your choice that is 17or below.\n\nMETHOD TWO: POINT-BUYIf you dont want to leave it up to chance, you can assignability scores with the point-buy method:• Start with 32 points to spend on your ability scores.• Each score costs a certain number of points. Find thecost of each potential score on the Point-Buy Costtable. (As an example, a score of 12 costs 4 points.)\n\n• 18 isthe highest ability score you can start with, and youcant have a score lower than 8.\n\n• Buy one score for each of the six abilities.\n\n• Dont add anything extra when youre done here. Thesenumbers are already balanced without adding more.\n\nPOINT-BUY COST\n\nSCORE COST SCORE COST SCORE COST8 0 12 4 16 1\n\n9 1 13 5 17 13\n\n10 2 14 7 18 16\n\n11 3 15 9\n\nMETHOD THREE: STANDARD ARRAY\n\nTo get started faster, use the standard array. Start with sixnumbers: 16, 14, 14, 13, 10, and 8. Assign them as abilityscores however you want. Again, dont modify them anyfurther. Thats it!\n\nFIND ABILITY MODIFIERS\n\nOnce you assign scores, use the following charts to figureout your ability modifiers. Your ability modifiers are themost important part of your ability scores. You use yourmodifiers much more than your score to calculate successor failure in the game.\n\nABILITY MODIFIERS\n\nABILITY ABILITY\n\nSCORE MODIFIER SCORE MODIFIER1 5 12-13 +1\n\n2-3 -4 14-15 +2\n\n4-5 3 16-17 +3\n\n6-7 -2 18-19 +4\n\n8-9 -1 20 $5\n\n10-11 +0\n\nPC Wisdom: When you see an ability referencedin the rules, assume it means the ability scoremodifier (-1, 0, +1, +2, etc.) rather than the abilityscore itself (8, 10, 12, 14, etc.). For example, if afeature reads .. . roll and add your STR, thatmeans add your Strength ability modifier, not yourfull Strength ability score.\n\n#####END#####"
+      ]
+    },
+    {
+      "id": 138,
+      "type": "LLMMessage",
+      "pos": [
+        -4660,
+        -2530
+      ],
+      "size": {
+        "0": 659.5386962890625,
+        "1": 585.6882934570312
+      },
+      "flags": {},
+      "order": 30,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "list",
+          "type": "LIST",
+          "link": 154
+        }
+      ],
+      "outputs": [
+        {
+          "name": "dict",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": [
+            155
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMMessage"
+      },
+      "widgets_values": [
+        "assistant",
+        "STEP 3. DETERMINE ABILITY SCORES\nAt their core, characters are defined by six abilities:\n• Strength (STR), representing your physical might.\n• Dexterity (DEX), representing your agility and reaction time.\n• Constitution (CON), representing your endurance and physical fortitude.\n• Intelligence (INT), representing your ability to acquire and apply knowledge.\n• Wisdom (WIS), representing your intuition and mental fortitude.\n• Charisma (CHA), representing your self-confidence and your ability to influence others.\n\nEach ability is assigned a number, called an ability score. These scores represent your various physical and mental abilities. Higher numbers in a score mean your character is better with that ability.\n\nAs you level up, you can increase these scores, but a PC can never have an ability score higher than 20. An average person has 10 in every ability score, so these numbers emphasize how powerful adventurers are!\n\nTHREE WAYS TO SCORE\nThere are three methods to determine your starting ability scores. No method is better than another, but some people like one way more, so we include them to appeal to different kinds of players.\n\nMETHOD ONE: ROLLING\nThis is the classic, providing surprises and maybe a tough choice. It helps make a character you adapt to, instead of you making all the decisions:\n• Roll four d6s. Find the lowest die and throw it out. Then add up the remaining three dice to get your total. Write that number down on scratch paper.\n• Do this five more times until you have six totals between 3 and I8.\n• Assign those six numbers to the ability scores however you like.\n• Finally, add 2 to one score of your choice that is 16 or below and add 1 to one score of your choice that is 17 or below.\n\nMETHOD TWO: POINT-BUY\nIf you don't want to leave it up to chance, you can assign ability scores with the point-buy method:\n• Start with 32 points to spend on your ability scores.\n• Each score costs a certain number of points. Find the cost of each potential score on the Point-Buy Cost table. (As an example, a score of 12 costs 4 points.)\n• 18 is the highest ability score you can start with, and you can't have a score lower than 8.\n• Buy one score for each of the six abilities.\n• Don't add anything extra when you're done here\nSTEP 4. CHOOSE A LINEAGE\nChoose your character's lineage from the options in the Lineage section later in this chapter. Lineage tells you about certain hereditary traits such as average lifespan, size, speed, and any special adaptations like the ability to see in the dark.\n\nLineage represents the blood ties and hereditary traits of a creature. Adventurers can be humans or a common fantasy lineage, like dwarf or elf.\n\nSTEP 5. CHOOSE A HERITAGE\nChoose your character's heritage from the options in the Heritage section later in this chapter. Heritage tells you about traits your character has because of their connection to a particular group or society.\n\nHeritage represents the upbringing and culture of a character. Adventurers can come from nearly any kind of fantasy society, such as a big city, a forest enclave, or an underground citadel.\n\nSTEP 6. CHOOSE A BACKGROUND\nChoose your character's background from the options in the Backgrounds section later in this chapter. Backgrounds give you skill proficiencies, talents, and languages learned.\n\nBackgrounds represent what your character did as an individual before they took up the adventuring life. Adventurers are often a motley group and come from a wide variety of backgrounds. Backgrounds include options like adherent or scholar.\n\nSTEP 7. FILL IN THE BLANKS\nAt this point, your big decisions are locked in. You still need to equip your character (see Chapter 3) and pick spells if they're a spellcaster (see Chapter 4). But you've got the basics squared away.\n\nTake some time to look things over and fill in any blank sections on your character sheet (see Final Checklist below). Make sure to give your character a name and decide what they look like. It's also a good idea to think about your character's history and personality—but it's perfectly fine to decide these details later. You might discover more about who you want your character to be after playing for a couple of game sessions."
+      ]
+    },
+    {
+      "id": 113,
+      "type": "LLMCompletionOnList",
+      "pos": [
+        -2430,
+        -2090
+      ],
+      "size": {
+        "0": 278.79998779296875,
+        "1": 170
+      },
+      "flags": {},
+      "order": 59,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "list",
+          "type": "LIST",
+          "link": 128
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "link": 157
+        },
+        {
+          "name": "llm_functions",
+          "type": "LIST",
+          "link": 121,
+          "slot_index": 2
+        }
+      ],
+      "outputs": [
+        {
+          "name": "completion list",
+          "type": "LIST",
+          "links": [
+            122,
+            123,
+            126
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "history passthrough",
+          "type": "LIST",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMCompletionOnList"
+      },
+      "widgets_values": [
+        "user",
+        "gpt-3.5-turbo",
+        1000,
+        1
+      ]
+    },
+    {
+      "id": 122,
+      "type": "FuncStrToList",
+      "pos": [
+        -4743.272904829555,
+        1040.7363059303807
+      ],
+      "size": {
+        "0": 479.67059326171875,
+        "1": 606.200927734375
+      },
+      "flags": {},
+      "order": 28,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "string",
+          "type": "STRING",
+          "link": 131,
+          "widget": {
+            "name": "string"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LIST",
+          "type": "LIST",
+          "links": [
+            129,
+            139
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "FuncStrToList"
+      },
+      "widgets_values": [
+        "",
+        "ins=\\\n\"\"\"\nThe following is an excerpt from my book. make sure all headings are ALL CAPS. Also make sure that paragraphs that belong to the same heading are are not separated by spaces. please use raw text. Only use information that is in the excerpt \"\"\"\n\n\n#y_list=x.split(\"\\n\\n\")\ny_list=x.split(\"<PAGE>\")\n\no =[]\n\nfor i in y_list:\n out=ins\n out=out+\"this is an EXCERPT from my book.\" \n i = i.strip()\n o.append(out+ \"##### EXCERPT:\\n\"+i+\"\\n\\n#####END#####\\n\") \n\ny_list=o[7:9]\n#y_list=o"
+      ]
+    },
+    {
+      "id": 111,
+      "type": "FuncStrToList",
+      "pos": [
+        -3630,
+        -1680
+      ],
+      "size": {
+        "0": 479.67059326171875,
+        "1": 606.200927734375
+      },
+      "flags": {},
+      "order": 27,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "string",
+          "type": "STRING",
+          "link": 119,
+          "widget": {
+            "name": "string"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LIST",
+          "type": "LIST",
+          "links": [
+            120,
+            128
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "FuncStrToList"
+      },
+      "widgets_values": [
+        "",
+        "ins=\\\n\"\"\"\nThe following is an excerpt from my book. make sure all headings are ALL CAPS. Also make sure that paragraphs that belong to the same heading are are not separated by spaces. please use raw text. Only use information that is in the excerpt \"\"\"\n\n\n#y_list=x.split(\"\\n\\n\")\ny_list=x.split(\"<PAGE>\")\n\no =[]\n\nfor i in y_list:\n out=ins\n out=out+\"this is an EXCERPT from my book.\"\n i = i.strip()\n o.append(out+ \"##### EXCERPT:\\n\"+i+\"\\n\\n#####END#####\\n\")\n\ny_list=o[7:9]\n#y_list=o"
+      ]
+    },
+    {
       "id": 123,
       "type": "StrBreakout",
       "pos": [
-        -3910,
-        920
+        -3840,
+        870
       ],
       "size": {
         "0": 210,
@@ -3650,7 +4366,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 15,
+      "order": 18,
       "mode": 0,
       "outputs": [
         {
@@ -3708,631 +4424,74 @@
       ]
     },
     {
-      "id": 120,
-      "type": "FuncListToList",
+      "id": 142,
+      "type": "StrBreakout",
       "pos": [
-        -4213.272904829555,
-        1040.7363059303807
-      ],
-      "size": {
-        "0": 282.7820739746094,
-        "1": 607.4530639648438
-      },
-      "flags": {},
-      "order": 38,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "list",
-          "type": "LIST",
-          "link": 129
-        },
-        {
-          "name": "func",
-          "type": "FUNC",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "LIST",
-          "type": "LIST",
-          "links": [
-            130
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "FuncListToList"
-      },
-      "widgets_values": [
-        "y_list=x_list.copy()\n\no =[]\n\nfor i in y_list:\n o.append(\"\\n\\n\"+i+\"\\n\\n#----------#\\n\")\n\ny_list=o\n#y_list=o[10:11]"
-      ]
-    },
-    {
-      "id": 121,
-      "type": "Show Text",
-      "pos": [
-        -3823.272904829555,
-        1040.7363059303807
-      ],
-      "size": {
-        "0": 581.0113525390625,
-        "1": 678.0570678710938
-      },
-      "flags": {},
-      "order": 47,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "text",
-          "type": "*",
-          "link": 130
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING_OUT",
-          "type": "STRING",
-          "links": null,
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "Show Text"
-      },
-      "widgets_values": [
-        "\n\n\nThe following is an excerpt from my book. make sure all headings are ALL CAPS. Also make sure that paragraphs that belong to the same heading are are not separated by spaces. please use raw text. Only use information that is in the excerpt this is an EXCERPT from my book.##### EXCERPT:\nSTEP 3. DETERMINE ABILITY SCORES\n\nAt their core, characters are defined by six abilities:\n\n• Strength (STR), representing your physical might.\n\n• Dexterity (DEX), representing your agility and\n\nreaction time.\n\n• Constitution (CON), representing your endurance\n\nand physical fortitude.\n\n• Intelligence (INT), representing your ability to\n\nacquire and apply knowledge.\n\n• Wisdom (WIS), representing your intuition and\n\nmental fortitude.\n\n• Charisma (CHA), representing your self-confidence\n\nand your ability to influence others.\n\nEach ability is assigned a number, called an ability score.These scores represent your various physical and mentalabilities. Higher numbers in a score mean you character isbetter with that ability.\n\nAs you level up, you can increase these scores, but a PCcan never have an ability score higher than 20. An averageperson has 10 in every ability score, so these numbersemphasize how powerful adventurers are!\n\nTHREE WAYS TO SCORE\n\nThere are three methods to determine your starting abilityscores. No method is better than another, but somepeople like one way more, so we include them to appeal todifferent kinds of players.\n\nMETHOD ONE: ROLLING\n\nThis is the classic, providing surprises and maybe a toughchoice. It helps make a character you adapt to, instead ofyou making all the decisions:\n\n• Roll four d6s. Find the lowest die and throw it out.Then add up the remaining three dice to get your total.Write that number down on scratch paper.\n\n• Do this five more times until you have six totalsbetween 3 and I8.\n\n• Assign those six numbers to the ability scores howeveryou like.\n\n• Finally, add 2 to one score of your choice that is 16 orbelow and add 1 to one score of your choice that is 17or below.\n\nMETHOD TWO: POINT-BUYIf you dont want to leave it up to chance, you can assignability scores with the point-buy method:• Start with 32 points to spend on your ability scores.• Each score costs a certain number of points. Find thecost of each potential score on the Point-Buy Costtable. (As an example, a score of 12 costs 4 points.)\n\n• 18 isthe highest ability score you can start with, and youcant have a score lower than 8.\n\n• Buy one score for each of the six abilities.\n\n• Dont add anything extra when youre done here. Thesenumbers are already balanced without adding more.\n\nPOINT-BUY COST\n\nSCORE COST SCORE COST SCORE COST8 0 12 4 16 1\n\n9 1 13 5 17 13\n\n10 2 14 7 18 16\n\n11 3 15 9\n\nMETHOD THREE: STANDARD ARRAY\n\nTo get started faster, use the standard array. Start with sixnumbers: 16, 14, 14, 13, 10, and 8. Assign them as abilityscores however you want. Again, dont modify them anyfurther. Thats it!\n\nFIND ABILITY MODIFIERS\n\nOnce you assign scores, use the following charts to figureout your ability modifiers. Your ability modifiers are themost important part of your ability scores. You use yourmodifiers much more than your score to calculate successor failure in the game.\n\nABILITY MODIFIERS\n\nABILITY ABILITY\n\nSCORE MODIFIER SCORE MODIFIER1 5 12-13 +1\n\n2-3 -4 14-15 +2\n\n4-5 3 16-17 +3\n\n6-7 -2 18-19 +4\n\n8-9 -1 20 $5\n\n10-11 +0\n\nPC Wisdom: When you see an ability referencedin the rules, assume it means the ability scoremodifier (-1, 0, +1, +2, etc.) rather than the abilityscore itself (8, 10, 12, 14, etc.). For example, if afeature reads .. . roll and add your STR, thatmeans add your Strength ability modifier, not yourfull Strength ability score.\n\n#####END#####\n\n\n#----------#\n\n\n\n\nThe following is an excerpt from my book. make sure all headings are ALL CAPS. Also make sure that paragraphs that belong to the same heading are are not separated by spaces. please use raw text. Only use information that is in the excerpt this is an EXCERPT from my book.##### EXCERPT:\nSTEP 4. CHOOSE A LINEAGE\n\nChoose your characters lineage from the options in theLineage section later in this chapter. Lineage tells youabout certain hereditary traits such as average lifespan,size, speed, and any special adaptations like the ability tosee in the dark.\n\nLineage represents the blood ties and hereditary traits of acreature. Adventurers can be humans or a common fantasylineage, like dwarf or elf.\n\nSTEP 5. CHOOSE A HERITAGE\n\nChoose your characters heritage from the options in theHeritage section later in this chapter. Heritage tells youabout traits your character has because of their connectionto a particular group or society.\n\nHeritage represents the upbringing and culture ofacharacter. Adventurers can come from nearly any kind offantasy society, such as a big city, a forest enclave, or anunderground citadel.\n\nSTEP 6. CHOOSE A BACKGROUND\n\nChoose your characters background from the options inthe Backgrounds section later in this chapter. Backgroundsgive you skill proficiencies, talents, and languages learned.Backgrounds represent what your character did asan individual before they took up the adventuring life.Adventurers are often a motley group and come from awide variety of backgrounds. Backgrounds include optionslike adherent or scholar.\n\nSTEP 7. FILL IN THE BLANKS\n\nAt this point, your big decisions are locked in. You stillneed to equip your character (see Chapter 3) and pick spellsif theyre a spellcaster (see Chapter 4). But youve got thebasics squared away.\n\nTake some time to look things over and fill in any blanksections on your character sheet (see Final Checklist below).Make sure to give your character a name and decide what\n\nthey look like. Its also a good idea to think about yourcharacters history and personalitybut its perfectly fineto decide these details later. You might discover more aboutwho you want your character to be after playing for a coupleof game sessions.\n\n#####END#####\n\n\n#----------#\n"
-      ]
-    },
-    {
-      "id": 134,
-      "type": "LLMMessage",
-      "pos": [
-        -5100,
-        100
-      ],
-      "size": {
-        "0": 659.5386962890625,
-        "1": 585.6882934570312
-      },
-      "flags": {},
-      "order": 27,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "list",
-          "type": "LIST",
-          "link": 149
-        }
-      ],
-      "outputs": [
-        {
-          "name": "dict",
-          "type": "DICT",
-          "links": null,
-          "shape": 3
-        },
-        {
-          "name": "history",
-          "type": "LIST",
-          "links": [
-            151
-          ],
-          "shape": 3,
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LLMMessage"
-      },
-      "widgets_values": [
-        "assistant",
-        "CHAPTER 1: CHARACTER CREATION\nThe first step to play is creating your player character (PC). Character creation involves making rules choices that define who your character is and what your character is good at, as well as creative choices about your character's history and personality.\n\nThis chapter contains exact steps and options to create your character. If you are creating a character for the first time, it can be helpful to work with your game master (GM) to choose options that make a good play experience.\n\nSTEP-BY-STEP CHARACTER CREATION\nThese are the steps needed to create your character.\nSTEP 0. GATHER MATERIALS\nMake sure these basic tools are handy to record your character choices:\n• pencil\n• blank character sheet\n• scratch paper\n• dice (see About Those Dice in the sidebar)\n\nABOUT THOSE DICE\nThe Black Flag Roleplaying system uses polyhedral dice to resolve actions. These dice are abbreviated in game text, so a four-sided die is a d4, a six-sided die is a d6, and so on for d8, d10, d12, and d20. Percentile dice rolls (1-100) are rolled with two dice and abbreviated d%.\n\nSTEP 1. CREATE A CHARACTER CONCEPT\nIt can help to think about what kind of character you want to play before you start picking from lists. Do you want to cast magic spells? Do you want to be good at swinging a sword? Do you want to play as a human or a member of some more fantastical lineage? Knowing what sounds like fun to you can help guide your decisions.\nTalk to the other players about your ideas if they're around. Hearing what other players have in mind can help focus your choices or inspire you to create a concept that works well with other adventurers in your party.\nFor example, if all the other PCs are rough-and-tumble warriors, you might want to make a cleric so you can patch them up with healing magic!\n\nSTEP 2. CHOOSE A CLASS\nChoosing your character's class is the most important factor in bringing your concept into the game. Your character's class is sort of like their job. Each class covers a different set of capabilities and responsibilities.\nYour character class gives you class features at 1st level as described in each class features table (see Character Classes later in this chapter) and lists other features you gain access to as your character gains adventuring experience and levels up. Your choice of character class also dictates your proficiencies, which is a game term describing what kinds of equipment you are trained to use (like armor, weapons, or tools) and what kinds of challenges you are best at handling (skills and saves).\nChoosing your character class can also help you make other decisions. For example, each class has a Quick Build section that tells you which ability scores (described in Step 3) work best with your class abilities.\nSee the Class Options at a Glance table later in this chapter for a brief summary and comparison of each class.\n"
-      ]
-    },
-    {
-      "id": 135,
-      "type": "LLMMessage",
-      "pos": [
-        -4330,
-        -30
-      ],
-      "size": [
-        210,
-        221.97466636688216
-      ],
-      "flags": {},
-      "order": 39,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "list",
-          "type": "LIST",
-          "link": 151
-        }
-      ],
-      "outputs": [
-        {
-          "name": "dict",
-          "type": "DICT",
-          "links": null,
-          "shape": 3
-        },
-        {
-          "name": "history",
-          "type": "LIST",
-          "links": [
-            152
-          ],
-          "shape": 3,
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LLMMessage"
-      },
-      "widgets_values": [
-        "user",
-        "thank you! That is perfect please always do it like that!"
-      ]
-    },
-    {
-      "id": 136,
-      "type": "LLMMessage",
-      "pos": [
-        -4060,
-        -30
+        -2972.737783559998,
+        863.4768561474609
       ],
       "size": {
         "0": 210,
-        "1": 221.97467041015625
+        "1": 202
       },
-      "flags": {},
-      "order": 48,
+      "flags": {
+        "collapsed": true
+      },
+      "order": 19,
       "mode": 0,
-      "inputs": [
-        {
-          "name": "list",
-          "type": "LIST",
-          "link": 152
-        }
-      ],
       "outputs": [
         {
-          "name": "dict",
-          "type": "DICT",
-          "links": null,
-          "shape": 3
-        },
-        {
-          "name": "history",
-          "type": "LIST",
-          "links": [
-            153
-          ],
-          "shape": 3,
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LLMMessage"
-      },
-      "widgets_values": [
-        "assistant",
-        "I will always do it like that for you!"
-      ]
-    },
-    {
-      "id": 133,
-      "type": "LLMMessage",
-      "pos": [
-        -5800,
-        100
-      ],
-      "size": [
-        659.5386928955081,
-        585.6883011291507
-      ],
-      "flags": {},
-      "order": 16,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "list",
-          "type": "LIST",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "dict",
-          "type": "DICT",
-          "links": null,
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "history",
-          "type": "LIST",
-          "links": [
-            149
-          ],
-          "shape": 3,
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LLMMessage"
-      },
-      "widgets_values": [
-        "user",
-        "The following is an excerpt from my book. make sure all headings are ALL CAPS. Also make sure that paragraphs that belong to the same heading are are not separated by spaces. please use raw text. Only use information that is in the excerpt this is an EXCERPT from my book.##### EXCERPT:\nCHAPTER 1: CHARACTER CREATION\n\nThe first step to play is creating your player character (PC).\n\nCharacter creation involves making rules choices thatdefine who your character is and what your character isgood at, as well as creative choices about your charactershistory and personality.\n\nThis chapter contains exact steps and options to createyour character. If you are creating a character for the firsttime, it can be helpful to work with your game master\n\n(GM) to choose options that make a good play experience.\n\nSTEP-BY-STEPCHARACTER CREATION\n\nThese are the steps needed to create your character.\n\nSTEP 0. GATHER MATERIALS\n\nMake sure these basic tools are handy to record yourcharacter choices:\n\n• pencil\n\n• blank character sheet\n\n• scratch paper\n\n• dice (see About Those Dice in the sidebar)\n\nABOUT THOSE DICE\n\nThe Black Flag Roleplaying system uses polyhedraldice to resolve actions. These dice are abbreviatedin game text, so a four-sided die is a d4, a six-sideddie is a d6, and so on for d8, d10, d12, and d20.Percentile dice rolls (1-100) are rolled with two diceand abbreviated d%.\n\nSTEP 1. CREATE A CHARACTER CONCEPT\n\nIt can help to think about what kind of character you wantto play before you start picking from lists. Do you want\n\nto cast magic spells? Do you want to be good at swinging\n\na sword? Do you want to play as a human or a member ofsome more fantastical lineage? Knowing what sounds likefun to you can help guide your decisions.\n\nTalk to the other players about your ideas if theyrearound. Hearing what other players have in mind canhelp focus your choices or inspire you to create a conceptthat works well with other adventurers in your party.\n\nFor example, if all the other PCs are rough-and-tumblewarriors, you might want to make a cleric so you can patchthem up with healing magic!\n\nSTEP 2. CHOOSE A CLASS\n\nChoosing your characters class is the most importantfactor in bringing your concept into the game. Yourcharacters class is sort of like their job. Each class covers adifferent set of capabilities and responsibilities.\n\nYour character class gives you class features at 1st level asdescribed in each class features table (see Character Classeslater in this chapter) and lists other features you gain accessto as your character gains adventuring experience andlevels up. Your choice of character class also dictates yourproficiencies, which is a game term describing what kindsof equipment you are trained to use (like armor, weapons,or tools) and what kinds of challenges you are best athandling (skills and saves).\n\nChoosing your character class can also help you makeother decisions. For example, each class has a Quick Buildsection that tells you which ability scores (described in Step3) work best with your class abilities.\n\nSee the Class Options at a Glance table later in thischapter for a brief summary and comparison of each class.\n\n#####END#####\n\n"
-      ]
-    },
-    {
-      "id": 139,
-      "type": "LLMMessage",
-      "pos": [
-        -3098.830691739049,
-        -2512.366625915798
-      ],
-      "size": {
-        "0": 210,
-        "1": 221.97467041015625
-      },
-      "flags": {},
-      "order": 40,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "list",
-          "type": "LIST",
-          "link": 155
-        }
-      ],
-      "outputs": [
-        {
-          "name": "dict",
-          "type": "DICT",
-          "links": null,
-          "shape": 3
-        },
-        {
-          "name": "history",
-          "type": "LIST",
-          "links": [
-            156
-          ],
-          "shape": 3,
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LLMMessage"
-      },
-      "widgets_values": [
-        "user",
-        "thank you! That is perfect please always do it like that!"
-      ]
-    },
-    {
-      "id": 140,
-      "type": "LLMMessage",
-      "pos": [
-        -2828.830691739049,
-        -2512.366625915798
-      ],
-      "size": {
-        "0": 210,
-        "1": 221.97467041015625
-      },
-      "flags": {},
-      "order": 49,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "list",
-          "type": "LIST",
-          "link": 156
-        }
-      ],
-      "outputs": [
-        {
-          "name": "dict",
-          "type": "DICT",
-          "links": null,
-          "shape": 3
-        },
-        {
-          "name": "history",
-          "type": "LIST",
-          "links": [
-            157
-          ],
-          "shape": 3,
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LLMMessage"
-      },
-      "widgets_values": [
-        "assistant",
-        "I will always do it like that for you!"
-      ]
-    },
-    {
-      "id": 141,
-      "type": "LLMMessage",
-      "pos": [
-        -3600,
-        -3380
-      ],
-      "size": {
-        "0": 659.5386962890625,
-        "1": 585.6882934570312
-      },
-      "flags": {},
-      "order": 17,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "list",
-          "type": "LIST",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "dict",
-          "type": "DICT",
-          "links": null,
-          "shape": 3
-        },
-        {
-          "name": "history",
-          "type": "LIST",
-          "links": [],
-          "shape": 3,
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LLMMessage"
-      },
-      "widgets_values": [
-        "assistant",
-        "STEP 3. DETERMINE ABILITY SCORES\nAt their core, characters are defined by six abilities:\n• Strength (STR), representing your physical might.\n• Dexterity (DEX), representing your agility and reaction time.\n• Constitution (CON), representing your endurance and physical fortitude.\n• Intelligence (INT), representing your ability to acquire and apply knowledge.\n• Wisdom (WIS), representing your intuition and mental fortitude.\n• Charisma (CHA), representing your self-confidence and your ability to influence others.\n\nEach ability is assigned a number, called an ability score. These scores represent your various physical and mental abilities. Higher numbers in a score mean your character is better with that ability.\n\nAs you level up, you can increase these scores, but a PC can never have an ability score higher than 20. An average person has 10 in every ability score, so these numbers emphasize how powerful adventurers are!\n\nTHREE WAYS TO SCORE\nThere are three methods to determine your starting ability scores. No method is better than another, but some people like one way more, so we include them to appeal to different kinds of players.\n\nMETHOD ONE: ROLLING\nThis is the classic, providing surprises and maybe a tough choice. It helps make a character you adapt to, instead of you making all the decisions:\n• Roll four d6s. Find the lowest die and throw it out. Then add up the remaining three dice to get your total. Write that number down on scratch paper.\n• Do this five more times until you have six totals between 3 and I8.\n• Assign those six numbers to the ability scores however you like.\n• Finally, add 2 to one score of your choice that is 16 or below and add 1 to one score of your choice that is 17 or below.\n\nMETHOD TWO: POINT-BUY\nIf you don't want to leave it up to chance, you can assign ability scores with the point-buy method:\n• Start with 32 points to spend on your ability scores.\n• Each score costs a certain number of points. Find the cost of each potential score on the Point-Buy Cost table. (As an example, a score of 12 costs 4 points.)\n• 18 is the highest ability score you can start with, and you can't have a score lower than 8.\n• Buy one score for each of the six abilities.\n• Don't add anything extra when you're done here\nSTEP 4. CHOOSE A LINEAGE\nChoose your character's lineage from the options in the Lineage section later in this chapter. Lineage tells you about certain hereditary traits such as average lifespan, size, speed, and any special adaptations like the ability to see in the dark.\n\nLineage represents the blood ties and hereditary traits of a creature. Adventurers can be humans or a common fantasy lineage, like dwarf or elf.\n\nSTEP 5. CHOOSE A HERITAGE\nChoose your character's heritage from the options in the Heritage section later in this chapter. Heritage tells you about traits your character has because of their connection to a particular group or society.\n\nHeritage represents the upbringing and culture of a character. Adventurers can come from nearly any kind of fantasy society, such as a big city, a forest enclave, or an underground citadel.\n\nSTEP 6. CHOOSE A BACKGROUND\nChoose your character's background from the options in the Backgrounds section later in this chapter. Backgrounds give you skill proficiencies, talents, and languages learned.\n\nBackgrounds represent what your character did as an individual before they took up the adventuring life. Adventurers are often a motley group and come from a wide variety of backgrounds. Backgrounds include options like adherent or scholar.\n\nSTEP 7. FILL IN THE BLANKS\nAt this point, your big decisions are locked in. You still need to equip your character (see Chapter 3) and pick spells if they're a spellcaster (see Chapter 4). But you've got the basics squared away.\n\nTake some time to look things over and fill in any blank sections on your character sheet (see Final Checklist below). Make sure to give your character a name and decide what they look like. It's also a good idea to think about your character's history and personality—but it's perfectly fine to decide these details later. You might discover more about who you want your character to be after playing for a couple of game sessions."
-      ]
-    },
-    {
-      "id": 109,
-      "type": "Show Text",
-      "pos": [
-        -2710,
-        -1680
-      ],
-      "size": {
-        "0": 581.0113525390625,
-        "1": 678.0570678710938
-      },
-      "flags": {},
-      "order": 46,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "text",
-          "type": "*",
-          "link": 117
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING_OUT",
+          "name": "Notes",
           "type": "STRING",
           "links": null,
           "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "Show Text"
-      },
-      "widgets_values": [
-        "\n\n\nThe following is an excerpt from my book. make sure all headings are ALL CAPS. Also make sure that paragraphs that belong to the same heading are are not separated by spaces. please use raw text. Only use information that is in the excerpt this is an EXCERPT from my book.##### EXCERPT:\nSTEP 3. DETERMINE ABILITY SCORES\n\nAt their core, characters are defined by six abilities:\n\n• Strength (STR), representing your physical might.\n\n• Dexterity (DEX), representing your agility and\n\nreaction time.\n\n• Constitution (CON), representing your endurance\n\nand physical fortitude.\n\n• Intelligence (INT), representing your ability to\n\nacquire and apply knowledge.\n\n• Wisdom (WIS), representing your intuition and\n\nmental fortitude.\n\n• Charisma (CHA), representing your self-confidence\n\nand your ability to influence others.\n\nEach ability is assigned a number, called an ability score.These scores represent your various physical and mentalabilities. Higher numbers in a score mean you character isbetter with that ability.\n\nAs you level up, you can increase these scores, but a PCcan never have an ability score higher than 20. An averageperson has 10 in every ability score, so these numbersemphasize how powerful adventurers are!\n\nTHREE WAYS TO SCORE\n\nThere are three methods to determine your starting abilityscores. No method is better than another, but somepeople like one way more, so we include them to appeal todifferent kinds of players.\n\nMETHOD ONE: ROLLING\n\nThis is the classic, providing surprises and maybe a toughchoice. It helps make a character you adapt to, instead ofyou making all the decisions:\n\n• Roll four d6s. Find the lowest die and throw it out.Then add up the remaining three dice to get your total.Write that number down on scratch paper.\n\n• Do this five more times until you have six totalsbetween 3 and I8.\n\n• Assign those six numbers to the ability scores howeveryou like.\n\n• Finally, add 2 to one score of your choice that is 16 orbelow and add 1 to one score of your choice that is 17or below.\n\nMETHOD TWO: POINT-BUYIf you dont want to leave it up to chance, you can assignability scores with the point-buy method:• Start with 32 points to spend on your ability scores.• Each score costs a certain number of points. Find thecost of each potential score on the Point-Buy Costtable. (As an example, a score of 12 costs 4 points.)\n\n• 18 isthe highest ability score you can start with, and youcant have a score lower than 8.\n\n• Buy one score for each of the six abilities.\n\n• Dont add anything extra when youre done here. Thesenumbers are already balanced without adding more.\n\nPOINT-BUY COST\n\nSCORE COST SCORE COST SCORE COST8 0 12 4 16 1\n\n9 1 13 5 17 13\n\n10 2 14 7 18 16\n\n11 3 15 9\n\nMETHOD THREE: STANDARD ARRAY\n\nTo get started faster, use the standard array. Start with sixnumbers: 16, 14, 14, 13, 10, and 8. Assign them as abilityscores however you want. Again, dont modify them anyfurther. Thats it!\n\nFIND ABILITY MODIFIERS\n\nOnce you assign scores, use the following charts to figureout your ability modifiers. Your ability modifiers are themost important part of your ability scores. You use yourmodifiers much more than your score to calculate successor failure in the game.\n\nABILITY MODIFIERS\n\nABILITY ABILITY\n\nSCORE MODIFIER SCORE MODIFIER1 5 12-13 +1\n\n2-3 -4 14-15 +2\n\n4-5 3 16-17 +3\n\n6-7 -2 18-19 +4\n\n8-9 -1 20 $5\n\n10-11 +0\n\nPC Wisdom: When you see an ability referencedin the rules, assume it means the ability scoremodifier (-1, 0, +1, +2, etc.) rather than the abilityscore itself (8, 10, 12, 14, etc.). For example, if afeature reads .. . roll and add your STR, thatmeans add your Strength ability modifier, not yourfull Strength ability score.\n\n#####END#####\n\n\n#----------#\n\n\n\n\nThe following is an excerpt from my book. make sure all headings are ALL CAPS. Also make sure that paragraphs that belong to the same heading are are not separated by spaces. please use raw text. Only use information that is in the excerpt this is an EXCERPT from my book.##### EXCERPT:\nSTEP 4. CHOOSE A LINEAGE\n\nChoose your characters lineage from the options in theLineage section later in this chapter. Lineage tells youabout certain hereditary traits such as average lifespan,size, speed, and any special adaptations like the ability tosee in the dark.\n\nLineage represents the blood ties and hereditary traits of acreature. Adventurers can be humans or a common fantasylineage, like dwarf or elf.\n\nSTEP 5. CHOOSE A HERITAGE\n\nChoose your characters heritage from the options in theHeritage section later in this chapter. Heritage tells youabout traits your character has because of their connectionto a particular group or society.\n\nHeritage represents the upbringing and culture ofacharacter. Adventurers can come from nearly any kind offantasy society, such as a big city, a forest enclave, or anunderground citadel.\n\nSTEP 6. CHOOSE A BACKGROUND\n\nChoose your characters background from the options inthe Backgrounds section later in this chapter. Backgroundsgive you skill proficiencies, talents, and languages learned.Backgrounds represent what your character did asan individual before they took up the adventuring life.Adventurers are often a motley group and come from awide variety of backgrounds. Backgrounds include optionslike adherent or scholar.\n\nSTEP 7. FILL IN THE BLANKS\n\nAt this point, your big decisions are locked in. You stillneed to equip your character (see Chapter 3) and pick spellsif theyre a spellcaster (see Chapter 4). But youve got thebasics squared away.\n\nTake some time to look things over and fill in any blanksections on your character sheet (see Final Checklist below).Make sure to give your character a name and decide what\n\nthey look like. Its also a good idea to think about yourcharacters history and personalitybut its perfectly fineto decide these details later. You might discover more aboutwho you want your character to be after playing for a coupleof game sessions.\n\n#####END#####\n\n\n#----------#\n"
-      ]
-    },
-    {
-      "id": 114,
-      "type": "ShowText",
-      "pos": [
-        -1940,
-        -120
-      ],
-      "size": [
-        341.9763056229858,
-        926.7875780214841
-      ],
-      "flags": {},
-      "order": 66,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "text",
-          "type": "*",
-          "link": 122
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING_OUT",
-          "type": "STRING",
-          "links": [],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "ShowText"
-      },
-      "widgets_values": [
-        "STEP 3. DETERMINE ABILITY SCORES\nAt their core, characters are defined by six abilities:\n• Strength (STR), representing your physical might.\n• Dexterity (DEX), representing your agility and reaction time.\n• Constitution (CON), representing your endurance and physical fortitude.\n• Intelligence (INT), representing your ability to acquire and apply knowledge.\n• Wisdom (WIS), representing your intuition and mental fortitude.\n• Charisma (CHA), representing your self-confidence and your ability to influence others.\n\nEach ability is assigned a number, called an ability score. These scores represent your various physical and mental abilities. Higher numbers in a score mean your character is better with that ability.\n\nAs you level up, you can increase these scores, but a PC can never have an ability score higher than 20. An average person has 10 in every ability score, so these numbers emphasize how powerful adventurers are!\n\nTHREE WAYS TO SCORE\nThere are three methods to determine your starting ability scores. No method is better than another, but some people like one way more, so we include them to appeal to different kinds of players.\n\nMETHOD ONE: ROLLING\nThis is the classic, providing surprises and maybe a tough choice. It helps make a character you adapt to, instead of you making all the decisions:\n• Roll four d6s. Find the lowest die and throw it out. Then add up the remaining three dice to get your total. Write that number down on scratch paper.\n• Do this five more times until you have six totals between 3 and I8.\n• Assign those six numbers to the ability scores however you like.\n• Finally, add 2 to one score of your choice that is 16 or below and add 1 to one score of your choice that is 17 or below.\n\nMETHOD TWO: POINT-BUY\nIf you dont want to leave it up to chance, you can assign ability scores with the point-buy method:\n• Start with 32 points to spend on your ability scores.\n• Each score costs a certain number of points. Find the cost of each potential score on the Point-Buy Cost table. (As an example, a score of 12 costs 4 points.)\n• 18 isthe highest ability score you can start with, and youcant have a score lower than 8.\n• Buy one score for each of the six abilities.\n• Dont add anything extra when youre done here. Thesenumbers are already balanced without adding more.\n\nPOINT-BUY COST\n\nSCORE COST SCORE COST SCORE COST8 0 12 4 16 1\n9 1 13 5 17 13\n10 2 14 7 18 16\n11 3 15 9\n\nMETHOD THREE: STANDARD ARRAY\nTo get started faster, use the standard array. Start with sixnumbers: 16, 14, 14, 13, 10, and 8. Assign them as abilityscores however you want. Again, dont modify them anyfurther. Thats it!\n\nFIND ABILITY MODIFIERS\nOnce you assign scores, use the following charts to figureout your ability modifiers. Your ability modifiers are themost important part of your ability scores. You use yourmodifiers much more than your score to calculate successor failure in the game.\n\nABILITY MODIFIERS\n\nABILITY ABILITY\n\nSCORE MODIFIER SCORE MODIFIER1 5 12-13 +1\n2-3 -4 14-15 +2\n4-5 3 16-17 +3\n6-7 -2 18-19 +4\n8-9 -1 20 $5\n10-11 +0\n\nPC Wisdom: When you see an ability referencedin the rules, assume it means the ability scoremodifier (-1, 0, +1, +2, etc.) rather than the abilityscore itself (8, 10, 12, 14, etc.). For example, if afeature reads .. . roll and add your STR, thatmeans add your Strength ability modifier, not yourfull Strength ability score.\n\n#####END#####\nSTEP 4. CHOOSE A LINEAGE\nChoose your character's lineage from the options in the Lineage section later in this chapter. Lineage tells you about certain hereditary traits such as average lifespan, size, speed, and any special adaptations like the ability to see in the dark.\nLineage represents the blood ties and hereditary traits of a creature. Adventurers can be humans or a common fantasy lineage, like dwarf or elf.\n\nSTEP 5. CHOOSE A HERITAGE\nChoose your character's heritage from the options in the Heritage section later in this chapter. Heritage tells you about traits your character has because of their connection to a particular group or society.\nHeritage represents the upbringing and culture of a character. Adventurers can come from nearly any kind of fantasy society, such as a big city, a forest enclave, or an underground citadel.\n\nSTEP 6. CHOOSE A BACKGROUND\nChoose your character's background from the options in the Backgrounds section later in this chapter. Backgrounds give you skill proficiencies, talents, and languages learned. Backgrounds represent what your character did as an individual before they took up the adventuring life. Adventurers are often a motley group and come from a wide variety of backgrounds. Backgrounds include options like adherent or scholar.\n\nSTEP 7. FILL IN THE BLANKS\nAt this point, your big decisions are locked in. You still need to equip your character (see Chapter 3) and pick spells if they're a spellcaster (see Chapter 4). But you've got the basics squared away. Take some time to look things over and fill in any blank sections on your character sheet (see Final Checklist below). Make sure to give your character a name and decide what they look like. It's also a good idea to think about your character's history and personality but it's perfectly fine to decide these details later. You might discover more about who you want your character to be after playing for a couple of game sessions.\n\n#####END#####"
-      ]
-    },
-    {
-      "id": 137,
-      "type": "LLMMessage",
-      "pos": [
-        -5360,
-        -2540
-      ],
-      "size": {
-        "0": 659.5386962890625,
-        "1": 585.6882934570312
-      },
-      "flags": {},
-      "order": 18,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "list",
-          "type": "LIST",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "dict",
-          "type": "DICT",
-          "links": null,
-          "shape": 3,
-          "slot_index": 0
         },
         {
-          "name": "history",
-          "type": "LIST",
-          "links": [
-            154
-          ],
-          "shape": 3,
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LLMMessage"
-      },
-      "widgets_values": [
-        "user",
-        "The following is an excerpt from my book. make sure all headings are ALL CAPS. Also make sure that paragraphs that belong to the same heading are only separated by one newline. please use raw text. Only use information that is in the excerpt this is an EXCERPT from my book.##### EXCERPT:\nSTEP 3. DETERMINE ABILITY SCORES\n\nAt their core, characters are defined by six abilities:\n\n• Strength (STR), representing your physical might.\n\n• Dexterity (DEX), representing your agility and\n\nreaction time.\n\n• Constitution (CON), representing your endurance\n\nand physical fortitude.\n\n• Intelligence (INT), representing your ability to\n\nacquire and apply knowledge.\n\n• Wisdom (WIS), representing your intuition and\n\nmental fortitude.\n\n• Charisma (CHA), representing your self-confidence\n\nand your ability to influence others.\n\nEach ability is assigned a number, called an ability score.These scores represent your various physical and mentalabilities. Higher numbers in a score mean you character isbetter with that ability.\n\nAs you level up, you can increase these scores, but a PCcan never have an ability score higher than 20. An averageperson has 10 in every ability score, so these numbersemphasize how powerful adventurers are!\n\nTHREE WAYS TO SCORE\n\nThere are three methods to determine your starting abilityscores. No method is better than another, but somepeople like one way more, so we include them to appeal todifferent kinds of players.\n\nMETHOD ONE: ROLLING\n\nThis is the classic, providing surprises and maybe a toughchoice. It helps make a character you adapt to, instead ofyou making all the decisions:\n\n• Roll four d6s. Find the lowest die and throw it out.Then add up the remaining three dice to get your total.Write that number down on scratch paper.\n\n• Do this five more times until you have six totalsbetween 3 and I8.\n\n• Assign those six numbers to the ability scores howeveryou like.\n\n• Finally, add 2 to one score of your choice that is 16 orbelow and add 1 to one score of your choice that is 17or below.\n\nMETHOD TWO: POINT-BUYIf you dont want to leave it up to chance, you can assignability scores with the point-buy method:• Start with 32 points to spend on your ability scores.• Each score costs a certain number of points. Find thecost of each potential score on the Point-Buy Costtable. (As an example, a score of 12 costs 4 points.)\n\n• 18 isthe highest ability score you can start with, and youcant have a score lower than 8.\n\n• Buy one score for each of the six abilities.\n\n• Dont add anything extra when youre done here. Thesenumbers are already balanced without adding more.\n\nPOINT-BUY COST\n\nSCORE COST SCORE COST SCORE COST8 0 12 4 16 1\n\n9 1 13 5 17 13\n\n10 2 14 7 18 16\n\n11 3 15 9\n\nMETHOD THREE: STANDARD ARRAY\n\nTo get started faster, use the standard array. Start with sixnumbers: 16, 14, 14, 13, 10, and 8. Assign them as abilityscores however you want. Again, dont modify them anyfurther. Thats it!\n\nFIND ABILITY MODIFIERS\n\nOnce you assign scores, use the following charts to figureout your ability modifiers. Your ability modifiers are themost important part of your ability scores. You use yourmodifiers much more than your score to calculate successor failure in the game.\n\nABILITY MODIFIERS\n\nABILITY ABILITY\n\nSCORE MODIFIER SCORE MODIFIER1 5 12-13 +1\n\n2-3 -4 14-15 +2\n\n4-5 3 16-17 +3\n\n6-7 -2 18-19 +4\n\n8-9 -1 20 $5\n\n10-11 +0\n\nPC Wisdom: When you see an ability referencedin the rules, assume it means the ability scoremodifier (-1, 0, +1, +2, etc.) rather than the abilityscore itself (8, 10, 12, 14, etc.). For example, if afeature reads .. . roll and add your STR, thatmeans add your Strength ability modifier, not yourfull Strength ability score.\n\n#####END#####"
-      ]
-    },
-    {
-      "id": 138,
-      "type": "LLMMessage",
-      "pos": [
-        -4660,
-        -2530
-      ],
-      "size": {
-        "0": 659.5386962890625,
-        "1": 585.6882934570312
-      },
-      "flags": {},
-      "order": 28,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "list",
-          "type": "LIST",
-          "link": 154
-        }
-      ],
-      "outputs": [
-        {
-          "name": "dict",
-          "type": "DICT",
+          "name": "Bool",
+          "type": "BOOL",
           "links": null,
           "shape": 3
         },
         {
-          "name": "history",
+          "name": "Int",
+          "type": "INT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "Float",
+          "type": "FLOAT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "List by chr",
           "type": "LIST",
           "links": [
-            155
+            159
           ],
           "shape": 3,
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LLMMessage"
-      },
-      "widgets_values": [
-        "assistant",
-        "STEP 3. DETERMINE ABILITY SCORES\nAt their core, characters are defined by six abilities:\n• Strength (STR), representing your physical might.\n• Dexterity (DEX), representing your agility and reaction time.\n• Constitution (CON), representing your endurance and physical fortitude.\n• Intelligence (INT), representing your ability to acquire and apply knowledge.\n• Wisdom (WIS), representing your intuition and mental fortitude.\n• Charisma (CHA), representing your self-confidence and your ability to influence others.\n\nEach ability is assigned a number, called an ability score. These scores represent your various physical and mental abilities. Higher numbers in a score mean your character is better with that ability.\n\nAs you level up, you can increase these scores, but a PC can never have an ability score higher than 20. An average person has 10 in every ability score, so these numbers emphasize how powerful adventurers are!\n\nTHREE WAYS TO SCORE\nThere are three methods to determine your starting ability scores. No method is better than another, but some people like one way more, so we include them to appeal to different kinds of players.\n\nMETHOD ONE: ROLLING\nThis is the classic, providing surprises and maybe a tough choice. It helps make a character you adapt to, instead of you making all the decisions:\n• Roll four d6s. Find the lowest die and throw it out. Then add up the remaining three dice to get your total. Write that number down on scratch paper.\n• Do this five more times until you have six totals between 3 and I8.\n• Assign those six numbers to the ability scores however you like.\n• Finally, add 2 to one score of your choice that is 16 or below and add 1 to one score of your choice that is 17 or below.\n\nMETHOD TWO: POINT-BUY\nIf you don't want to leave it up to chance, you can assign ability scores with the point-buy method:\n• Start with 32 points to spend on your ability scores.\n• Each score costs a certain number of points. Find the cost of each potential score on the Point-Buy Cost table. (As an example, a score of 12 costs 4 points.)\n• 18 is the highest ability score you can start with, and you can't have a score lower than 8.\n• Buy one score for each of the six abilities.\n• Don't add anything extra when you're done here\nSTEP 4. CHOOSE A LINEAGE\nChoose your character's lineage from the options in the Lineage section later in this chapter. Lineage tells you about certain hereditary traits such as average lifespan, size, speed, and any special adaptations like the ability to see in the dark.\n\nLineage represents the blood ties and hereditary traits of a creature. Adventurers can be humans or a common fantasy lineage, like dwarf or elf.\n\nSTEP 5. CHOOSE A HERITAGE\nChoose your character's heritage from the options in the Heritage section later in this chapter. Heritage tells you about traits your character has because of their connection to a particular group or society.\n\nHeritage represents the upbringing and culture of a character. Adventurers can come from nearly any kind of fantasy society, such as a big city, a forest enclave, or an underground citadel.\n\nSTEP 6. CHOOSE A BACKGROUND\nChoose your character's background from the options in the Backgrounds section later in this chapter. Backgrounds give you skill proficiencies, talents, and languages learned.\n\nBackgrounds represent what your character did as an individual before they took up the adventuring life. Adventurers are often a motley group and come from a wide variety of backgrounds. Backgrounds include options like adherent or scholar.\n\nSTEP 7. FILL IN THE BLANKS\nAt this point, your big decisions are locked in. You still need to equip your character (see Chapter 3) and pick spells if they're a spellcaster (see Chapter 4). But you've got the basics squared away.\n\nTake some time to look things over and fill in any blank sections on your character sheet (see Final Checklist below). Make sure to give your character a name and decide what they look like. It's also a good idea to think about your character's history and personality—but it's perfectly fine to decide these details later. You might discover more about who you want your character to be after playing for a couple of game sessions."
-      ]
-    },
-    {
-      "id": 113,
-      "type": "LLMCompletionOnList",
-      "pos": [
-        -2430,
-        -2090
-      ],
-      "size": {
-        "0": 278.79998779296875,
-        "1": 170
-      },
-      "flags": {},
-      "order": 57,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "list",
-          "type": "LIST",
-          "link": 128
+          "slot_index": 4
         },
         {
-          "name": "history",
+          "name": "list by lines",
           "type": "LIST",
-          "link": 157
+          "links": null,
+          "shape": 3
         },
         {
-          "name": "llm_functions",
-          "type": "LIST",
-          "link": 121,
-          "slot_index": 2
-        }
-      ],
-      "outputs": [
-        {
-          "name": "completion list",
-          "type": "LIST",
-          "links": [
-            122,
-            123,
-            126
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "history passthrough",
+          "name": "list by commas",
           "type": "LIST",
           "links": null,
           "shape": 3
         }
       ],
       "properties": {
-        "Node name for S&R": "LLMCompletionOnList"
+        "Node name for S&R": "StrBreakout"
       },
       "widgets_values": [
-        "user",
-        "gpt-3.5-turbo",
-        1000,
-        1
+        "",
+        "str"
       ]
     },
     {
@@ -4347,7 +4506,7 @@
         "1": 170
       },
       "flags": {},
-      "order": 56,
+      "order": 58,
       "mode": 0,
       "inputs": [
         {
@@ -4381,6 +4540,141 @@
         {
           "name": "history passthrough",
           "type": "LIST",
+          "links": [
+            161
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMCompletionOnList"
+      },
+      "widgets_values": [
+        "user",
+        "google/models/gemini-pro",
+        1000,
+        1
+      ]
+    },
+    {
+      "id": 146,
+      "type": "ShowText",
+      "pos": [
+        -2260,
+        940
+      ],
+      "size": {
+        "0": 343.0847473144531,
+        "1": 929.104736328125
+      },
+      "flags": {},
+      "order": 79,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "link": 165
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": [],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText"
+      },
+      "widgets_values": [
+        "**STEP 4. CHOOSE A LINEAGE**\n\nChoose your character's lineage from the options in the Lineage section later in this chapter. Lineage tells you about certain hereditary traits such as average lifespan, size, speed, and any special adaptations like the ability to see in the dark.\n\nLineage represents the blood ties and hereditary traits of a creature. Adventurers can be humans or a common fantasy lineage, like dwarf or elf.\n\n**STEP 5. CHOOSE A HERITAGE**\n\nChoose your character's heritage from the options in the Heritage section later in this chapter. Heritage tells you about traits your character has because of their connection to a particular group or society.\n\nHeritage represents the upbringing and culture of a character. Adventurers can come from nearly any kind of fantasy society, such as a big city, a forest enclave, or an underground citadel.\n\n**STEP 6. CHOOSE A BACKGROUND**\n\nChoose your character's background from the options in the Backgrounds section later in this chapter. Backgrounds give you skill proficiencies, talents, and languages learned. Backgrounds represent what your character did as an individual before they took up the adventuring life. Adventurers are often a motley group and come from a wide variety of backgrounds. Backgrounds include options like adherent or scholar.\n\n**STEP 7. FILL IN THE BLANKS**\n\nAt this point, your big decisions are locked in. You still need to equip your character (see Chapter 3) and pick spells if they're a spellcaster (see Chapter 4). But you've got the basics squared away.\n\nTake some time to look things over and fill in any blank sections on your character sheet (see Final Checklist below). Make sure to give your character a name and decide what they look like. It's also a good idea to think about your character's history and personality—but it's perfectly fine to decide these details later. You might discover more about who you want your character to be after playing for a couple of game sessions.\n\n**FINAL CHECKLIST**\n\n* Name\n* Class\n* Level\n* Lineage\n* Heritage\n* Background\n* Equipment\n* Spells (if applicable)\n* Ability scores and modifiers\n* Armor class\n* Hit points\n* Initiative bonus\n* Speed\n* Skills\n\nI hope this is helpful!\n**STEP 4. CHOOSE A LINEAGE**\n\nChoose your character's lineage from the options in the Lineage section later in this chapter. Lineage tells you about certain hereditary traits such as average lifespan, size, speed, and any special adaptations like the ability to see in the dark.\n\nLineage represents the blood ties and hereditary traits of a creature. Adventurers can be humans or a common fantasy lineage, like dwarf or elf.\n\n**STEP 5. CHOOSE A HERITAGE**\n\nChoose your character's heritage from the options in the Heritage section later in this chapter. Heritage tells you about traits your character has because of their connection to a particular group or society.\n\nHeritage represents the upbringing and culture of a character. Adventurers can come from nearly any kind of fantasy society, such as a big city, a forest enclave, or an underground citadel.\n\n**STEP 6. CHOOSE A BACKGROUND**\n\nChoose your character's background from the options in the Backgrounds section later in this chapter. Backgrounds give you skill proficiencies, talents, and languages learned. Backgrounds represent what your character did as an individual before they took up the adventuring life. Adventurers are often a motley group and come from a wide variety of backgrounds. Backgrounds include options like adherent or scholar.\n\n**STEP 7. FILL IN THE BLANKS**\n\nAt this point, your big decisions are locked in. You still need to equip your character (see Chapter 3) and pick spells if they're a spellcaster (see Chapter 4). But you've got the basics squared away.\n\nTake some time to look things over and fill in any blank sections on your character sheet (see Final Checklist below). Make sure to give your character a name and decide what they look like. It's also a good idea to think about your character's history and personality—but it's perfectly fine to decide these details later. You might discover more about who you want your character to be after playing for a couple of game sessions.\n\n**FINAL CHECKLIST**\n\n• Name\n\n• Class\n\n• Level\n\n• Lineage\n\n• Heritage\n\n• Background\n\n• Equipment\n\n• Spells (if applicable)\n\n• Ability scores and modifiers\n\n• Armor class\n\n• Hit points\n\n• Initiative bonus\n\n• Speed\n\n• Skills\n\nI apologize for the previous response where the headings were separated from the body text. I am still under development and learning to follow instructions accurately."
+      ]
+    },
+    {
+      "id": 144,
+      "type": "Reroute",
+      "pos": [
+        -2322.737783559998,
+        793.4768561474609
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 78,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 160
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "LIST",
+          "links": [],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 143,
+      "type": "LLMCompletionOnList",
+      "pos": [
+        -2810,
+        780
+      ],
+      "size": {
+        "0": 418.1999816894531,
+        "1": 170
+      },
+      "flags": {},
+      "order": 68,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "list",
+          "type": "LIST",
+          "link": 163,
+          "slot_index": 0
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "link": 161,
+          "slot_index": 1
+        },
+        {
+          "name": "llm_functions",
+          "type": "LIST",
+          "link": 159
+        }
+      ],
+      "outputs": [
+        {
+          "name": "completion list",
+          "type": "LIST",
+          "links": [
+            160,
+            165
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "history passthrough",
+          "type": "LIST",
           "links": null,
           "shape": 3
         }
@@ -4396,106 +4690,87 @@
       ]
     },
     {
-      "id": 122,
-      "type": "FuncStrToList",
+      "id": 145,
+      "type": "StrBreakout",
       "pos": [
-        -4743.272904829555,
-        1040.7363059303807
+        -2830,
+        520
       ],
       "size": {
-        "0": 479.67059326171875,
-        "1": 606.200927734375
+        "0": 315,
+        "1": 202
       },
       "flags": {},
-      "order": 26,
+      "order": 20,
       "mode": 0,
-      "inputs": [
-        {
-          "name": "string",
-          "type": "STRING",
-          "link": 131,
-          "widget": {
-            "name": "string"
-          }
-        }
-      ],
       "outputs": [
         {
-          "name": "LIST",
+          "name": "Notes",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "Bool",
+          "type": "BOOL",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "Int",
+          "type": "INT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "Float",
+          "type": "FLOAT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "List by chr",
+          "type": "LIST",
+          "links": [],
+          "shape": 3
+        },
+        {
+          "name": "list by lines",
+          "type": "LIST",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "list by commas",
           "type": "LIST",
           "links": [
-            129,
-            139
+            163
           ],
           "shape": 3,
-          "slot_index": 0
+          "slot_index": 6
         }
       ],
       "properties": {
-        "Node name for S&R": "FuncStrToList"
+        "Node name for S&R": "StrBreakout"
       },
       "widgets_values": [
-        "",
-        "ins=\\\n\"\"\"\nThe following is an excerpt from my book. make sure all headings are ALL CAPS. Also make sure that paragraphs that belong to the same heading are are not separated by spaces. please use raw text. Only use information that is in the excerpt \"\"\"\n\n\n#y_list=x.split(\"\\n\\n\")\ny_list=x.split(\"<PAGE>\")\n\no =[]\n\nfor i in y_list:\n out=ins\n out=out+\"this is an EXCERPT from my book.\" \n i = i.strip()\n o.append(out+ \"##### EXCERPT:\\n\"+i+\"\\n\\n#####END#####\\n\") \n\ny_list=o[7:9]\n#y_list=o"
-      ]
-    },
-    {
-      "id": 111,
-      "type": "FuncStrToList",
-      "pos": [
-        -3630,
-        -1680
-      ],
-      "size": {
-        "0": 479.67059326171875,
-        "1": 606.200927734375
-      },
-      "flags": {},
-      "order": 25,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "string",
-          "type": "STRING",
-          "link": 119,
-          "widget": {
-            "name": "string"
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "LIST",
-          "type": "LIST",
-          "links": [
-            120,
-            128
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "FuncStrToList"
-      },
-      "widgets_values": [
-        "",
-        "ins=\\\n\"\"\"\nThe following is an excerpt from my book. make sure all headings are ALL CAPS. Also make sure that paragraphs that belong to the same heading are are not separated by spaces. please use raw text. Only use information that is in the excerpt \"\"\"\n\n\n#y_list=x.split(\"\\n\\n\")\ny_list=x.split(\"<PAGE>\")\n\no =[]\n\nfor i in y_list:\n out=ins\n out=out+\"this is an EXCERPT from my book.\"\n i = i.strip()\n o.append(out+ \"##### EXCERPT:\\n\"+i+\"\\n\\n#####END#####\\n\")\n\ny_list=o[7:9]\n#y_list=o"
+        "headings should not be seperated from bodys,headings should not be seperated from bodys",
+        "str"
       ]
     },
     {
       "id": 125,
       "type": "ShowText",
       "pos": [
-        -1590,
-        -120
+        -1580,
+        -130
       ],
       "size": [
         343.0847581176761,
         929.1047561035159
       ],
       "flags": {},
-      "order": 65,
+      "order": 67,
       "mode": 0,
       "inputs": [
         {
@@ -5265,6 +5540,46 @@
       113,
       1,
       "LIST"
+    ],
+    [
+      159,
+      142,
+      4,
+      143,
+      2,
+      "LIST"
+    ],
+    [
+      160,
+      143,
+      0,
+      144,
+      0,
+      "*"
+    ],
+    [
+      161,
+      131,
+      1,
+      143,
+      1,
+      "LIST"
+    ],
+    [
+      163,
+      145,
+      6,
+      143,
+      0,
+      "LIST"
+    ],
+    [
+      165,
+      143,
+      0,
+      146,
+      0,
+      "*"
     ]
   ],
   "groups": [
