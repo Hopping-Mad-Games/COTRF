@@ -6,8 +6,8 @@
       "id": 2,
       "type": "SaveLastExec",
       "pos": [
-        -2533.5412743964534,
-        -1185.925918507605
+        -2548.833048470633,
+        -1185.8953699259828
       ],
       "size": {
         "0": 315,
@@ -15,7 +15,7 @@
       },
       "flags": {},
       "order": 0,
-      "mode": 0,
+      "mode": 2,
       "outputs": [
         {
           "name": "STRING",
@@ -37,52 +37,11 @@
       "bgcolor": "#533"
     },
     {
-      "id": 4,
-      "type": "UUIDNode",
-      "pos": [
-        -1108.4995266723624,
-        -2016.6119842987066
-      ],
-      "size": {
-        "0": 210,
-        "1": 144
-      },
-      "flags": {},
-      "order": 1,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "uuid",
-          "type": "UUID",
-          "links": null,
-          "shape": 3
-        },
-        {
-          "name": "uuid_string",
-          "type": "STRING",
-          "links": [
-            2,
-            4
-          ],
-          "shape": 3,
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "UUIDNode"
-      },
-      "widgets_values": [
-        "generated",
-        "",
-        0
-      ]
-    },
-    {
       "id": 9,
       "type": "FuncAnysToString",
       "pos": [
-        -1118.4995266723624,
-        -1816.6119842987066
+        -1149.8036832105636,
+        -1824.1764097102002
       ],
       "size": {
         "0": 350,
@@ -136,8 +95,8 @@
       "id": 12,
       "type": "Show Text",
       "pos": [
-        -1118.4995266723624,
-        -1536.6119842987066
+        -1149.8036832105636,
+        -1544.1764097102002
       ],
       "size": {
         "0": 350,
@@ -172,8 +131,8 @@
       "id": 5,
       "type": "Show Text",
       "pos": [
-        -648.4995266723627,
-        -2026.6119842987061
+        -679.8036832105653,
+        -2034.1764097101998
       ],
       "size": {
         "0": 320,
@@ -208,8 +167,8 @@
       "id": 6,
       "type": "SetApiResultKV",
       "pos": [
-        -558.4995266723627,
-        -1896.6119842987066
+        -589.8036832105653,
+        -1904.1764097102002
       ],
       "size": {
         "0": 230,
@@ -278,8 +237,8 @@
       "id": 33,
       "type": "CreateThread",
       "pos": [
-        -3402.272672098692,
-        -2011.5766938441468
+        -3380.8481003200736,
+        -2015.0702690822484
       ],
       "size": {
         "0": 210,
@@ -314,8 +273,8 @@
       "id": 35,
       "type": "StringToAssistantID",
       "pos": [
-        -2120,
-        -1910
+        -2134.9291507555786,
+        -1917.669328131937
       ],
       "size": {
         "0": 315,
@@ -344,47 +303,11 @@
       ]
     },
     {
-      "id": 27,
-      "type": "Show Text",
-      "pos": [
-        -1535.2950253003673,
-        -1599.2191418075784
-      ],
-      "size": {
-        "0": 370,
-        "1": 300
-      },
-      "flags": {},
-      "order": 15,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "text",
-          "type": "*",
-          "link": 32
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING_OUT",
-          "type": "STRING",
-          "links": null,
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "Show Text"
-      },
-      "widgets_values": [
-        "Hello! I see you've uploaded several files. How can I assist you today?"
-      ]
-    },
-    {
       "id": 31,
       "type": "LLMMessage",
       "pos": [
-        -1405.2950253003673,
-        -2009.2191418075784
+        -1420.2241760559466,
+        -2016.8884699395153
       ],
       "size": {
         "0": 210,
@@ -438,8 +361,8 @@
       "id": 3,
       "type": "Show Text",
       "pos": [
-        -2192.6841133232774,
-        -1205.8373103810804
+        -2207.975887397457,
+        -1205.8067617994582
       ],
       "size": {
         "0": 320,
@@ -447,7 +370,7 @@
       },
       "flags": {},
       "order": 6,
-      "mode": 0,
+      "mode": 2,
       "inputs": [
         {
           "name": "text",
@@ -476,8 +399,8 @@
       "id": 20,
       "type": "AssistantCompletion",
       "pos": [
-        -1780,
-        -1820
+        -1794.9291507555793,
+        -1827.669328131937
       ],
       "size": {
         "0": 211.60000610351562,
@@ -538,15 +461,15 @@
       "id": 21,
       "type": "StringToAssistantID",
       "pos": [
-        -2120,
-        -2010
+        -2134.9291507555786,
+        -2017.669328131937
       ],
       "size": {
         "0": 315,
         "1": 58
       },
       "flags": {},
-      "order": 5,
+      "order": 4,
       "mode": 0,
       "outputs": [
         {
@@ -565,64 +488,11 @@
       ]
     },
     {
-      "id": 23,
-      "type": "AddMessageToThread",
-      "pos": [
-        -2210,
-        -1510
-      ],
-      "size": {
-        "0": 400,
-        "1": 200
-      },
-      "flags": {},
-      "order": 13,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "thread_id",
-          "type": "THREAD_ID",
-          "link": 43
-        },
-        {
-          "name": "client",
-          "type": "API_CLIENT",
-          "link": null
-        },
-        {
-          "name": "content",
-          "type": "STRING",
-          "link": 48,
-          "widget": {
-            "name": "content"
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "THREAD_ID",
-          "type": "THREAD_ID",
-          "links": [
-            27
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "AddMessageToThread"
-      },
-      "widgets_values": [
-        "user",
-        ""
-      ]
-    },
-    {
       "id": 1,
       "type": "RequestInput",
       "pos": [
-        -2893.8875434564184,
-        -1638.846269873352
+        -2887.411530065503,
+        -1648.1293533856388
       ],
       "size": {
         "0": 310,
@@ -663,11 +533,200 @@
       ]
     },
     {
+      "id": 37,
+      "type": "Reroute",
+      "pos": [
+        -2544.9291507555786,
+        -1477.669328131937
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 47,
+          "widget": {
+            "name": "value"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "STRING",
+          "links": [
+            48
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 34,
+      "type": "ThreadIDToString",
+      "pos": [
+        -3140.8481003200736,
+        -2015.0702690822484
+      ],
+      "size": {
+        "0": 210,
+        "1": 26
+      },
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "thread_id",
+          "type": "THREAD_ID",
+          "link": 40
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            42
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ThreadIDToString"
+      }
+    },
+    {
+      "id": 36,
+      "type": "Text box",
+      "pos": [
+        -3380.8481003200736,
+        -1645.0702690822484
+      ],
+      "size": {
+        "0": 220,
+        "1": 120
+      },
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            46
+          ],
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Text box"
+      },
+      "widgets_values": [
+        "hi"
+      ]
+    },
+    {
+      "id": 30,
+      "type": "StringToThreadID",
+      "pos": [
+        -2544.9291507555786,
+        -2017.669328131937
+      ],
+      "size": {
+        "0": 210,
+        "1": 34
+      },
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "string",
+          "type": "STRING",
+          "link": 34,
+          "widget": {
+            "name": "string"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "THREAD_ID",
+          "type": "THREAD_ID",
+          "links": [
+            43
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "StringToThreadID"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 4,
+      "type": "UUIDNode",
+      "pos": [
+        -1151.3041565382011,
+        -2027.5644254114936
+      ],
+      "size": {
+        "0": 210,
+        "1": 144.0000457763672
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "uuid",
+          "type": "UUID",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "uuid_string",
+          "type": "STRING",
+          "links": [
+            2,
+            4
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "UUIDNode"
+      },
+      "widgets_values": [
+        "generated",
+        "",
+        0
+      ]
+    },
+    {
       "id": 29,
       "type": "RequestInput",
       "pos": [
-        -2897.8875434564184,
-        -2011.846269873352
+        -2893.5239866090847,
+        -2019.2830835122868
       ],
       "size": {
         "0": 310,
@@ -707,132 +766,72 @@
       ]
     },
     {
-      "id": 37,
-      "type": "Reroute",
+      "id": 27,
+      "type": "Show Text",
       "pos": [
-        -2530,
-        -1470
+        -1550,
+        -1610
       ],
-      "size": [
-        75,
-        26
-      ],
+      "size": {
+        "0": 370,
+        "1": 300
+      },
       "flags": {},
-      "order": 11,
+      "order": 15,
       "mode": 0,
       "inputs": [
         {
-          "name": "",
+          "name": "text",
           "type": "*",
-          "link": 47,
-          "widget": {
-            "name": "value"
-          }
+          "link": 32
         }
       ],
       "outputs": [
         {
-          "name": "",
+          "name": "STRING_OUT",
           "type": "STRING",
-          "links": [
-            48
-          ],
-          "slot_index": 0
+          "links": null,
+          "shape": 3
         }
       ],
       "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
+        "Node name for S&R": "Show Text"
+      },
+      "widgets_values": [
+        "Hello! I see you've uploaded several files. How can I assist you today?"
+      ]
     },
     {
-      "id": 34,
-      "type": "ThreadIDToString",
+      "id": 23,
+      "type": "AddMessageToThread",
       "pos": [
-        -3162.272672098692,
-        -2011.5766938441468
+        -2224.9291507555786,
+        -1517.669328131937
       ],
-      "size": {
-        "0": 210,
-        "1": 26
-      },
+      "size": [
+        210,
+        100
+      ],
       "flags": {},
-      "order": 8,
+      "order": 13,
       "mode": 0,
       "inputs": [
         {
           "name": "thread_id",
           "type": "THREAD_ID",
-          "link": 40
-        }
-      ],
-      "outputs": [
+          "link": 43
+        },
         {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            42
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "ThreadIDToString"
-      }
-    },
-    {
-      "id": 36,
-      "type": "Text box",
-      "pos": [
-        -3402.272672098692,
-        -1641.5766938441468
-      ],
-      "size": {
-        "0": 220,
-        "1": 120
-      },
-      "flags": {},
-      "order": 4,
-      "mode": 0,
-      "outputs": [
+          "name": "client",
+          "type": "API_CLIENT",
+          "link": null
+        },
         {
-          "name": "STRING",
+          "name": "content",
           "type": "STRING",
-          "links": [
-            46
-          ],
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "Text box"
-      },
-      "widgets_values": [
-        "hi"
-      ]
-    },
-    {
-      "id": 30,
-      "type": "StringToThreadID",
-      "pos": [
-        -2530,
-        -2010
-      ],
-      "size": [
-        210,
-        30
-      ],
-      "flags": {},
-      "order": 12,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "string",
-          "type": "STRING",
-          "link": 34,
+          "link": 48,
           "widget": {
-            "name": "string"
+            "name": "content"
           }
         }
       ],
@@ -841,16 +840,17 @@
           "name": "THREAD_ID",
           "type": "THREAD_ID",
           "links": [
-            43
+            27
           ],
           "shape": 3,
           "slot_index": 0
         }
       ],
       "properties": {
-        "Node name for S&R": "StringToThreadID"
+        "Node name for S&R": "AddMessageToThread"
       },
       "widgets_values": [
+        "user",
         ""
       ]
     }
@@ -997,10 +997,10 @@
     {
       "title": "API Output",
       "bounding": [
-        -1128,
-        -2091,
+        -1160,
+        -2099,
         810,
-        944
+        949
       ],
       "color": "#3f789e",
       "font_size": 24
@@ -1008,10 +1008,10 @@
     {
       "title": "Processing",
       "bounding": [
-        -2545,
-        -2091,
-        1390,
-        802
+        -2559,
+        -2099,
+        1389,
+        800
       ],
       "color": "#3f789e",
       "font_size": 24
@@ -1019,10 +1019,10 @@
     {
       "title": "API Request",
       "bounding": [
-        -2915,
-        -2089,
+        -2908,
+        -2098,
         338,
-        803
+        800
       ],
       "color": "#3f789e",
       "font_size": 24
@@ -1030,10 +1030,10 @@
     {
       "title": "Test Input",
       "bounding": [
-        -3412,
-        -2094,
+        -3389,
+        -2098,
         470,
-        602
+        600
       ],
       "color": "#3f789e",
       "font_size": 24
@@ -1041,10 +1041,10 @@
     {
       "title": "Enable to Save Graph To Production",
       "bounding": [
-        -2544,
+        -2560,
         -1280,
-        681,
-        164
+        680,
+        160
       ],
       "color": "#b06634",
       "font_size": 24
