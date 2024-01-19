@@ -1,13 +1,13 @@
 {
-  "last_node_id": 37,
-  "last_link_id": 48,
+  "last_node_id": 39,
+  "last_link_id": 52,
   "nodes": [
     {
       "id": 2,
       "type": "SaveLastExec",
       "pos": [
-        -2548.833048470633,
-        -1185.8953699259828
+        -3238.928587894149,
+        -1194.6621829340882
       ],
       "size": {
         "0": 315,
@@ -15,7 +15,7 @@
       },
       "flags": {},
       "order": 0,
-      "mode": 2,
+      "mode": 0,
       "outputs": [
         {
           "name": "STRING",
@@ -40,21 +40,21 @@
       "id": 9,
       "type": "FuncAnysToString",
       "pos": [
-        -1149.8036832105636,
-        -1824.1764097102002
+        -1023.1143237272438,
+        -1825.892339307796
       ],
       "size": {
         "0": 350,
         "1": 240
       },
       "flags": {},
-      "order": 17,
+      "order": 16,
       "mode": 0,
       "inputs": [
         {
           "name": "any1",
           "type": "*",
-          "link": 44
+          "link": 51
         },
         {
           "name": "any2",
@@ -95,15 +95,15 @@
       "id": 12,
       "type": "Show Text",
       "pos": [
-        -1149.8036832105636,
-        -1544.1764097102002
+        -1023.1143237272438,
+        -1545.8923393077955
       ],
       "size": {
         "0": 350,
         "1": 380
       },
       "flags": {},
-      "order": 18,
+      "order": 17,
       "mode": 0,
       "inputs": [
         {
@@ -131,15 +131,15 @@
       "id": 5,
       "type": "Show Text",
       "pos": [
-        -679.8036832105653,
-        -2034.1764097101998
+        -553.1143237272458,
+        -2035.892339307795
       ],
       "size": {
         "0": 320,
         "1": 80
       },
       "flags": {},
-      "order": 7,
+      "order": 9,
       "mode": 0,
       "inputs": [
         {
@@ -167,15 +167,15 @@
       "id": 6,
       "type": "SetApiResultKV",
       "pos": [
-        -589.8036832105653,
-        -1904.1764097102002
+        -463.1143237272444,
+        -1905.892339307796
       ],
       "size": {
         "0": 230,
         "1": 170
       },
       "flags": {},
-      "order": 19,
+      "order": 18,
       "mode": 0,
       "inputs": [
         {
@@ -245,7 +245,7 @@
         "1": 26
       },
       "flags": {},
-      "order": 2,
+      "order": 1,
       "mode": 0,
       "inputs": [
         {
@@ -270,99 +270,11 @@
       }
     },
     {
-      "id": 35,
-      "type": "StringToAssistantID",
-      "pos": [
-        -2134.9291507555786,
-        -1917.669328131937
-      ],
-      "size": {
-        "0": 315,
-        "1": 58
-      },
-      "flags": {},
-      "order": 3,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "ASSISTANT_ID",
-          "type": "ASSISTANT_ID",
-          "links": [
-            45
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "title": "version 2",
-      "properties": {
-        "Node name for S&R": "StringToAssistantID"
-      },
-      "widgets_values": [
-        "asst_ECTCsqyXv4HvePgmNbOfbziq"
-      ]
-    },
-    {
-      "id": 31,
-      "type": "LLMMessage",
-      "pos": [
-        -1420.2241760559466,
-        -2016.8884699395153
-      ],
-      "size": {
-        "0": 210,
-        "1": 140
-      },
-      "flags": {},
-      "order": 16,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "list",
-          "type": "LIST",
-          "link": null
-        },
-        {
-          "name": "content",
-          "type": "STRING",
-          "link": 36,
-          "widget": {
-            "name": "content"
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "dict",
-          "type": "DICT",
-          "links": [
-            44
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "history",
-          "type": "LIST",
-          "links": [],
-          "shape": 3,
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LLMMessage"
-      },
-      "widgets_values": [
-        "assistant",
-        "HELLO!"
-      ]
-    },
-    {
       "id": 3,
       "type": "Show Text",
       "pos": [
-        -2207.975887397457,
-        -1205.8067617994582
+        -2898.071426820973,
+        -1214.5735748075635
       ],
       "size": {
         "0": 320,
@@ -370,7 +282,7 @@
       },
       "flags": {},
       "order": 6,
-      "mode": 2,
+      "mode": 0,
       "inputs": [
         {
           "name": "text",
@@ -396,98 +308,6 @@
       "bgcolor": "#533"
     },
     {
-      "id": 20,
-      "type": "AssistantCompletion",
-      "pos": [
-        -1794.9291507555793,
-        -1827.669328131937
-      ],
-      "size": {
-        "0": 211.60000610351562,
-        "1": 70
-      },
-      "flags": {},
-      "order": 14,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "assistant_id",
-          "type": "ASSISTANT_ID",
-          "link": 45,
-          "slot_index": 0
-        },
-        {
-          "name": "thread_id",
-          "type": "THREAD_ID",
-          "link": 27,
-          "slot_index": 1
-        },
-        {
-          "name": "client",
-          "type": "API_CLIENT",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            32,
-            36
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "THREAD_ID",
-          "type": "THREAD_ID",
-          "links": null,
-          "shape": 3,
-          "slot_index": 1
-        },
-        {
-          "name": "ASSISTANT_ID",
-          "type": "ASSISTANT_ID",
-          "links": null,
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "AssistantCompletion"
-      }
-    },
-    {
-      "id": 21,
-      "type": "StringToAssistantID",
-      "pos": [
-        -2134.9291507555786,
-        -2017.669328131937
-      ],
-      "size": {
-        "0": 315,
-        "1": 58
-      },
-      "flags": {},
-      "order": 4,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "ASSISTANT_ID",
-          "type": "ASSISTANT_ID",
-          "links": [],
-          "shape": 3
-        }
-      ],
-      "title": "version 1",
-      "properties": {
-        "Node name for S&R": "StringToAssistantID"
-      },
-      "widgets_values": [
-        "asst_vDcX7LziF0mZf2w3vDTWcO0y"
-      ]
-    },
-    {
       "id": 1,
       "type": "RequestInput",
       "pos": [
@@ -499,7 +319,7 @@
         "1": 220
       },
       "flags": {},
-      "order": 9,
+      "order": 8,
       "mode": 0,
       "inputs": [
         {
@@ -517,7 +337,7 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            47
+            52
           ],
           "shape": 3,
           "slot_index": 0
@@ -533,45 +353,6 @@
       ]
     },
     {
-      "id": 37,
-      "type": "Reroute",
-      "pos": [
-        -2544.9291507555786,
-        -1477.669328131937
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 11,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 47,
-          "widget": {
-            "name": "value"
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "STRING",
-          "links": [
-            48
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
       "id": 34,
       "type": "ThreadIDToString",
       "pos": [
@@ -583,7 +364,7 @@
         "1": 26
       },
       "flags": {},
-      "order": 8,
+      "order": 7,
       "mode": 0,
       "inputs": [
         {
@@ -619,7 +400,7 @@
         "1": 120
       },
       "flags": {},
-      "order": 5,
+      "order": 4,
       "mode": 0,
       "outputs": [
         {
@@ -639,60 +420,18 @@
       ]
     },
     {
-      "id": 30,
-      "type": "StringToThreadID",
-      "pos": [
-        -2544.9291507555786,
-        -2017.669328131937
-      ],
-      "size": {
-        "0": 210,
-        "1": 34
-      },
-      "flags": {},
-      "order": 12,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "string",
-          "type": "STRING",
-          "link": 34,
-          "widget": {
-            "name": "string"
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "THREAD_ID",
-          "type": "THREAD_ID",
-          "links": [
-            43
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "StringToThreadID"
-      },
-      "widgets_values": [
-        ""
-      ]
-    },
-    {
       "id": 4,
       "type": "UUIDNode",
       "pos": [
-        -1151.3041565382011,
-        -2027.5644254114936
+        -1024.6147970548814,
+        -2029.2803550090891
       ],
       "size": {
         "0": 210,
         "1": 144.0000457763672
       },
       "flags": {},
-      "order": 1,
+      "order": 5,
       "mode": 0,
       "outputs": [
         {
@@ -766,54 +505,198 @@
       ]
     },
     {
-      "id": 27,
-      "type": "Show Text",
+      "id": 20,
+      "type": "AssistantCompletion",
       "pos": [
-        -1550,
-        -1610
+        -2210,
+        -1520
       ],
       "size": {
-        "0": 370,
-        "1": 300
+        "0": 211.60000610351562,
+        "1": 70
       },
       "flags": {},
-      "order": 15,
+      "order": 13,
       "mode": 0,
       "inputs": [
         {
-          "name": "text",
-          "type": "*",
-          "link": 32
+          "name": "assistant_id",
+          "type": "ASSISTANT_ID",
+          "link": 45,
+          "slot_index": 0
+        },
+        {
+          "name": "thread_id",
+          "type": "THREAD_ID",
+          "link": 27,
+          "slot_index": 1
+        },
+        {
+          "name": "client",
+          "type": "API_CLIENT",
+          "link": null
         }
       ],
       "outputs": [
         {
-          "name": "STRING_OUT",
+          "name": "STRING",
           "type": "STRING",
+          "links": [
+            32,
+            36
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "THREAD_ID",
+          "type": "THREAD_ID",
+          "links": null,
+          "shape": 3,
+          "slot_index": 1
+        },
+        {
+          "name": "ASSISTANT_ID",
+          "type": "ASSISTANT_ID",
           "links": null,
           "shape": 3
         }
       ],
       "properties": {
-        "Node name for S&R": "Show Text"
+        "Node name for S&R": "AssistantCompletion"
+      }
+    },
+    {
+      "id": 31,
+      "type": "LLMMessage",
+      "pos": [
+        -1390,
+        -400
+      ],
+      "size": [
+        210,
+        80
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "list",
+          "type": "LIST",
+          "link": null
+        },
+        {
+          "name": "content",
+          "type": "STRING",
+          "link": 36,
+          "widget": {
+            "name": "content"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "dict",
+          "type": "DICT",
+          "links": [
+            51
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": [],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMMessage"
       },
       "widgets_values": [
-        "Hello! I see you've uploaded several files. How can I assist you today?"
+        "assistant",
+        "HELLO!"
+      ]
+    },
+    {
+      "id": 35,
+      "type": "StringToAssistantID",
+      "pos": [
+        -2550,
+        -1360
+      ],
+      "size": [
+        290,
+        60
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "ASSISTANT_ID",
+          "type": "ASSISTANT_ID",
+          "links": [
+            45
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "version 2",
+      "properties": {
+        "Node name for S&R": "StringToAssistantID"
+      },
+      "widgets_values": [
+        "asst_ECTCsqyXv4HvePgmNbOfbziq"
+      ]
+    },
+    {
+      "id": 21,
+      "type": "StringToAssistantID",
+      "pos": [
+        -2550,
+        -1460
+      ],
+      "size": [
+        290,
+        60
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "ASSISTANT_ID",
+          "type": "ASSISTANT_ID",
+          "links": [],
+          "shape": 3
+        }
+      ],
+      "title": "version 1",
+      "properties": {
+        "Node name for S&R": "StringToAssistantID"
+      },
+      "widgets_values": [
+        "asst_vDcX7LziF0mZf2w3vDTWcO0y"
       ]
     },
     {
       "id": 23,
       "type": "AddMessageToThread",
       "pos": [
-        -2224.9291507555786,
-        -1517.669328131937
+        -2550,
+        -1690
       ],
       "size": [
         210,
         100
       ],
       "flags": {},
-      "order": 13,
+      "order": 12,
       "mode": 0,
       "inputs": [
         {
@@ -829,7 +712,7 @@
         {
           "name": "content",
           "type": "STRING",
-          "link": 48,
+          "link": 52,
           "widget": {
             "name": "content"
           }
@@ -852,6 +735,84 @@
       "widgets_values": [
         "user",
         ""
+      ]
+    },
+    {
+      "id": 30,
+      "type": "StringToThreadID",
+      "pos": [
+        -2550,
+        -2020
+      ],
+      "size": [
+        210,
+        30
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "string",
+          "type": "STRING",
+          "link": 34,
+          "widget": {
+            "name": "string"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "THREAD_ID",
+          "type": "THREAD_ID",
+          "links": [
+            43
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "StringToThreadID"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 27,
+      "type": "Show Text",
+      "pos": [
+        -2210,
+        -1720
+      ],
+      "size": [
+        210,
+        160
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "link": 32
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Show Text"
+      },
+      "widgets_values": [
+        "Hello! I see you've uploaded several files. How can I assist you today?"
       ]
     }
   ],
@@ -953,14 +914,6 @@
       "THREAD_ID"
     ],
     [
-      44,
-      31,
-      0,
-      9,
-      0,
-      "*"
-    ],
-    [
       45,
       35,
       0,
@@ -977,16 +930,16 @@
       "STRING"
     ],
     [
-      47,
-      1,
+      51,
+      31,
       0,
-      37,
+      9,
       0,
       "*"
     ],
     [
-      48,
-      37,
+      52,
+      1,
       0,
       23,
       2,
@@ -997,8 +950,8 @@
     {
       "title": "API Output",
       "bounding": [
-        -1160,
-        -2099,
+        -1033,
+        -2101,
         810,
         949
       ],
@@ -1010,8 +963,8 @@
       "bounding": [
         -2559,
         -2099,
-        1389,
-        800
+        1386,
+        1791
       ],
       "color": "#3f789e",
       "font_size": 24
@@ -1041,8 +994,8 @@
     {
       "title": "Enable to Save Graph To Production",
       "bounding": [
-        -2560,
-        -1280,
+        -3250,
+        -1289,
         680,
         160
       ],
