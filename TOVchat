@@ -1,6 +1,6 @@
 {
-  "last_node_id": 39,
-  "last_link_id": 52,
+  "last_node_id": 53,
+  "last_link_id": 71,
   "nodes": [
     {
       "id": 2,
@@ -40,15 +40,15 @@
       "id": 9,
       "type": "FuncAnysToString",
       "pos": [
-        -1023.1143237272438,
-        -1825.892339307796
+        327.8961539725985,
+        -1695.6483246068829
       ],
       "size": {
         "0": 350,
         "1": 240
       },
       "flags": {},
-      "order": 16,
+      "order": 25,
       "mode": 0,
       "inputs": [
         {
@@ -95,15 +95,15 @@
       "id": 12,
       "type": "Show Text",
       "pos": [
-        -1023.1143237272438,
-        -1545.8923393077955
+        327.8961539725985,
+        -1415.6483246068824
       ],
       "size": {
         "0": 350,
         "1": 380
       },
       "flags": {},
-      "order": 17,
+      "order": 26,
       "mode": 0,
       "inputs": [
         {
@@ -131,15 +131,15 @@
       "id": 5,
       "type": "Show Text",
       "pos": [
-        -553.1143237272458,
-        -2035.892339307795
+        797.8961539725963,
+        -1905.648324606882
       ],
       "size": {
         "0": 320,
         "1": 80
       },
       "flags": {},
-      "order": 9,
+      "order": 11,
       "mode": 0,
       "inputs": [
         {
@@ -167,15 +167,15 @@
       "id": 6,
       "type": "SetApiResultKV",
       "pos": [
-        -463.1143237272444,
-        -1905.892339307796
+        887.8961539725976,
+        -1775.6483246068829
       ],
       "size": {
         "0": 230,
         "1": 170
       },
       "flags": {},
-      "order": 18,
+      "order": 27,
       "mode": 0,
       "inputs": [
         {
@@ -281,7 +281,7 @@
         "1": 80
       },
       "flags": {},
-      "order": 6,
+      "order": 8,
       "mode": 0,
       "inputs": [
         {
@@ -308,51 +308,6 @@
       "bgcolor": "#533"
     },
     {
-      "id": 1,
-      "type": "RequestInput",
-      "pos": [
-        -2887.411530065503,
-        -1648.1293533856388
-      ],
-      "size": {
-        "0": 310,
-        "1": 220
-      },
-      "flags": {},
-      "order": 8,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "overridden_value",
-          "type": "STRING",
-          "link": 46,
-          "widget": {
-            "name": "overridden_value"
-          },
-          "slot_index": 0
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            52
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "RequestInput"
-      },
-      "widgets_values": [
-        "prompt",
-        "hi",
-        ""
-      ]
-    },
-    {
       "id": 34,
       "type": "ThreadIDToString",
       "pos": [
@@ -364,7 +319,7 @@
         "1": 26
       },
       "flags": {},
-      "order": 7,
+      "order": 9,
       "mode": 0,
       "inputs": [
         {
@@ -400,7 +355,7 @@
         "1": 120
       },
       "flags": {},
-      "order": 4,
+      "order": 2,
       "mode": 0,
       "outputs": [
         {
@@ -423,15 +378,15 @@
       "id": 4,
       "type": "UUIDNode",
       "pos": [
-        -1024.6147970548814,
-        -2029.2803550090891
+        326.3956806449609,
+        -1899.036340308176
       ],
       "size": {
         "0": 210,
         "1": 144.0000457763672
       },
       "flags": {},
-      "order": 5,
+      "order": 3,
       "mode": 0,
       "outputs": [
         {
@@ -472,7 +427,7 @@
         "1": 220
       },
       "flags": {},
-      "order": 10,
+      "order": 13,
       "mode": 0,
       "inputs": [
         {
@@ -508,15 +463,15 @@
       "id": 20,
       "type": "AssistantCompletion",
       "pos": [
-        -2210,
-        -1520
+        -1794.0357312156523,
+        -1547.4693474487296
       ],
       "size": {
         "0": 211.60000610351562,
         "1": 70
       },
       "flags": {},
-      "order": 13,
+      "order": 22,
       "mode": 0,
       "inputs": [
         {
@@ -567,18 +522,132 @@
       }
     },
     {
+      "id": 30,
+      "type": "StringToThreadID",
+      "pos": [
+        -2550,
+        -2020
+      ],
+      "size": {
+        "0": 210,
+        "1": 34
+      },
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "string",
+          "type": "STRING",
+          "link": 34,
+          "widget": {
+            "name": "string"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "THREAD_ID",
+          "type": "THREAD_ID",
+          "links": [
+            43
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "StringToThreadID"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 41,
+      "type": "Show Text",
+      "pos": [
+        -1273.8610270516708,
+        -939.7223278273771
+      ],
+      "size": {
+        "0": 460,
+        "1": 170
+      },
+      "flags": {},
+      "order": 20,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "link": 54
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Show Text"
+      },
+      "widgets_values": [
+        "What is the cost of a longsword?\nHow much does a longsword weigh?\nWhat is the range of Longstrider?\nWhat weapon options does a longsword have?\nHow far can a party move in a minute, an hour, or a day at each travel pace?\nWhat type of damage does a longsword deal?\nHow far can you long jump?\nWhat is the damage of the veteran's Longsword attack?\nHow far can you standing long jump?\nHow far can a character move on their turn?"
+      ]
+    },
+    {
+      "id": 42,
+      "type": "Show Text",
+      "pos": [
+        -1273.8610270516708,
+        -729.7223278273766
+      ],
+      "size": {
+        "0": 210,
+        "1": 170
+      },
+      "flags": {},
+      "order": 21,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "link": 55
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Show Text"
+      },
+      "widgets_values": [
+        "WEAPONS\nWEAPONS\nLONGSTRIDER\nWEAPONS\nSPEED\nWEAPONS\nSPECIAL TYPES OF MOVEMENT\nACTIONS\nSPECIAL TYPES OF MOVEMENT\nMOVEMENT AND POSITION"
+      ]
+    },
+    {
       "id": 31,
       "type": "LLMMessage",
       "pos": [
-        -1390,
-        -400
+        -500,
+        540
       ],
-      "size": [
-        210,
-        80
-      ],
+      "size": {
+        "0": 210,
+        "1": 80
+      },
       "flags": {},
-      "order": 15,
+      "order": 24,
       "mode": 0,
       "inputs": [
         {
@@ -622,81 +691,90 @@
       ]
     },
     {
-      "id": 35,
-      "type": "StringToAssistantID",
+      "id": 40,
+      "type": "Show Text",
       "pos": [
-        -2550,
-        -1360
+        -1274,
+        -1150
       ],
-      "size": [
-        290,
-        60
-      ],
+      "size": {
+        "0": 980,
+        "1": 170
+      },
       "flags": {},
-      "order": 2,
+      "order": 19,
       "mode": 0,
-      "outputs": [
+      "inputs": [
         {
-          "name": "ASSISTANT_ID",
-          "type": "ASSISTANT_ID",
-          "links": [
-            45
-          ],
-          "shape": 3,
-          "slot_index": 0
+          "name": "text",
+          "type": "*",
+          "link": 53
         }
       ],
-      "title": "version 2",
-      "properties": {
-        "Node name for S&R": "StringToAssistantID"
-      },
-      "widgets_values": [
-        "asst_ECTCsqyXv4HvePgmNbOfbziq"
-      ]
-    },
-    {
-      "id": 21,
-      "type": "StringToAssistantID",
-      "pos": [
-        -2550,
-        -1460
-      ],
-      "size": [
-        290,
-        60
-      ],
-      "flags": {},
-      "order": 3,
-      "mode": 0,
       "outputs": [
         {
-          "name": "ASSISTANT_ID",
-          "type": "ASSISTANT_ID",
-          "links": [],
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": null,
           "shape": 3
         }
       ],
-      "title": "version 1",
       "properties": {
-        "Node name for S&R": "StringToAssistantID"
+        "Node name for S&R": "Show Text"
       },
       "widgets_values": [
-        "asst_vDcX7LziF0mZf2w3vDTWcO0y"
+        "15 gp.\n3 lb.\nTouch.\nDisarm, Hamstring, and Versatile.\nThe Travel Pace table shows the distance they can move in each time period for each pace.\nd8/1d10 slashing.\nYou can cover a number of feet up to half your walking speed if you move at least 10 feet on foot immediately before the jump.\nThe Longsword attack deals 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.\nYou can leap only a quarter of your walking speed.\nA character can move a distance up to their speed on their turn."
+      ]
+    },
+    {
+      "id": 27,
+      "type": "Show Text",
+      "pos": [
+        -1794,
+        -1747
+      ],
+      "size": {
+        "0": 210,
+        "1": 160
+      },
+      "flags": {},
+      "order": 23,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "*",
+          "link": 32
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING_OUT",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Show Text"
+      },
+      "widgets_values": [
+        "Hello! I see you've uploaded several files. How can I assist you today?"
       ]
     },
     {
       "id": 23,
       "type": "AddMessageToThread",
       "pos": [
-        -2550,
+        -2200,
         -1690
       ],
-      "size": [
-        210,
-        100
-      ],
+      "size": {
+        "0": 210,
+        "1": 100
+      },
       "flags": {},
-      "order": 12,
+      "order": 18,
       "mode": 0,
       "inputs": [
         {
@@ -712,7 +790,7 @@
         {
           "name": "content",
           "type": "STRING",
-          "link": 52,
+          "link": 70,
           "widget": {
             "name": "content"
           }
@@ -738,24 +816,403 @@
       ]
     },
     {
-      "id": 30,
-      "type": "StringToThreadID",
+      "id": 1,
+      "type": "RequestInput",
       "pos": [
-        -2550,
-        -2020
+        -2887.411530065503,
+        -1648.1293533856388
+      ],
+      "size": {
+        "0": 310,
+        "1": 220
+      },
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "overridden_value",
+          "type": "STRING",
+          "link": 46,
+          "widget": {
+            "name": "overridden_value"
+          },
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            68
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "RequestInput"
+      },
+      "widgets_values": [
+        "prompt",
+        "hi",
+        ""
+      ]
+    },
+    {
+      "id": 35,
+      "type": "StringToAssistantID",
+      "pos": [
+        -2180,
+        -1510
+      ],
+      "size": {
+        "0": 290,
+        "1": 60
+      },
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "ASSISTANT_ID",
+          "type": "ASSISTANT_ID",
+          "links": [
+            45
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "version 2",
+      "properties": {
+        "Node name for S&R": "StringToAssistantID"
+      },
+      "widgets_values": [
+        "asst_ECTCsqyXv4HvePgmNbOfbziq"
+      ]
+    },
+    {
+      "id": 46,
+      "type": "LoadJson",
+      "pos": [
+        -2530,
+        -880
       ],
       "size": [
         210,
-        30
+        80
       ],
       "flags": {},
-      "order": 11,
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "filename",
+          "type": "STRING",
+          "link": 61,
+          "widget": {
+            "name": "filename"
+          },
+          "slot_index": 0
+        }
+      ],
+      "outputs": [
+        {
+          "name": "new list",
+          "type": "LIST",
+          "links": [
+            62
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "new dict",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "new string",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadJson"
+      },
+      "widgets_values": [
+        "filename"
+      ]
+    },
+    {
+      "id": 44,
+      "type": "LLMCQAContextQuestionExtraction",
+      "pos": [
+        -2290,
+        -880
+      ],
+      "size": [
+        400,
+        260
+      ],
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "CQA_list",
+          "type": "LIST",
+          "link": 62
+        },
+        {
+          "name": "input_question",
+          "type": "STRING",
+          "link": 69,
+          "widget": {
+            "name": "input_question"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "nearest_answers",
+          "type": "LIST",
+          "links": [
+            53
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "nearest_questions",
+          "type": "LIST",
+          "links": [
+            54
+          ],
+          "shape": 3,
+          "slot_index": 1
+        },
+        {
+          "name": "nearest_contexts",
+          "type": "LIST",
+          "links": [
+            55
+          ],
+          "shape": 3,
+          "slot_index": 2
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMCQAContextQuestionExtraction"
+      },
+      "widgets_values": [
+        "how far can I travel a day? and tell me about longswords?",
+        "",
+        10,
+        1,
+        1,
+        "False"
+      ]
+    },
+    {
+      "id": 47,
+      "type": "Text box",
+      "pos": [
+        -2540,
+        -1000
+      ],
+      "size": [
+        510,
+        76.00001525878906
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            61
+          ],
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Text box"
+      },
+      "widgets_values": [
+        "e:\\git\\comfyui/data/gitio/COTRF/tov_pages_gemini_fullbook_CQA_all_prepared.json"
+      ]
+    },
+    {
+      "id": 50,
+      "type": "LLMCompletion",
+      "pos": [
+        -1978.1985650709794,
+        -446.8474256699956
+      ],
+      "size": {
+        "0": 443.4000244140625,
+        "1": 212.00001525878906
+      },
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "history",
+          "type": "LIST",
+          "link": null
+        },
+        {
+          "name": "llm_functions",
+          "type": "LIST",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "completion",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "completion_as_message",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMCompletion"
+      },
+      "widgets_values": [
+        "",
+        "assistant",
+        "gpt-3.5-turbo-0301",
+        250,
+        0.9
+      ]
+    },
+    {
+      "id": 51,
+      "type": "LLMMessage",
+      "pos": [
+        -1800,
+        -800
+      ],
+      "size": {
+        "0": 400,
+        "1": 200
+      },
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "list",
+          "type": "LIST",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "dict",
+          "type": "DICT",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "history",
+          "type": "LIST",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LLMMessage"
+      },
+      "widgets_values": [
+        "assistant",
+        "message content"
+      ]
+    },
+    {
+      "id": 49,
+      "type": "Text box",
+      "pos": [
+        -2540,
+        -1650
+      ],
+      "size": [
+        210,
+        46.00005054473877
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Text",
+          "type": "STRING",
+          "link": 68,
+          "widget": {
+            "name": "Text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            69,
+            70,
+            71
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "User Question",
+      "properties": {
+        "Node name for S&R": "Text box"
+      },
+      "widgets_values": [
+        "e:\\git\\comfyui/data/gitio/COTRF/tov_pages_gemini_fullbook_CQA_all_prepared.json"
+      ]
+    },
+    {
+      "id": 53,
+      "type": "FuncStrToStr",
+      "pos": [
+        -2120,
+        -1320
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 17,
       "mode": 0,
       "inputs": [
         {
           "name": "string",
           "type": "STRING",
-          "link": 34,
+          "link": 71,
           "widget": {
             "name": "string"
           }
@@ -763,56 +1220,18 @@
       ],
       "outputs": [
         {
-          "name": "THREAD_ID",
-          "type": "THREAD_ID",
-          "links": [
-            43
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "StringToThreadID"
-      },
-      "widgets_values": [
-        ""
-      ]
-    },
-    {
-      "id": 27,
-      "type": "Show Text",
-      "pos": [
-        -2210,
-        -1720
-      ],
-      "size": [
-        210,
-        160
-      ],
-      "flags": {},
-      "order": 14,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "text",
-          "type": "*",
-          "link": 32
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING_OUT",
+          "name": "STRING",
           "type": "STRING",
           "links": null,
           "shape": 3
         }
       ],
       "properties": {
-        "Node name for S&R": "Show Text"
+        "Node name for S&R": "FuncStrToStr"
       },
       "widgets_values": [
-        "Hello! I see you've uploaded several files. How can I assist you today?"
+        "",
+        "list_of_contents=\"\"\"\n\n\"\"\"\ny_string = f\""
       ]
     }
   ],
@@ -938,11 +1357,75 @@
       "*"
     ],
     [
-      52,
+      53,
+      44,
+      0,
+      40,
+      0,
+      "*"
+    ],
+    [
+      54,
+      44,
       1,
+      41,
+      0,
+      "*"
+    ],
+    [
+      55,
+      44,
+      2,
+      42,
+      0,
+      "*"
+    ],
+    [
+      61,
+      47,
+      0,
+      46,
+      0,
+      "STRING"
+    ],
+    [
+      62,
+      46,
+      0,
+      44,
+      0,
+      "LIST"
+    ],
+    [
+      68,
+      1,
+      0,
+      49,
+      0,
+      "STRING"
+    ],
+    [
+      69,
+      49,
+      0,
+      44,
+      1,
+      "STRING"
+    ],
+    [
+      70,
+      49,
       0,
       23,
       2,
+      "STRING"
+    ],
+    [
+      71,
+      49,
+      0,
+      53,
+      0,
       "STRING"
     ]
   ],
@@ -950,24 +1433,26 @@
     {
       "title": "API Output",
       "bounding": [
-        -1033,
-        -2101,
+        318,
+        -1971,
         810,
         949
       ],
       "color": "#3f789e",
-      "font_size": 24
+      "font_size": 24,
+      "locked": false
     },
     {
       "title": "Processing",
       "bounding": [
         -2559,
         -2099,
-        1386,
-        1791
+        2428,
+        2736
       ],
       "color": "#3f789e",
-      "font_size": 24
+      "font_size": 24,
+      "locked": false
     },
     {
       "title": "API Request",
@@ -978,7 +1463,8 @@
         800
       ],
       "color": "#3f789e",
-      "font_size": 24
+      "font_size": 24,
+      "locked": false
     },
     {
       "title": "Test Input",
@@ -989,7 +1475,8 @@
         600
       ],
       "color": "#3f789e",
-      "font_size": 24
+      "font_size": 24,
+      "locked": false
     },
     {
       "title": "Enable to Save Graph To Production",
@@ -1000,7 +1487,8 @@
         160
       ],
       "color": "#b06634",
-      "font_size": 24
+      "font_size": 24,
+      "locked": false
     }
   ],
   "config": {},
